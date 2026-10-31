@@ -1,0 +1,21 @@
+{
+  "model": "axialflownet",
+  "implemented_in": "models/axialflownet_model.py",
+  "backbone": "_GeometricGenerator (flow branch + texture residual branch)",
+  "texture_bound": 0.3,
+  "flow_mag_threshold": 0.3,
+  "trained_with": {
+    "preprocess": "resize_and_crop",
+    "load_size": 286,
+    "crop_size": 256,
+    "dataset_mode": "unaligned",
+    "gan_mode": "vanilla",
+    "ngf": 64,
+    "norm": "instance"
+  },
+  "reproduce_with": {
+    "inference_2d": "python scripts/inference.py --ckpt checkpoints/3axial_AxialFlowNet_100ep --input <image-or-dir> --output <dir> --resize square --load_size 256",
+    "evaluation": "python scripts/evaluate_paired.py --ckpt checkpoints/3axial_AxialFlowNet_100ep --data datasets/3axial --phase test"
+  },
+  "notes": "This is the original v4 texture bound (0.3). The repo-wide code default is 0.15 (see models/axialflownet_model.py), so v4 weights MUST be run with --texture_bound 0.3. Verified: running with 0.3 reproduces results/axial_stretch_cyclegan/v4_test_compare/* exactly (max abs pixel diff 0), while 0.15 does not. flow_mag_threshold affects training only and is irrelevant at inference."
+}

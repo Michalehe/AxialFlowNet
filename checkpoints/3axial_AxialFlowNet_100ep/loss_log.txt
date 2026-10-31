@@ -1,0 +1,801 @@
+================ Training Loss (Mon Aug  3 01:09:54 2026) ================
+[Rank 0] (epoch: 1, iters: 50, time: 0.178, data: 7.530) , D_A: 0.421, G_A: 1.132, cycle_A: 0.070, cycle_A_struct: 0.171, cycle_A_mono: 0.006, flow_smooth: 0.002, flow_mono: 0.002, flow_mag: 0.000, idt_A: 0.092, D_B: 0.335, G_B: 1.537, cycle_B: 0.049, cycle_B_struct: 0.161, cycle_B_mono: 0.005, idt_B: 0.062
+
+[Rank 0] (epoch: 1, iters: 100, time: 0.176, data: 0.000) , D_A: 0.194, G_A: 2.135, cycle_A: 0.088, cycle_A_struct: 0.231, cycle_A_mono: 0.006, flow_smooth: 0.001, flow_mono: 0.001, flow_mag: 0.000, idt_A: 0.074, D_B: 0.135, G_B: 2.018, cycle_B: 0.047, cycle_B_struct: 0.179, cycle_B_mono: 0.004, idt_B: 0.077
+
+[Rank 0] (epoch: 1, iters: 150, time: 0.179, data: 0.001) , D_A: 0.155, G_A: 2.431, cycle_A: 0.102, cycle_A_struct: 0.237, cycle_A_mono: 0.005, flow_smooth: 0.001, flow_mono: 0.001, flow_mag: 0.000, idt_A: 0.086, D_B: 0.254, G_B: 1.264, cycle_B: 0.049, cycle_B_struct: 0.171, cycle_B_mono: 0.004, idt_B: 0.058
+
+[Rank 0] (epoch: 1, iters: 200, time: 0.190, data: 0.000) , D_A: 0.453, G_A: 1.796, cycle_A: 0.090, cycle_A_struct: 0.229, cycle_A_mono: 0.006, flow_smooth: 0.001, flow_mono: 0.001, flow_mag: 0.000, idt_A: 0.079, D_B: 0.108, G_B: 2.593, cycle_B: 0.026, cycle_B_struct: 0.094, cycle_B_mono: 0.003, idt_B: 0.165
+
+[Rank 0] (epoch: 2, iters: 50, time: 0.169, data: 7.530) , D_A: 0.246, G_A: 1.948, cycle_A: 0.121, cycle_A_struct: 0.444, cycle_A_mono: 0.008, flow_smooth: 0.002, flow_mono: 0.003, flow_mag: 0.000, idt_A: 0.125, D_B: 0.114, G_B: 1.857, cycle_B: 0.075, cycle_B_struct: 0.322, cycle_B_mono: 0.005, idt_B: 0.312
+
+[Rank 0] (epoch: 2, iters: 100, time: 0.178, data: 0.000) , D_A: 0.041, G_A: 3.392, cycle_A: 0.108, cycle_A_struct: 0.448, cycle_A_mono: 0.009, flow_smooth: 0.001, flow_mono: 0.001, flow_mag: 0.000, idt_A: 0.141, D_B: 0.060, G_B: 3.625, cycle_B: 0.049, cycle_B_struct: 0.153, cycle_B_mono: 0.005, idt_B: 0.182
+
+[Rank 0] (epoch: 2, iters: 150, time: 0.185, data: 0.001) , D_A: 0.357, G_A: 0.920, cycle_A: 0.434, cycle_A_struct: 2.228, cycle_A_mono: 0.008, flow_smooth: 0.000, flow_mono: 0.000, flow_mag: 0.000, idt_A: 0.029, D_B: 0.269, G_B: 2.471, cycle_B: 0.005, cycle_B_struct: 0.040, cycle_B_mono: 0.000, idt_B: 0.176
+
+[Rank 0] (epoch: 2, iters: 200, time: 0.185, data: 0.001) , D_A: 0.060, G_A: 2.406, cycle_A: 0.113, cycle_A_struct: 0.533, cycle_A_mono: 0.010, flow_smooth: 0.001, flow_mono: 0.001, flow_mag: 0.000, idt_A: 0.075, D_B: 0.062, G_B: 2.778, cycle_B: 0.020, cycle_B_struct: 0.144, cycle_B_mono: 0.002, idt_B: 0.275
+
+[Rank 0] (epoch: 3, iters: 50, time: 0.180, data: 7.658) , D_A: 0.124, G_A: 1.978, cycle_A: 0.127, cycle_A_struct: 0.435, cycle_A_mono: 0.008, flow_smooth: 0.001, flow_mono: 0.001, flow_mag: 0.000, idt_A: 0.085, D_B: 0.186, G_B: 1.690, cycle_B: 0.035, cycle_B_struct: 0.205, cycle_B_mono: 0.003, idt_B: 0.284
+
+[Rank 0] (epoch: 3, iters: 100, time: 0.180, data: 0.001) , D_A: 0.065, G_A: 3.048, cycle_A: 0.076, cycle_A_struct: 0.222, cycle_A_mono: 0.004, flow_smooth: 0.001, flow_mono: 0.001, flow_mag: 0.000, idt_A: 0.118, D_B: 0.066, G_B: 3.614, cycle_B: 0.035, cycle_B_struct: 0.125, cycle_B_mono: 0.002, idt_B: 0.132
+
+[Rank 0] (epoch: 3, iters: 150, time: 0.185, data: 0.001) , D_A: 0.298, G_A: 1.761, cycle_A: 0.289, cycle_A_struct: 0.827, cycle_A_mono: 0.010, flow_smooth: 0.001, flow_mono: 0.002, flow_mag: 0.000, idt_A: 0.289, D_B: 0.069, G_B: 3.477, cycle_B: 0.157, cycle_B_struct: 0.654, cycle_B_mono: 0.007, idt_B: 0.263
+
+[Rank 0] (epoch: 3, iters: 200, time: 0.197, data: 0.001) , D_A: 0.029, G_A: 3.844, cycle_A: 0.099, cycle_A_struct: 0.382, cycle_A_mono: 0.004, flow_smooth: 0.001, flow_mono: 0.001, flow_mag: 0.000, idt_A: 0.149, D_B: 0.064, G_B: 3.109, cycle_B: 0.060, cycle_B_struct: 0.225, cycle_B_mono: 0.003, idt_B: 0.144
+
+[Rank 0] (epoch: 4, iters: 50, time: 0.194, data: 7.596) , D_A: 0.033, G_A: 3.354, cycle_A: 0.103, cycle_A_struct: 0.355, cycle_A_mono: 0.005, flow_smooth: 0.001, flow_mono: 0.001, flow_mag: 0.000, idt_A: 0.210, D_B: 0.038, G_B: 3.505, cycle_B: 0.060, cycle_B_struct: 0.180, cycle_B_mono: 0.005, idt_B: 0.124
+
+[Rank 0] (epoch: 4, iters: 100, time: 0.184, data: 0.000) , D_A: 0.133, G_A: 2.197, cycle_A: 0.231, cycle_A_struct: 0.727, cycle_A_mono: 0.008, flow_smooth: 0.003, flow_mono: 0.004, flow_mag: 0.000, idt_A: 0.286, D_B: 0.098, G_B: 1.549, cycle_B: 0.122, cycle_B_struct: 0.568, cycle_B_mono: 0.007, idt_B: 0.317
+
+[Rank 0] (epoch: 4, iters: 150, time: 0.174, data: 0.001) , D_A: 0.140, G_A: 1.754, cycle_A: 0.222, cycle_A_struct: 0.927, cycle_A_mono: 0.010, flow_smooth: 0.002, flow_mono: 0.004, flow_mag: 0.000, idt_A: 0.193, D_B: 0.078, G_B: 3.129, cycle_B: 0.072, cycle_B_struct: 0.319, cycle_B_mono: 0.005, idt_B: 0.391
+
+[Rank 0] (epoch: 4, iters: 200, time: 0.171, data: 0.001) , D_A: 0.334, G_A: 2.366, cycle_A: 0.147, cycle_A_struct: 0.610, cycle_A_mono: 0.007, flow_smooth: 0.003, flow_mono: 0.004, flow_mag: 0.000, idt_A: 0.241, D_B: 0.067, G_B: 3.448, cycle_B: 0.109, cycle_B_struct: 0.451, cycle_B_mono: 0.008, idt_B: 0.391
+
+[Rank 0] (epoch: 5, iters: 50, time: 0.184, data: 7.421) , D_A: 0.140, G_A: 2.296, cycle_A: 0.132, cycle_A_struct: 0.428, cycle_A_mono: 0.009, flow_smooth: 0.004, flow_mono: 0.006, flow_mag: 0.000, idt_A: 0.201, D_B: 0.242, G_B: 1.415, cycle_B: 0.095, cycle_B_struct: 0.465, cycle_B_mono: 0.008, idt_B: 0.384
+
+[Rank 0] (epoch: 5, iters: 100, time: 0.186, data: 0.001) , D_A: 0.409, G_A: 0.414, cycle_A: 0.138, cycle_A_struct: 0.987, cycle_A_mono: 0.008, flow_smooth: 0.003, flow_mono: 0.003, flow_mag: 0.000, idt_A: 0.048, D_B: 0.353, G_B: 2.674, cycle_B: 0.035, cycle_B_struct: 0.217, cycle_B_mono: 0.003, idt_B: 0.296
+
+[Rank 0] (epoch: 5, iters: 150, time: 0.179, data: 0.000) , D_A: 0.079, G_A: 2.445, cycle_A: 0.236, cycle_A_struct: 0.908, cycle_A_mono: 0.014, flow_smooth: 0.013, flow_mono: 0.009, flow_mag: 0.002, idt_A: 0.295, D_B: 0.147, G_B: 3.202, cycle_B: 0.287, cycle_B_struct: 1.368, cycle_B_mono: 0.017, idt_B: 0.426
+
+[Rank 0] (epoch: 5, iters: 200, time: 0.194, data: 0.001) , D_A: 0.167, G_A: 2.823, cycle_A: 0.146, cycle_A_struct: 0.496, cycle_A_mono: 0.011, flow_smooth: 0.012, flow_mono: 0.006, flow_mag: 0.001, idt_A: 0.219, D_B: 0.095, G_B: 2.421, cycle_B: 0.162, cycle_B_struct: 0.773, cycle_B_mono: 0.012, idt_B: 0.320
+
+[Rank 0] (epoch: 6, iters: 50, time: 0.192, data: 7.319) , D_A: 0.063, G_A: 2.777, cycle_A: 0.289, cycle_A_struct: 1.209, cycle_A_mono: 0.015, flow_smooth: 0.019, flow_mono: 0.009, flow_mag: 0.003, idt_A: 0.191, D_B: 0.109, G_B: 3.876, cycle_B: 0.140, cycle_B_struct: 0.536, cycle_B_mono: 0.012, idt_B: 0.373
+
+[Rank 0] (epoch: 6, iters: 100, time: 0.187, data: 0.001) , D_A: 0.069, G_A: 2.540, cycle_A: 0.107, cycle_A_struct: 0.252, cycle_A_mono: 0.006, flow_smooth: 0.009, flow_mono: 0.006, flow_mag: 0.000, idt_A: 0.177, D_B: 0.053, G_B: 3.665, cycle_B: 0.090, cycle_B_struct: 0.350, cycle_B_mono: 0.006, idt_B: 0.294
+
+[Rank 0] (epoch: 6, iters: 150, time: 0.175, data: 0.001) , D_A: 0.097, G_A: 3.431, cycle_A: 0.105, cycle_A_struct: 0.265, cycle_A_mono: 0.006, flow_smooth: 0.006, flow_mono: 0.004, flow_mag: 0.000, idt_A: 0.149, D_B: 0.075, G_B: 3.373, cycle_B: 0.062, cycle_B_struct: 0.267, cycle_B_mono: 0.006, idt_B: 0.188
+
+[Rank 0] (epoch: 6, iters: 200, time: 0.170, data: 0.000) , D_A: 0.109, G_A: 2.313, cycle_A: 0.199, cycle_A_struct: 0.851, cycle_A_mono: 0.013, flow_smooth: 0.027, flow_mono: 0.016, flow_mag: 0.017, idt_A: 0.199, D_B: 0.550, G_B: 0.849, cycle_B: 0.219, cycle_B_struct: 0.949, cycle_B_mono: 0.015, idt_B: 0.275
+
+[Rank 0] (epoch: 7, iters: 50, time: 0.175, data: 7.250) , D_A: 0.318, G_A: 2.401, cycle_A: 0.285, cycle_A_struct: 0.920, cycle_A_mono: 0.014, flow_smooth: 0.026, flow_mono: 0.014, flow_mag: 0.018, idt_A: 0.035, D_B: 0.447, G_B: 0.924, cycle_B: 0.070, cycle_B_struct: 0.580, cycle_B_mono: 0.004, idt_B: 0.309
+
+[Rank 0] (epoch: 7, iters: 100, time: 0.170, data: 0.001) , D_A: 0.915, G_A: 0.216, cycle_A: 0.429, cycle_A_struct: 5.942, cycle_A_mono: 0.009, flow_smooth: 0.023, flow_mono: 0.015, flow_mag: 0.012, idt_A: 0.125, D_B: 1.043, G_B: 2.953, cycle_B: 0.212, cycle_B_struct: 1.219, cycle_B_mono: 0.014, idt_B: 0.328
+
+[Rank 0] (epoch: 7, iters: 150, time: 0.189, data: 0.001) , D_A: 0.134, G_A: 2.893, cycle_A: 0.079, cycle_A_struct: 0.207, cycle_A_mono: 0.006, flow_smooth: 0.007, flow_mono: 0.004, flow_mag: 0.000, idt_A: 0.181, D_B: 0.139, G_B: 4.002, cycle_B: 0.074, cycle_B_struct: 0.247, cycle_B_mono: 0.008, idt_B: 0.170
+
+[Rank 0] (epoch: 7, iters: 200, time: 0.179, data: 0.001) , D_A: 0.035, G_A: 3.904, cycle_A: 0.102, cycle_A_struct: 0.283, cycle_A_mono: 0.008, flow_smooth: 0.007, flow_mono: 0.005, flow_mag: 0.000, idt_A: 0.148, D_B: 0.050, G_B: 4.023, cycle_B: 0.075, cycle_B_struct: 0.258, cycle_B_mono: 0.005, idt_B: 0.155
+
+[Rank 0] (epoch: 8, iters: 50, time: 0.190, data: 7.235) , D_A: 0.039, G_A: 3.540, cycle_A: 0.065, cycle_A_struct: 0.147, cycle_A_mono: 0.004, flow_smooth: 0.004, flow_mono: 0.002, flow_mag: 0.000, idt_A: 0.118, D_B: 0.055, G_B: 4.360, cycle_B: 0.031, cycle_B_struct: 0.110, cycle_B_mono: 0.003, idt_B: 0.141
+
+[Rank 0] (epoch: 8, iters: 100, time: 0.197, data: 0.001) , D_A: 0.049, G_A: 2.932, cycle_A: 0.209, cycle_A_struct: 0.602, cycle_A_mono: 0.007, flow_smooth: 0.008, flow_mono: 0.005, flow_mag: 0.000, idt_A: 0.162, D_B: 0.036, G_B: 4.314, cycle_B: 0.086, cycle_B_struct: 0.400, cycle_B_mono: 0.006, idt_B: 0.243
+
+[Rank 0] (epoch: 8, iters: 150, time: 0.192, data: 0.000) , D_A: 0.585, G_A: 0.573, cycle_A: 0.183, cycle_A_struct: 0.766, cycle_A_mono: 0.011, flow_smooth: 0.028, flow_mono: 0.019, flow_mag: 0.020, idt_A: 0.091, D_B: 0.094, G_B: 3.238, cycle_B: 0.134, cycle_B_struct: 0.970, cycle_B_mono: 0.010, idt_B: 0.282
+
+[Rank 0] (epoch: 8, iters: 200, time: 0.187, data: 0.000) , D_A: 0.483, G_A: 2.817, cycle_A: 0.303, cycle_A_struct: 1.060, cycle_A_mono: 0.014, flow_smooth: 0.042, flow_mono: 0.031, flow_mag: 0.040, idt_A: 0.115, D_B: 0.547, G_B: 0.597, cycle_B: 0.157, cycle_B_struct: 1.072, cycle_B_mono: 0.011, idt_B: 0.404
+
+[Rank 0] (epoch: 9, iters: 50, time: 0.194, data: 7.314) , D_A: 0.114, G_A: 1.252, cycle_A: 0.203, cycle_A_struct: 0.699, cycle_A_mono: 0.011, flow_smooth: 0.043, flow_mono: 0.038, flow_mag: 0.023, idt_A: 0.382, D_B: 0.041, G_B: 3.191, cycle_B: 0.235, cycle_B_struct: 0.951, cycle_B_mono: 0.013, idt_B: 0.409
+
+[Rank 0] (epoch: 9, iters: 100, time: 0.185, data: 0.000) , D_A: 0.107, G_A: 2.356, cycle_A: 0.217, cycle_A_struct: 0.692, cycle_A_mono: 0.012, flow_smooth: 0.044, flow_mono: 0.040, flow_mag: 0.026, idt_A: 0.314, D_B: 0.050, G_B: 3.391, cycle_B: 0.290, cycle_B_struct: 1.164, cycle_B_mono: 0.017, idt_B: 0.352
+
+[Rank 0] (epoch: 9, iters: 150, time: 0.174, data: 0.000) , D_A: 0.101, G_A: 2.162, cycle_A: 0.397, cycle_A_struct: 1.727, cycle_A_mono: 0.015, flow_smooth: 0.048, flow_mono: 0.042, flow_mag: 0.031, idt_A: 0.224, D_B: 0.071, G_B: 3.722, cycle_B: 0.208, cycle_B_struct: 0.805, cycle_B_mono: 0.012, idt_B: 0.358
+
+[Rank 0] (epoch: 9, iters: 200, time: 0.198, data: 0.000) , D_A: 0.308, G_A: 1.093, cycle_A: 0.248, cycle_A_struct: 0.870, cycle_A_mono: 0.012, flow_smooth: 0.044, flow_mono: 0.039, flow_mag: 0.028, idt_A: 0.225, D_B: 0.042, G_B: 3.663, cycle_B: 0.204, cycle_B_struct: 0.812, cycle_B_mono: 0.012, idt_B: 0.419
+
+[Rank 0] (epoch: 10, iters: 50, time: 0.186, data: 7.231) , D_A: 0.187, G_A: 2.630, cycle_A: 0.232, cycle_A_struct: 0.767, cycle_A_mono: 0.011, flow_smooth: 0.040, flow_mono: 0.039, flow_mag: 0.024, idt_A: 0.137, D_B: 0.091, G_B: 2.686, cycle_B: 0.155, cycle_B_struct: 0.703, cycle_B_mono: 0.009, idt_B: 0.397
+
+[Rank 0] (epoch: 10, iters: 100, time: 0.177, data: 0.001) , D_A: 0.112, G_A: 2.139, cycle_A: 0.495, cycle_A_struct: 2.379, cycle_A_mono: 0.017, flow_smooth: 0.062, flow_mono: 0.062, flow_mag: 0.036, idt_A: 0.199, D_B: 0.101, G_B: 3.714, cycle_B: 0.390, cycle_B_struct: 4.044, cycle_B_mono: 0.020, idt_B: 0.460
+
+[Rank 0] (epoch: 10, iters: 150, time: 0.183, data: 0.001) , D_A: 0.397, G_A: 2.152, cycle_A: 0.246, cycle_A_struct: 0.972, cycle_A_mono: 0.013, flow_smooth: 0.054, flow_mono: 0.049, flow_mag: 0.029, idt_A: 0.202, D_B: 0.058, G_B: 3.608, cycle_B: 0.178, cycle_B_struct: 0.716, cycle_B_mono: 0.011, idt_B: 0.346
+
+[Rank 0] (epoch: 10, iters: 200, time: 0.187, data: 0.001) , D_A: 0.283, G_A: 1.689, cycle_A: 0.241, cycle_A_struct: 0.710, cycle_A_mono: 0.013, flow_smooth: 0.047, flow_mono: 0.046, flow_mag: 0.024, idt_A: 0.148, D_B: 0.200, G_B: 1.555, cycle_B: 0.163, cycle_B_struct: 0.691, cycle_B_mono: 0.009, idt_B: 0.361
+
+[Rank 0] (epoch: 11, iters: 50, time: 0.180, data: 7.314) , D_A: 0.105, G_A: 2.231, cycle_A: 0.220, cycle_A_struct: 0.746, cycle_A_mono: 0.009, flow_smooth: 0.043, flow_mono: 0.041, flow_mag: 0.018, idt_A: 0.204, D_B: 0.052, G_B: 3.614, cycle_B: 0.201, cycle_B_struct: 0.797, cycle_B_mono: 0.010, idt_B: 0.365
+
+[Rank 0] (epoch: 11, iters: 100, time: 0.176, data: 0.000) , D_A: 0.093, G_A: 1.065, cycle_A: 0.286, cycle_A_struct: 1.022, cycle_A_mono: 0.015, flow_smooth: 0.047, flow_mono: 0.045, flow_mag: 0.025, idt_A: 0.228, D_B: 0.131, G_B: 2.575, cycle_B: 0.257, cycle_B_struct: 1.577, cycle_B_mono: 0.014, idt_B: 0.405
+
+[Rank 0] (epoch: 11, iters: 150, time: 0.194, data: 0.001) , D_A: 0.468, G_A: 0.852, cycle_A: 0.237, cycle_A_struct: 0.730, cycle_A_mono: 0.012, flow_smooth: 0.053, flow_mono: 0.049, flow_mag: 0.022, idt_A: 0.222, D_B: 0.083, G_B: 2.751, cycle_B: 0.303, cycle_B_struct: 1.053, cycle_B_mono: 0.013, idt_B: 0.366
+
+[Rank 0] (epoch: 11, iters: 200, time: 0.181, data: 0.001) , D_A: 0.068, G_A: 1.772, cycle_A: 0.151, cycle_A_struct: 0.692, cycle_A_mono: 0.008, flow_smooth: 0.024, flow_mono: 0.019, flow_mag: 0.022, idt_A: 0.035, D_B: 0.058, G_B: 2.679, cycle_B: 0.041, cycle_B_struct: 0.227, cycle_B_mono: 0.002, idt_B: 0.224
+
+[Rank 0] (epoch: 12, iters: 50, time: 0.178, data: 7.255) , D_A: 0.387, G_A: 1.232, cycle_A: 0.276, cycle_A_struct: 0.979, cycle_A_mono: 0.011, flow_smooth: 0.034, flow_mono: 0.026, flow_mag: 0.030, idt_A: 0.086, D_B: 0.043, G_B: 1.721, cycle_B: 0.105, cycle_B_struct: 0.814, cycle_B_mono: 0.006, idt_B: 0.328
+
+[Rank 0] (epoch: 12, iters: 100, time: 0.167, data: 0.001) , D_A: 0.087, G_A: 2.691, cycle_A: 0.245, cycle_A_struct: 0.760, cycle_A_mono: 0.010, flow_smooth: 0.030, flow_mono: 0.023, flow_mag: 0.023, idt_A: 0.009, D_B: 0.173, G_B: 1.520, cycle_B: 0.022, cycle_B_struct: 0.240, cycle_B_mono: 0.001, idt_B: 0.290
+
+[Rank 0] (epoch: 12, iters: 150, time: 0.175, data: 0.001) , D_A: 0.305, G_A: 2.903, cycle_A: 0.295, cycle_A_struct: 1.129, cycle_A_mono: 0.015, flow_smooth: 0.067, flow_mono: 0.056, flow_mag: 0.043, idt_A: 0.209, D_B: 0.081, G_B: 2.502, cycle_B: 0.241, cycle_B_struct: 1.101, cycle_B_mono: 0.012, idt_B: 0.256
+
+[Rank 0] (epoch: 12, iters: 200, time: 0.193, data: 0.000) , D_A: 0.123, G_A: 0.848, cycle_A: 0.311, cycle_A_struct: 1.225, cycle_A_mono: 0.014, flow_smooth: 0.061, flow_mono: 0.046, flow_mag: 0.038, idt_A: 0.124, D_B: 0.046, G_B: 3.183, cycle_B: 0.223, cycle_B_struct: 1.486, cycle_B_mono: 0.012, idt_B: 0.252
+
+[Rank 0] (epoch: 13, iters: 50, time: 0.184, data: 7.334) , D_A: 0.163, G_A: 1.586, cycle_A: 0.206, cycle_A_struct: 0.663, cycle_A_mono: 0.010, flow_smooth: 0.025, flow_mono: 0.020, flow_mag: 0.023, idt_A: 0.025, D_B: 0.038, G_B: 3.075, cycle_B: 0.013, cycle_B_struct: 0.080, cycle_B_mono: 0.001, idt_B: 0.256
+
+[Rank 0] (epoch: 13, iters: 100, time: 0.177, data: 0.001) , D_A: 0.624, G_A: 0.526, cycle_A: 0.178, cycle_A_struct: 1.126, cycle_A_mono: 0.010, flow_smooth: 0.018, flow_mono: 0.014, flow_mag: 0.018, idt_A: 0.017, D_B: 0.177, G_B: 1.673, cycle_B: 0.019, cycle_B_struct: 0.118, cycle_B_mono: 0.001, idt_B: 0.197
+
+[Rank 0] (epoch: 13, iters: 150, time: 0.172, data: 0.001) , D_A: 0.098, G_A: 2.412, cycle_A: 0.268, cycle_A_struct: 1.080, cycle_A_mono: 0.015, flow_smooth: 0.057, flow_mono: 0.046, flow_mag: 0.031, idt_A: 0.162, D_B: 0.055, G_B: 3.968, cycle_B: 0.222, cycle_B_struct: 0.930, cycle_B_mono: 0.012, idt_B: 0.216
+
+[Rank 0] (epoch: 13, iters: 200, time: 0.173, data: 0.001) , D_A: 0.393, G_A: 2.276, cycle_A: 0.441, cycle_A_struct: 1.470, cycle_A_mono: 0.015, flow_smooth: 0.033, flow_mono: 0.022, flow_mag: 0.027, idt_A: 0.018, D_B: 0.040, G_B: 3.075, cycle_B: 0.011, cycle_B_struct: 0.076, cycle_B_mono: 0.000, idt_B: 0.312
+
+[Rank 0] (epoch: 14, iters: 50, time: 0.169, data: 7.370) , D_A: 0.317, G_A: 2.704, cycle_A: 0.272, cycle_A_struct: 0.753, cycle_A_mono: 0.008, flow_smooth: 0.025, flow_mono: 0.019, flow_mag: 0.020, idt_A: 0.061, D_B: 0.034, G_B: 3.300, cycle_B: 0.059, cycle_B_struct: 0.248, cycle_B_mono: 0.003, idt_B: 0.141
+
+[Rank 0] (epoch: 14, iters: 100, time: 0.175, data: 0.001) , D_A: 0.181, G_A: 2.982, cycle_A: 0.105, cycle_A_struct: 0.272, cycle_A_mono: 0.007, flow_smooth: 0.013, flow_mono: 0.009, flow_mag: 0.003, idt_A: 0.172, D_B: 0.115, G_B: 4.236, cycle_B: 0.176, cycle_B_struct: 0.611, cycle_B_mono: 0.016, idt_B: 0.159
+
+[Rank 0] (epoch: 14, iters: 150, time: 0.169, data: 0.000) , D_A: 0.050, G_A: 3.140, cycle_A: 0.066, cycle_A_struct: 0.182, cycle_A_mono: 0.006, flow_smooth: 0.006, flow_mono: 0.004, flow_mag: 0.000, idt_A: 0.158, D_B: 0.025, G_B: 3.873, cycle_B: 0.098, cycle_B_struct: 0.308, cycle_B_mono: 0.007, idt_B: 0.119
+
+[Rank 0] (epoch: 14, iters: 200, time: 0.198, data: 0.001) , D_A: 0.037, G_A: 0.718, cycle_A: 0.074, cycle_A_struct: 0.464, cycle_A_mono: 0.003, flow_smooth: 0.004, flow_mono: 0.004, flow_mag: 0.000, idt_A: 0.129, D_B: 0.542, G_B: 4.074, cycle_B: 0.072, cycle_B_struct: 0.245, cycle_B_mono: 0.006, idt_B: 0.057
+
+[Rank 0] (epoch: 15, iters: 50, time: 0.187, data: 7.374) , D_A: 0.075, G_A: 3.177, cycle_A: 0.056, cycle_A_struct: 0.125, cycle_A_mono: 0.003, flow_smooth: 0.003, flow_mono: 0.002, flow_mag: 0.000, idt_A: 0.058, D_B: 0.036, G_B: 3.244, cycle_B: 0.051, cycle_B_struct: 0.168, cycle_B_mono: 0.003, idt_B: 0.081
+
+[Rank 0] (epoch: 15, iters: 100, time: 0.186, data: 0.001) , D_A: 0.044, G_A: 3.330, cycle_A: 0.047, cycle_A_struct: 0.093, cycle_A_mono: 0.003, flow_smooth: 0.003, flow_mono: 0.002, flow_mag: 0.000, idt_A: 0.074, D_B: 0.304, G_B: 4.531, cycle_B: 0.028, cycle_B_struct: 0.080, cycle_B_mono: 0.002, idt_B: 0.074
+
+[Rank 0] (epoch: 15, iters: 150, time: 0.191, data: 0.001) , D_A: 0.050, G_A: 2.929, cycle_A: 0.032, cycle_A_struct: 0.066, cycle_A_mono: 0.003, flow_smooth: 0.003, flow_mono: 0.002, flow_mag: 0.000, idt_A: 0.093, D_B: 0.017, G_B: 4.174, cycle_B: 0.029, cycle_B_struct: 0.071, cycle_B_mono: 0.003, idt_B: 0.069
+
+[Rank 0] (epoch: 15, iters: 200, time: 0.182, data: 0.000) , D_A: 0.024, G_A: 3.858, cycle_A: 0.046, cycle_A_struct: 0.114, cycle_A_mono: 0.004, flow_smooth: 0.002, flow_mono: 0.001, flow_mag: 0.000, idt_A: 0.055, D_B: 0.017, G_B: 4.135, cycle_B: 0.023, cycle_B_struct: 0.067, cycle_B_mono: 0.002, idt_B: 0.093
+
+[Rank 0] (epoch: 16, iters: 50, time: 0.189, data: 7.285) , D_A: 0.040, G_A: 3.623, cycle_A: 0.033, cycle_A_struct: 0.090, cycle_A_mono: 0.003, flow_smooth: 0.002, flow_mono: 0.002, flow_mag: 0.000, idt_A: 0.069, D_B: 0.014, G_B: 4.564, cycle_B: 0.027, cycle_B_struct: 0.073, cycle_B_mono: 0.002, idt_B: 0.071
+
+[Rank 0] (epoch: 16, iters: 100, time: 0.173, data: 0.000) , D_A: 0.046, G_A: 2.834, cycle_A: 0.049, cycle_A_struct: 0.149, cycle_A_mono: 0.004, flow_smooth: 0.003, flow_mono: 0.002, flow_mag: 0.000, idt_A: 0.093, D_B: 0.013, G_B: 4.700, cycle_B: 0.036, cycle_B_struct: 0.106, cycle_B_mono: 0.003, idt_B: 0.099
+
+[Rank 0] (epoch: 16, iters: 150, time: 0.178, data: 0.001) , D_A: 0.037, G_A: 3.787, cycle_A: 0.045, cycle_A_struct: 0.124, cycle_A_mono: 0.004, flow_smooth: 0.002, flow_mono: 0.001, flow_mag: 0.000, idt_A: 0.052, D_B: 0.024, G_B: 3.524, cycle_B: 0.040, cycle_B_struct: 0.187, cycle_B_mono: 0.003, idt_B: 0.115
+
+[Rank 0] (epoch: 16, iters: 200, time: 0.192, data: 0.000) , D_A: 0.025, G_A: 3.666, cycle_A: 0.065, cycle_A_struct: 0.188, cycle_A_mono: 0.007, flow_smooth: 0.003, flow_mono: 0.002, flow_mag: 0.000, idt_A: 0.127, D_B: 0.031, G_B: 4.315, cycle_B: 0.062, cycle_B_struct: 0.197, cycle_B_mono: 0.006, idt_B: 0.107
+
+[Rank 0] (epoch: 17, iters: 50, time: 0.180, data: 7.275) , D_A: 0.026, G_A: 3.969, cycle_A: 0.058, cycle_A_struct: 0.139, cycle_A_mono: 0.005, flow_smooth: 0.003, flow_mono: 0.002, flow_mag: 0.000, idt_A: 0.069, D_B: 0.015, G_B: 4.385, cycle_B: 0.039, cycle_B_struct: 0.135, cycle_B_mono: 0.003, idt_B: 0.105
+
+[Rank 0] (epoch: 17, iters: 100, time: 0.180, data: 0.000) , D_A: 0.032, G_A: 3.596, cycle_A: 0.092, cycle_A_struct: 0.239, cycle_A_mono: 0.006, flow_smooth: 0.007, flow_mono: 0.005, flow_mag: 0.002, idt_A: 0.046, D_B: 0.123, G_B: 2.130, cycle_B: 0.034, cycle_B_struct: 0.326, cycle_B_mono: 0.002, idt_B: 0.131
+
+[Rank 0] (epoch: 17, iters: 150, time: 0.184, data: 0.001) , D_A: 0.024, G_A: 4.021, cycle_A: 0.189, cycle_A_struct: 0.450, cycle_A_mono: 0.006, flow_smooth: 0.015, flow_mono: 0.010, flow_mag: 0.002, idt_A: 0.186, D_B: 0.026, G_B: 4.613, cycle_B: 0.152, cycle_B_struct: 0.541, cycle_B_mono: 0.007, idt_B: 0.144
+
+[Rank 0] (epoch: 17, iters: 200, time: 0.177, data: 0.000) , D_A: 0.108, G_A: 2.081, cycle_A: 0.370, cycle_A_struct: 1.650, cycle_A_mono: 0.014, flow_smooth: 0.059, flow_mono: 0.054, flow_mag: 0.045, idt_A: 0.224, D_B: 0.137, G_B: 1.669, cycle_B: 0.242, cycle_B_struct: 1.026, cycle_B_mono: 0.013, idt_B: 0.190
+
+[Rank 0] (epoch: 18, iters: 50, time: 0.190, data: 7.264) , D_A: 0.650, G_A: 2.508, cycle_A: 0.232, cycle_A_struct: 0.812, cycle_A_mono: 0.012, flow_smooth: 0.052, flow_mono: 0.045, flow_mag: 0.041, idt_A: 0.153, D_B: 0.084, G_B: 2.401, cycle_B: 0.221, cycle_B_struct: 1.436, cycle_B_mono: 0.013, idt_B: 0.187
+
+[Rank 0] (epoch: 18, iters: 100, time: 0.175, data: 0.000) , D_A: 0.286, G_A: 2.099, cycle_A: 0.332, cycle_A_struct: 1.032, cycle_A_mono: 0.010, flow_smooth: 0.034, flow_mono: 0.029, flow_mag: 0.028, idt_A: 0.035, D_B: 0.367, G_B: 3.102, cycle_B: 0.045, cycle_B_struct: 0.250, cycle_B_mono: 0.003, idt_B: 0.197
+
+[Rank 0] (epoch: 18, iters: 150, time: 0.181, data: 0.001) , D_A: 0.303, G_A: 0.652, cycle_A: 0.344, cycle_A_struct: 1.537, cycle_A_mono: 0.014, flow_smooth: 0.061, flow_mono: 0.045, flow_mag: 0.028, idt_A: 0.269, D_B: 0.070, G_B: 2.900, cycle_B: 0.294, cycle_B_struct: 1.247, cycle_B_mono: 0.015, idt_B: 0.214
+
+[Rank 0] (epoch: 18, iters: 200, time: 0.190, data: 0.001) , D_A: 0.328, G_A: 1.985, cycle_A: 0.260, cycle_A_struct: 0.885, cycle_A_mono: 0.012, flow_smooth: 0.058, flow_mono: 0.050, flow_mag: 0.031, idt_A: 0.239, D_B: 0.192, G_B: 3.584, cycle_B: 0.325, cycle_B_struct: 1.473, cycle_B_mono: 0.014, idt_B: 0.119
+
+[Rank 0] (epoch: 19, iters: 50, time: 0.183, data: 7.292) , D_A: 0.253, G_A: 2.569, cycle_A: 0.158, cycle_A_struct: 0.449, cycle_A_mono: 0.008, flow_smooth: 0.033, flow_mono: 0.029, flow_mag: 0.016, idt_A: 0.162, D_B: 0.057, G_B: 4.122, cycle_B: 0.155, cycle_B_struct: 0.527, cycle_B_mono: 0.008, idt_B: 0.270
+
+[Rank 0] (epoch: 19, iters: 100, time: 0.189, data: 0.000) , D_A: 0.057, G_A: 3.166, cycle_A: 0.299, cycle_A_struct: 0.925, cycle_A_mono: 0.014, flow_smooth: 0.061, flow_mono: 0.052, flow_mag: 0.031, idt_A: 0.328, D_B: 0.046, G_B: 3.366, cycle_B: 0.296, cycle_B_struct: 1.002, cycle_B_mono: 0.015, idt_B: 0.224
+
+[Rank 0] (epoch: 19, iters: 150, time: 0.184, data: 0.001) , D_A: 0.046, G_A: 2.243, cycle_A: 0.186, cycle_A_struct: 0.602, cycle_A_mono: 0.009, flow_smooth: 0.053, flow_mono: 0.042, flow_mag: 0.029, idt_A: 0.242, D_B: 0.034, G_B: 4.213, cycle_B: 0.166, cycle_B_struct: 0.622, cycle_B_mono: 0.009, idt_B: 0.140
+
+[Rank 0] (epoch: 19, iters: 200, time: 0.179, data: 0.001) , D_A: 0.681, G_A: 0.370, cycle_A: 0.192, cycle_A_struct: 1.610, cycle_A_mono: 0.006, flow_smooth: 0.044, flow_mono: 0.039, flow_mag: 0.015, idt_A: 0.234, D_B: 0.456, G_B: 3.849, cycle_B: 0.259, cycle_B_struct: 1.211, cycle_B_mono: 0.013, idt_B: 0.183
+
+[Rank 0] (epoch: 20, iters: 50, time: 0.183, data: 7.275) , D_A: 0.275, G_A: 1.129, cycle_A: 0.341, cycle_A_struct: 1.079, cycle_A_mono: 0.010, flow_smooth: 0.041, flow_mono: 0.029, flow_mag: 0.008, idt_A: 0.225, D_B: 0.053, G_B: 3.865, cycle_B: 0.223, cycle_B_struct: 0.912, cycle_B_mono: 0.012, idt_B: 0.300
+
+[Rank 0] (epoch: 20, iters: 100, time: 0.198, data: 0.001) , D_A: 0.283, G_A: 0.985, cycle_A: 0.203, cycle_A_struct: 0.748, cycle_A_mono: 0.011, flow_smooth: 0.036, flow_mono: 0.026, flow_mag: 0.024, idt_A: 0.075, D_B: 0.177, G_B: 1.661, cycle_B: 0.072, cycle_B_struct: 0.550, cycle_B_mono: 0.004, idt_B: 0.106
+
+[Rank 0] (epoch: 20, iters: 150, time: 0.188, data: 0.000) , D_A: 0.322, G_A: 2.050, cycle_A: 0.244, cycle_A_struct: 0.768, cycle_A_mono: 0.011, flow_smooth: 0.040, flow_mono: 0.029, flow_mag: 0.029, idt_A: 0.079, D_B: 0.035, G_B: 2.961, cycle_B: 0.127, cycle_B_struct: 1.001, cycle_B_mono: 0.007, idt_B: 0.092
+
+[Rank 0] (epoch: 20, iters: 200, time: 0.185, data: 0.001) , D_A: 0.216, G_A: 3.166, cycle_A: 0.114, cycle_A_struct: 0.264, cycle_A_mono: 0.006, flow_smooth: 0.010, flow_mono: 0.006, flow_mag: 0.000, idt_A: 0.185, D_B: 0.023, G_B: 4.459, cycle_B: 0.062, cycle_B_struct: 0.237, cycle_B_mono: 0.004, idt_B: 0.146
+
+[Rank 0] (epoch: 21, iters: 50, time: 0.182, data: 7.275) , D_A: 0.182, G_A: 3.791, cycle_A: 0.122, cycle_A_struct: 0.289, cycle_A_mono: 0.006, flow_smooth: 0.009, flow_mono: 0.006, flow_mag: 0.004, idt_A: 0.080, D_B: 0.031, G_B: 2.640, cycle_B: 0.120, cycle_B_struct: 1.212, cycle_B_mono: 0.005, idt_B: 0.090
+
+[Rank 0] (epoch: 21, iters: 100, time: 0.177, data: 0.001) , D_A: 0.036, G_A: 3.615, cycle_A: 0.080, cycle_A_struct: 0.158, cycle_A_mono: 0.004, flow_smooth: 0.005, flow_mono: 0.003, flow_mag: 0.000, idt_A: 0.120, D_B: 0.050, G_B: 3.229, cycle_B: 0.042, cycle_B_struct: 0.110, cycle_B_mono: 0.003, idt_B: 0.068
+
+[Rank 0] (epoch: 21, iters: 150, time: 0.176, data: 0.000) , D_A: 0.044, G_A: 3.792, cycle_A: 0.062, cycle_A_struct: 0.152, cycle_A_mono: 0.004, flow_smooth: 0.008, flow_mono: 0.004, flow_mag: 0.001, idt_A: 0.101, D_B: 0.033, G_B: 4.450, cycle_B: 0.043, cycle_B_struct: 0.136, cycle_B_mono: 0.003, idt_B: 0.073
+
+[Rank 0] (epoch: 21, iters: 200, time: 0.202, data: 0.001) , D_A: 0.029, G_A: 3.843, cycle_A: 0.154, cycle_A_struct: 0.531, cycle_A_mono: 0.010, flow_smooth: 0.008, flow_mono: 0.005, flow_mag: 0.002, idt_A: 0.024, D_B: 0.031, G_B: 3.291, cycle_B: 0.018, cycle_B_struct: 0.112, cycle_B_mono: 0.001, idt_B: 0.053
+
+[Rank 0] (epoch: 22, iters: 50, time: 0.181, data: 7.183) , D_A: 0.042, G_A: 3.165, cycle_A: 0.072, cycle_A_struct: 0.153, cycle_A_mono: 0.004, flow_smooth: 0.006, flow_mono: 0.003, flow_mag: 0.000, idt_A: 0.153, D_B: 0.023, G_B: 4.335, cycle_B: 0.058, cycle_B_struct: 0.177, cycle_B_mono: 0.004, idt_B: 0.060
+
+[Rank 0] (epoch: 22, iters: 100, time: 0.183, data: 0.002) , D_A: 0.032, G_A: 3.193, cycle_A: 0.111, cycle_A_struct: 0.331, cycle_A_mono: 0.008, flow_smooth: 0.011, flow_mono: 0.008, flow_mag: 0.003, idt_A: 0.157, D_B: 0.018, G_B: 4.401, cycle_B: 0.134, cycle_B_struct: 0.466, cycle_B_mono: 0.009, idt_B: 0.074
+
+[Rank 0] (epoch: 22, iters: 150, time: 0.170, data: 0.001) , D_A: 0.026, G_A: 3.552, cycle_A: 0.170, cycle_A_struct: 0.372, cycle_A_mono: 0.007, flow_smooth: 0.007, flow_mono: 0.005, flow_mag: 0.002, idt_A: 0.020, D_B: 0.025, G_B: 3.540, cycle_B: 0.038, cycle_B_struct: 0.594, cycle_B_mono: 0.002, idt_B: 0.065
+
+[Rank 0] (epoch: 22, iters: 200, time: 0.174, data: 0.000) , D_A: 0.023, G_A: 3.528, cycle_A: 0.139, cycle_A_struct: 0.412, cycle_A_mono: 0.008, flow_smooth: 0.032, flow_mono: 0.025, flow_mag: 0.014, idt_A: 0.087, D_B: 0.020, G_B: 4.160, cycle_B: 0.099, cycle_B_struct: 0.364, cycle_B_mono: 0.006, idt_B: 0.081
+
+[Rank 0] (epoch: 23, iters: 50, time: 0.186, data: 7.216) , D_A: 0.348, G_A: 1.203, cycle_A: 0.277, cycle_A_struct: 1.073, cycle_A_mono: 0.013, flow_smooth: 0.043, flow_mono: 0.034, flow_mag: 0.038, idt_A: 0.051, D_B: 0.027, G_B: 3.402, cycle_B: 0.088, cycle_B_struct: 0.774, cycle_B_mono: 0.006, idt_B: 0.101
+
+[Rank 0] (epoch: 23, iters: 100, time: 0.181, data: 0.000) , D_A: 0.190, G_A: 2.019, cycle_A: 0.250, cycle_A_struct: 0.899, cycle_A_mono: 0.011, flow_smooth: 0.038, flow_mono: 0.029, flow_mag: 0.018, idt_A: 0.131, D_B: 0.022, G_B: 4.272, cycle_B: 0.147, cycle_B_struct: 0.694, cycle_B_mono: 0.009, idt_B: 0.144
+
+[Rank 0] (epoch: 23, iters: 150, time: 0.196, data: 0.001) , D_A: 0.266, G_A: 2.611, cycle_A: 0.247, cycle_A_struct: 0.878, cycle_A_mono: 0.011, flow_smooth: 0.052, flow_mono: 0.039, flow_mag: 0.029, idt_A: 0.123, D_B: 0.214, G_B: 1.859, cycle_B: 0.165, cycle_B_struct: 0.886, cycle_B_mono: 0.009, idt_B: 0.333
+
+[Rank 0] (epoch: 23, iters: 200, time: 0.191, data: 0.001) , D_A: 0.085, G_A: 0.573, cycle_A: 0.285, cycle_A_struct: 1.177, cycle_A_mono: 0.009, flow_smooth: 0.021, flow_mono: 0.016, flow_mag: 0.020, idt_A: 0.030, D_B: 0.071, G_B: 3.301, cycle_B: 0.047, cycle_B_struct: 0.438, cycle_B_mono: 0.003, idt_B: 0.209
+
+[Rank 0] (epoch: 24, iters: 50, time: 0.190, data: 7.381) , D_A: 0.340, G_A: 1.918, cycle_A: 0.222, cycle_A_struct: 1.129, cycle_A_mono: 0.009, flow_smooth: 0.034, flow_mono: 0.028, flow_mag: 0.025, idt_A: 0.097, D_B: 0.030, G_B: 3.649, cycle_B: 0.163, cycle_B_struct: 1.099, cycle_B_mono: 0.008, idt_B: 0.066
+
+[Rank 0] (epoch: 24, iters: 100, time: 0.184, data: 0.001) , D_A: 0.248, G_A: 1.310, cycle_A: 0.468, cycle_A_struct: 1.743, cycle_A_mono: 0.017, flow_smooth: 0.058, flow_mono: 0.039, flow_mag: 0.033, idt_A: 0.171, D_B: 0.087, G_B: 4.469, cycle_B: 0.211, cycle_B_struct: 0.923, cycle_B_mono: 0.010, idt_B: 0.147
+
+[Rank 0] (epoch: 24, iters: 150, time: 0.170, data: 0.001) , D_A: 0.063, G_A: 2.043, cycle_A: 0.231, cycle_A_struct: 0.821, cycle_A_mono: 0.011, flow_smooth: 0.065, flow_mono: 0.043, flow_mag: 0.044, idt_A: 0.175, D_B: 0.020, G_B: 4.135, cycle_B: 0.203, cycle_B_struct: 0.752, cycle_B_mono: 0.010, idt_B: 0.083
+
+[Rank 0] (epoch: 24, iters: 200, time: 0.202, data: 0.001) , D_A: 0.071, G_A: 3.486, cycle_A: 0.119, cycle_A_struct: 0.281, cycle_A_mono: 0.005, flow_smooth: 0.014, flow_mono: 0.009, flow_mag: 0.008, idt_A: 0.170, D_B: 0.018, G_B: 4.210, cycle_B: 0.107, cycle_B_struct: 0.452, cycle_B_mono: 0.007, idt_B: 0.126
+
+[Rank 0] (epoch: 25, iters: 50, time: 0.188, data: 7.324) , D_A: 0.067, G_A: 2.870, cycle_A: 0.071, cycle_A_struct: 0.177, cycle_A_mono: 0.004, flow_smooth: 0.011, flow_mono: 0.007, flow_mag: 0.006, idt_A: 0.096, D_B: 0.058, G_B: 3.974, cycle_B: 0.047, cycle_B_struct: 0.155, cycle_B_mono: 0.003, idt_B: 0.117
+
+[Rank 0] (epoch: 25, iters: 100, time: 0.174, data: 0.000) , D_A: 0.087, G_A: 2.263, cycle_A: 0.204, cycle_A_struct: 0.708, cycle_A_mono: 0.012, flow_smooth: 0.055, flow_mono: 0.040, flow_mag: 0.038, idt_A: 0.142, D_B: 0.019, G_B: 4.350, cycle_B: 0.141, cycle_B_struct: 0.556, cycle_B_mono: 0.008, idt_B: 0.081
+
+[Rank 0] (epoch: 25, iters: 150, time: 0.182, data: 0.001) , D_A: 0.195, G_A: 2.657, cycle_A: 0.320, cycle_A_struct: 1.219, cycle_A_mono: 0.012, flow_smooth: 0.055, flow_mono: 0.046, flow_mag: 0.050, idt_A: 0.108, D_B: 0.047, G_B: 3.434, cycle_B: 0.194, cycle_B_struct: 1.442, cycle_B_mono: 0.012, idt_B: 0.095
+
+[Rank 0] (epoch: 25, iters: 200, time: 0.192, data: 0.001) , D_A: 0.292, G_A: 1.510, cycle_A: 0.291, cycle_A_struct: 1.182, cycle_A_mono: 0.013, flow_smooth: 0.065, flow_mono: 0.044, flow_mag: 0.043, idt_A: 0.073, D_B: 0.024, G_B: 4.099, cycle_B: 0.164, cycle_B_struct: 1.008, cycle_B_mono: 0.008, idt_B: 0.074
+
+[Rank 0] (epoch: 26, iters: 50, time: 0.176, data: 7.389) , D_A: 0.368, G_A: 1.178, cycle_A: 0.162, cycle_A_struct: 0.742, cycle_A_mono: 0.007, flow_smooth: 0.033, flow_mono: 0.025, flow_mag: 0.031, idt_A: 0.048, D_B: 0.034, G_B: 3.435, cycle_B: 0.104, cycle_B_struct: 0.395, cycle_B_mono: 0.005, idt_B: 0.061
+
+[Rank 0] (epoch: 26, iters: 100, time: 0.171, data: 0.000) , D_A: 0.218, G_A: 1.496, cycle_A: 0.211, cycle_A_struct: 0.799, cycle_A_mono: 0.009, flow_smooth: 0.053, flow_mono: 0.036, flow_mag: 0.040, idt_A: 0.286, D_B: 0.022, G_B: 4.131, cycle_B: 0.278, cycle_B_struct: 0.978, cycle_B_mono: 0.011, idt_B: 0.047
+
+[Rank 0] (epoch: 26, iters: 150, time: 0.178, data: 0.000) , D_A: 0.325, G_A: 1.651, cycle_A: 0.255, cycle_A_struct: 0.807, cycle_A_mono: 0.012, flow_smooth: 0.065, flow_mono: 0.049, flow_mag: 0.041, idt_A: 0.113, D_B: 0.027, G_B: 3.839, cycle_B: 0.214, cycle_B_struct: 0.798, cycle_B_mono: 0.011, idt_B: 0.090
+
+[Rank 0] (epoch: 26, iters: 200, time: 0.186, data: 0.001) , D_A: 0.132, G_A: 1.931, cycle_A: 0.203, cycle_A_struct: 0.765, cycle_A_mono: 0.012, flow_smooth: 0.067, flow_mono: 0.048, flow_mag: 0.037, idt_A: 0.277, D_B: 0.044, G_B: 3.788, cycle_B: 0.256, cycle_B_struct: 1.070, cycle_B_mono: 0.013, idt_B: 0.064
+
+[Rank 0] (epoch: 27, iters: 50, time: 0.178, data: 7.381) , D_A: 0.138, G_A: 2.075, cycle_A: 0.257, cycle_A_struct: 0.817, cycle_A_mono: 0.010, flow_smooth: 0.028, flow_mono: 0.021, flow_mag: 0.021, idt_A: 0.016, D_B: 0.076, G_B: 2.456, cycle_B: 0.066, cycle_B_struct: 0.868, cycle_B_mono: 0.003, idt_B: 0.059
+
+[Rank 0] (epoch: 27, iters: 100, time: 0.186, data: 0.001) , D_A: 0.046, G_A: 2.443, cycle_A: 0.231, cycle_A_struct: 0.799, cycle_A_mono: 0.011, flow_smooth: 0.083, flow_mono: 0.064, flow_mag: 0.054, idt_A: 0.108, D_B: 0.022, G_B: 4.140, cycle_B: 0.204, cycle_B_struct: 0.744, cycle_B_mono: 0.012, idt_B: 0.054
+
+[Rank 0] (epoch: 27, iters: 150, time: 0.175, data: 0.001) , D_A: 0.207, G_A: 2.017, cycle_A: 0.263, cycle_A_struct: 0.853, cycle_A_mono: 0.012, flow_smooth: 0.032, flow_mono: 0.024, flow_mag: 0.031, idt_A: 0.007, D_B: 0.401, G_B: 1.453, cycle_B: 0.018, cycle_B_struct: 0.134, cycle_B_mono: 0.001, idt_B: 0.062
+
+[Rank 0] (epoch: 27, iters: 200, time: 0.185, data: 0.000) , D_A: 0.183, G_A: 1.750, cycle_A: 0.196, cycle_A_struct: 0.823, cycle_A_mono: 0.009, flow_smooth: 0.044, flow_mono: 0.029, flow_mag: 0.020, idt_A: 0.078, D_B: 0.110, G_B: 4.107, cycle_B: 0.207, cycle_B_struct: 0.739, cycle_B_mono: 0.010, idt_B: 0.062
+
+[Rank 0] (epoch: 28, iters: 50, time: 0.174, data: 7.327) , D_A: 0.171, G_A: 1.721, cycle_A: 0.220, cycle_A_struct: 0.670, cycle_A_mono: 0.011, flow_smooth: 0.032, flow_mono: 0.021, flow_mag: 0.028, idt_A: 0.008, D_B: 0.239, G_B: 1.415, cycle_B: 0.008, cycle_B_struct: 0.059, cycle_B_mono: 0.001, idt_B: 0.047
+
+[Rank 0] (epoch: 28, iters: 100, time: 0.180, data: 0.000) , D_A: 0.487, G_A: 0.587, cycle_A: 0.309, cycle_A_struct: 0.954, cycle_A_mono: 0.012, flow_smooth: 0.074, flow_mono: 0.047, flow_mag: 0.040, idt_A: 0.139, D_B: 0.060, G_B: 4.300, cycle_B: 0.229, cycle_B_struct: 0.930, cycle_B_mono: 0.012, idt_B: 0.112
+
+[Rank 0] (epoch: 28, iters: 150, time: 0.189, data: 0.001) , D_A: 0.144, G_A: 1.559, cycle_A: 0.177, cycle_A_struct: 0.730, cycle_A_mono: 0.010, flow_smooth: 0.049, flow_mono: 0.034, flow_mag: 0.031, idt_A: 0.095, D_B: 0.128, G_B: 2.855, cycle_B: 0.194, cycle_B_struct: 0.776, cycle_B_mono: 0.009, idt_B: 0.046
+
+[Rank 0] (epoch: 28, iters: 200, time: 0.198, data: 0.000) , D_A: 0.256, G_A: 1.219, cycle_A: 0.221, cycle_A_struct: 0.728, cycle_A_mono: 0.010, flow_smooth: 0.038, flow_mono: 0.030, flow_mag: 0.032, idt_A: 0.046, D_B: 0.073, G_B: 1.420, cycle_B: 0.102, cycle_B_struct: 0.570, cycle_B_mono: 0.005, idt_B: 0.056
+
+[Rank 0] (epoch: 29, iters: 50, time: 0.174, data: 7.267) , D_A: 0.184, G_A: 1.661, cycle_A: 0.316, cycle_A_struct: 1.150, cycle_A_mono: 0.015, flow_smooth: 0.035, flow_mono: 0.020, flow_mag: 0.027, idt_A: 0.035, D_B: 0.070, G_B: 2.500, cycle_B: 0.046, cycle_B_struct: 0.248, cycle_B_mono: 0.003, idt_B: 0.069
+
+[Rank 0] (epoch: 29, iters: 100, time: 0.188, data: 0.000) , D_A: 0.654, G_A: 1.233, cycle_A: 0.228, cycle_A_struct: 0.706, cycle_A_mono: 0.009, flow_smooth: 0.042, flow_mono: 0.030, flow_mag: 0.032, idt_A: 0.095, D_B: 0.029, G_B: 3.691, cycle_B: 0.175, cycle_B_struct: 1.098, cycle_B_mono: 0.010, idt_B: 0.033
+
+[Rank 0] (epoch: 29, iters: 150, time: 0.182, data: 0.002) , D_A: 0.102, G_A: 1.398, cycle_A: 0.188, cycle_A_struct: 0.631, cycle_A_mono: 0.009, flow_smooth: 0.059, flow_mono: 0.043, flow_mag: 0.050, idt_A: 0.049, D_B: 0.020, G_B: 4.116, cycle_B: 0.145, cycle_B_struct: 0.654, cycle_B_mono: 0.007, idt_B: 0.031
+
+[Rank 0] (epoch: 29, iters: 200, time: 0.168, data: 0.000) , D_A: 1.447, G_A: 0.074, cycle_A: 0.209, cycle_A_struct: 0.687, cycle_A_mono: 0.012, flow_smooth: 0.059, flow_mono: 0.039, flow_mag: 0.027, idt_A: 0.072, D_B: 0.052, G_B: 4.658, cycle_B: 0.209, cycle_B_struct: 0.688, cycle_B_mono: 0.010, idt_B: 0.064
+
+[Rank 0] (epoch: 30, iters: 50, time: 0.189, data: 7.206) , D_A: 0.108, G_A: 2.592, cycle_A: 0.219, cycle_A_struct: 0.817, cycle_A_mono: 0.010, flow_smooth: 0.045, flow_mono: 0.030, flow_mag: 0.036, idt_A: 0.061, D_B: 0.020, G_B: 3.294, cycle_B: 0.096, cycle_B_struct: 0.605, cycle_B_mono: 0.005, idt_B: 0.052
+
+[Rank 0] (epoch: 30, iters: 100, time: 0.182, data: 0.001) , D_A: 0.121, G_A: 2.703, cycle_A: 0.301, cycle_A_struct: 1.040, cycle_A_mono: 0.013, flow_smooth: 0.054, flow_mono: 0.035, flow_mag: 0.040, idt_A: 0.037, D_B: 0.101, G_B: 3.364, cycle_B: 0.171, cycle_B_struct: 0.682, cycle_B_mono: 0.008, idt_B: 0.033
+
+[Rank 0] (epoch: 30, iters: 150, time: 0.185, data: 0.000) , D_A: 0.227, G_A: 1.394, cycle_A: 0.403, cycle_A_struct: 1.799, cycle_A_mono: 0.014, flow_smooth: 0.068, flow_mono: 0.047, flow_mag: 0.053, idt_A: 0.050, D_B: 0.039, G_B: 4.172, cycle_B: 0.236, cycle_B_struct: 1.240, cycle_B_mono: 0.012, idt_B: 0.073
+
+[Rank 0] (epoch: 30, iters: 200, time: 0.186, data: 0.001) , D_A: 0.090, G_A: 2.415, cycle_A: 0.200, cycle_A_struct: 0.772, cycle_A_mono: 0.010, flow_smooth: 0.039, flow_mono: 0.021, flow_mag: 0.036, idt_A: 0.025, D_B: 0.052, G_B: 2.653, cycle_B: 0.023, cycle_B_struct: 0.139, cycle_B_mono: 0.001, idt_B: 0.042
+
+[Rank 0] (epoch: 31, iters: 50, time: 0.163, data: 7.274) , D_A: 0.366, G_A: 0.742, cycle_A: 0.209, cycle_A_struct: 0.943, cycle_A_mono: 0.011, flow_smooth: 0.064, flow_mono: 0.039, flow_mag: 0.043, idt_A: 0.178, D_B: 0.030, G_B: 3.951, cycle_B: 0.259, cycle_B_struct: 1.008, cycle_B_mono: 0.011, idt_B: 0.052
+
+[Rank 0] (epoch: 31, iters: 100, time: 0.181, data: 0.001) , D_A: 0.060, G_A: 1.426, cycle_A: 0.200, cycle_A_struct: 0.662, cycle_A_mono: 0.010, flow_smooth: 0.081, flow_mono: 0.062, flow_mag: 0.060, idt_A: 0.135, D_B: 0.066, G_B: 4.003, cycle_B: 0.235, cycle_B_struct: 0.891, cycle_B_mono: 0.013, idt_B: 0.038
+
+[Rank 0] (epoch: 31, iters: 150, time: 0.174, data: 0.000) , D_A: 0.091, G_A: 2.073, cycle_A: 0.231, cycle_A_struct: 0.875, cycle_A_mono: 0.010, flow_smooth: 0.050, flow_mono: 0.031, flow_mag: 0.041, idt_A: 0.033, D_B: 0.108, G_B: 2.536, cycle_B: 0.077, cycle_B_struct: 0.493, cycle_B_mono: 0.004, idt_B: 0.039
+
+[Rank 0] (epoch: 31, iters: 200, time: 0.186, data: 0.001) , D_A: 0.541, G_A: 0.497, cycle_A: 0.260, cycle_A_struct: 1.181, cycle_A_mono: 0.011, flow_smooth: 0.070, flow_mono: 0.049, flow_mag: 0.046, idt_A: 0.042, D_B: 0.030, G_B: 4.354, cycle_B: 0.187, cycle_B_struct: 0.719, cycle_B_mono: 0.010, idt_B: 0.046
+
+[Rank 0] (epoch: 32, iters: 50, time: 0.193, data: 7.295) , D_A: 0.237, G_A: 1.650, cycle_A: 0.209, cycle_A_struct: 0.722, cycle_A_mono: 0.009, flow_smooth: 0.039, flow_mono: 0.026, flow_mag: 0.042, idt_A: 0.002, D_B: 0.053, G_B: 2.807, cycle_B: 0.006, cycle_B_struct: 0.065, cycle_B_mono: 0.000, idt_B: 0.044
+
+[Rank 0] (epoch: 32, iters: 100, time: 0.175, data: 0.001) , D_A: 0.432, G_A: 1.540, cycle_A: 0.221, cycle_A_struct: 0.715, cycle_A_mono: 0.010, flow_smooth: 0.043, flow_mono: 0.029, flow_mag: 0.043, idt_A: 0.054, D_B: 0.026, G_B: 3.732, cycle_B: 0.086, cycle_B_struct: 0.672, cycle_B_mono: 0.005, idt_B: 0.057
+
+[Rank 0] (epoch: 32, iters: 150, time: 0.184, data: 0.000) , D_A: 0.220, G_A: 1.615, cycle_A: 0.166, cycle_A_struct: 0.477, cycle_A_mono: 0.007, flow_smooth: 0.040, flow_mono: 0.031, flow_mag: 0.036, idt_A: 0.043, D_B: 0.036, G_B: 3.900, cycle_B: 0.102, cycle_B_struct: 0.682, cycle_B_mono: 0.005, idt_B: 0.039
+
+[Rank 0] (epoch: 32, iters: 200, time: 0.197, data: 0.000) , D_A: 0.828, G_A: 2.966, cycle_A: 0.211, cycle_A_struct: 0.698, cycle_A_mono: 0.009, flow_smooth: 0.053, flow_mono: 0.040, flow_mag: 0.044, idt_A: 0.023, D_B: 0.028, G_B: 4.055, cycle_B: 0.128, cycle_B_struct: 0.485, cycle_B_mono: 0.006, idt_B: 0.038
+
+[Rank 0] (epoch: 33, iters: 50, time: 0.173, data: 7.333) , D_A: 0.092, G_A: 2.168, cycle_A: 0.163, cycle_A_struct: 0.550, cycle_A_mono: 0.008, flow_smooth: 0.056, flow_mono: 0.030, flow_mag: 0.036, idt_A: 0.119, D_B: 0.020, G_B: 4.081, cycle_B: 0.193, cycle_B_struct: 0.641, cycle_B_mono: 0.010, idt_B: 0.033
+
+[Rank 0] (epoch: 33, iters: 100, time: 0.192, data: 0.001) , D_A: 0.163, G_A: 1.908, cycle_A: 0.194, cycle_A_struct: 0.742, cycle_A_mono: 0.010, flow_smooth: 0.075, flow_mono: 0.059, flow_mag: 0.058, idt_A: 0.035, D_B: 0.039, G_B: 3.670, cycle_B: 0.212, cycle_B_struct: 0.864, cycle_B_mono: 0.011, idt_B: 0.037
+
+[Rank 0] (epoch: 33, iters: 150, time: 0.189, data: 0.000) , D_A: 0.331, G_A: 3.085, cycle_A: 0.187, cycle_A_struct: 0.635, cycle_A_mono: 0.010, flow_smooth: 0.039, flow_mono: 0.029, flow_mag: 0.046, idt_A: 0.008, D_B: 0.117, G_B: 2.232, cycle_B: 0.014, cycle_B_struct: 0.115, cycle_B_mono: 0.001, idt_B: 0.029
+
+[Rank 0] (epoch: 33, iters: 200, time: 0.170, data: 0.001) , D_A: 0.139, G_A: 2.345, cycle_A: 0.178, cycle_A_struct: 0.593, cycle_A_mono: 0.009, flow_smooth: 0.059, flow_mono: 0.041, flow_mag: 0.043, idt_A: 0.038, D_B: 0.033, G_B: 4.277, cycle_B: 0.154, cycle_B_struct: 0.492, cycle_B_mono: 0.008, idt_B: 0.032
+
+[Rank 0] (epoch: 34, iters: 50, time: 0.197, data: 7.109) , D_A: 0.068, G_A: 2.728, cycle_A: 0.235, cycle_A_struct: 0.787, cycle_A_mono: 0.010, flow_smooth: 0.047, flow_mono: 0.029, flow_mag: 0.048, idt_A: 0.058, D_B: 0.117, G_B: 1.895, cycle_B: 0.047, cycle_B_struct: 0.215, cycle_B_mono: 0.002, idt_B: 0.049
+
+[Rank 0] (epoch: 34, iters: 100, time: 0.166, data: 0.001) , D_A: 0.550, G_A: 0.939, cycle_A: 0.209, cycle_A_struct: 0.722, cycle_A_mono: 0.009, flow_smooth: 0.061, flow_mono: 0.047, flow_mag: 0.042, idt_A: 0.103, D_B: 0.214, G_B: 3.680, cycle_B: 0.211, cycle_B_struct: 0.895, cycle_B_mono: 0.011, idt_B: 0.037
+
+[Rank 0] (epoch: 34, iters: 150, time: 0.182, data: 0.001) , D_A: 0.189, G_A: 2.092, cycle_A: 0.196, cycle_A_struct: 0.743, cycle_A_mono: 0.009, flow_smooth: 0.029, flow_mono: 0.015, flow_mag: 0.021, idt_A: 0.038, D_B: 0.467, G_B: 0.591, cycle_B: 0.051, cycle_B_struct: 0.258, cycle_B_mono: 0.002, idt_B: 0.036
+
+[Rank 0] (epoch: 34, iters: 200, time: 0.196, data: 0.001) , D_A: 0.119, G_A: 2.360, cycle_A: 0.244, cycle_A_struct: 0.789, cycle_A_mono: 0.010, flow_smooth: 0.042, flow_mono: 0.025, flow_mag: 0.045, idt_A: 0.025, D_B: 0.054, G_B: 2.903, cycle_B: 0.063, cycle_B_struct: 0.551, cycle_B_mono: 0.003, idt_B: 0.033
+
+[Rank 0] (epoch: 35, iters: 50, time: 0.166, data: 7.266) , D_A: 0.654, G_A: 3.437, cycle_A: 0.177, cycle_A_struct: 0.518, cycle_A_mono: 0.009, flow_smooth: 0.049, flow_mono: 0.032, flow_mag: 0.035, idt_A: 0.034, D_B: 0.025, G_B: 4.522, cycle_B: 0.125, cycle_B_struct: 0.398, cycle_B_mono: 0.007, idt_B: 0.034
+
+[Rank 0] (epoch: 35, iters: 100, time: 0.197, data: 0.002) , D_A: 0.607, G_A: 2.098, cycle_A: 0.194, cycle_A_struct: 0.613, cycle_A_mono: 0.009, flow_smooth: 0.037, flow_mono: 0.022, flow_mag: 0.027, idt_A: 0.018, D_B: 0.037, G_B: 3.395, cycle_B: 0.079, cycle_B_struct: 0.313, cycle_B_mono: 0.004, idt_B: 0.025
+
+[Rank 0] (epoch: 35, iters: 150, time: 0.181, data: 0.000) , D_A: 0.868, G_A: 1.418, cycle_A: 0.227, cycle_A_struct: 0.825, cycle_A_mono: 0.012, flow_smooth: 0.069, flow_mono: 0.050, flow_mag: 0.063, idt_A: 0.018, D_B: 0.119, G_B: 1.942, cycle_B: 0.126, cycle_B_struct: 0.503, cycle_B_mono: 0.007, idt_B: 0.038
+
+[Rank 0] (epoch: 35, iters: 200, time: 0.189, data: 0.001) , D_A: 0.266, G_A: 1.240, cycle_A: 0.155, cycle_A_struct: 0.693, cycle_A_mono: 0.009, flow_smooth: 0.066, flow_mono: 0.046, flow_mag: 0.047, idt_A: 0.071, D_B: 0.032, G_B: 3.386, cycle_B: 0.228, cycle_B_struct: 0.863, cycle_B_mono: 0.012, idt_B: 0.028
+
+[Rank 0] (epoch: 36, iters: 50, time: 0.196, data: 7.271) , D_A: 0.421, G_A: 0.798, cycle_A: 0.179, cycle_A_struct: 0.604, cycle_A_mono: 0.009, flow_smooth: 0.055, flow_mono: 0.026, flow_mag: 0.034, idt_A: 0.080, D_B: 0.019, G_B: 4.144, cycle_B: 0.166, cycle_B_struct: 0.656, cycle_B_mono: 0.010, idt_B: 0.030
+
+[Rank 0] (epoch: 36, iters: 100, time: 0.161, data: 0.000) , D_A: 0.044, G_A: 0.434, cycle_A: 0.102, cycle_A_struct: 0.553, cycle_A_mono: 0.006, flow_smooth: 0.051, flow_mono: 0.045, flow_mag: 0.032, idt_A: 0.024, D_B: 0.498, G_B: 3.975, cycle_B: 0.183, cycle_B_struct: 0.673, cycle_B_mono: 0.010, idt_B: 0.143
+
+[Rank 0] (epoch: 36, iters: 150, time: 0.184, data: 0.000) , D_A: 0.534, G_A: 0.555, cycle_A: 0.199, cycle_A_struct: 0.730, cycle_A_mono: 0.009, flow_smooth: 0.071, flow_mono: 0.050, flow_mag: 0.063, idt_A: 0.023, D_B: 0.032, G_B: 3.311, cycle_B: 0.141, cycle_B_struct: 0.593, cycle_B_mono: 0.008, idt_B: 0.035
+
+[Rank 0] (epoch: 36, iters: 200, time: 0.194, data: 0.001) , D_A: 0.240, G_A: 1.378, cycle_A: 0.204, cycle_A_struct: 0.710, cycle_A_mono: 0.008, flow_smooth: 0.059, flow_mono: 0.026, flow_mag: 0.033, idt_A: 0.058, D_B: 0.023, G_B: 4.302, cycle_B: 0.235, cycle_B_struct: 0.825, cycle_B_mono: 0.010, idt_B: 0.021
+
+[Rank 0] (epoch: 37, iters: 50, time: 0.178, data: 7.246) , D_A: 0.669, G_A: 2.141, cycle_A: 0.184, cycle_A_struct: 0.657, cycle_A_mono: 0.011, flow_smooth: 0.059, flow_mono: 0.044, flow_mag: 0.054, idt_A: 0.046, D_B: 0.031, G_B: 3.273, cycle_B: 0.141, cycle_B_struct: 0.916, cycle_B_mono: 0.010, idt_B: 0.042
+
+[Rank 0] (epoch: 37, iters: 100, time: 0.183, data: 0.001) , D_A: 0.514, G_A: 1.546, cycle_A: 0.194, cycle_A_struct: 0.622, cycle_A_mono: 0.009, flow_smooth: 0.060, flow_mono: 0.045, flow_mag: 0.053, idt_A: 0.053, D_B: 0.018, G_B: 3.368, cycle_B: 0.152, cycle_B_struct: 0.978, cycle_B_mono: 0.010, idt_B: 0.029
+
+[Rank 0] (epoch: 37, iters: 150, time: 0.217, data: 0.000) , D_A: 0.222, G_A: 2.200, cycle_A: 0.169, cycle_A_struct: 0.556, cycle_A_mono: 0.009, flow_smooth: 0.047, flow_mono: 0.035, flow_mag: 0.045, idt_A: 0.043, D_B: 0.056, G_B: 3.886, cycle_B: 0.087, cycle_B_struct: 0.638, cycle_B_mono: 0.005, idt_B: 0.026
+
+[Rank 0] (epoch: 37, iters: 200, time: 0.171, data: 0.000) , D_A: 0.500, G_A: 2.424, cycle_A: 0.190, cycle_A_struct: 0.705, cycle_A_mono: 0.009, flow_smooth: 0.056, flow_mono: 0.039, flow_mag: 0.057, idt_A: 0.035, D_B: 0.050, G_B: 2.863, cycle_B: 0.159, cycle_B_struct: 1.082, cycle_B_mono: 0.010, idt_B: 0.033
+
+[Rank 0] (epoch: 38, iters: 50, time: 0.184, data: 7.267) , D_A: 0.295, G_A: 1.522, cycle_A: 0.182, cycle_A_struct: 0.682, cycle_A_mono: 0.008, flow_smooth: 0.051, flow_mono: 0.034, flow_mag: 0.044, idt_A: 0.018, D_B: 0.162, G_B: 3.545, cycle_B: 0.113, cycle_B_struct: 0.478, cycle_B_mono: 0.006, idt_B: 0.037
+
+[Rank 0] (epoch: 38, iters: 100, time: 0.190, data: 0.000) , D_A: 0.398, G_A: 2.426, cycle_A: 0.249, cycle_A_struct: 0.823, cycle_A_mono: 0.012, flow_smooth: 0.080, flow_mono: 0.056, flow_mag: 0.066, idt_A: 0.020, D_B: 0.032, G_B: 4.046, cycle_B: 0.140, cycle_B_struct: 0.664, cycle_B_mono: 0.008, idt_B: 0.040
+
+[Rank 0] (epoch: 38, iters: 150, time: 0.165, data: 0.001) , D_A: 0.210, G_A: 0.797, cycle_A: 0.173, cycle_A_struct: 0.689, cycle_A_mono: 0.011, flow_smooth: 0.051, flow_mono: 0.036, flow_mag: 0.036, idt_A: 0.028, D_B: 0.089, G_B: 2.590, cycle_B: 0.128, cycle_B_struct: 0.786, cycle_B_mono: 0.008, idt_B: 0.044
+
+[Rank 0] (epoch: 38, iters: 200, time: 0.188, data: 0.001) , D_A: 0.697, G_A: 0.596, cycle_A: 0.237, cycle_A_struct: 0.992, cycle_A_mono: 0.010, flow_smooth: 0.056, flow_mono: 0.032, flow_mag: 0.040, idt_A: 0.026, D_B: 0.068, G_B: 2.634, cycle_B: 0.140, cycle_B_struct: 0.704, cycle_B_mono: 0.007, idt_B: 0.045
+
+[Rank 0] (epoch: 39, iters: 50, time: 0.180, data: 7.129) , D_A: 0.380, G_A: 2.428, cycle_A: 0.561, cycle_A_struct: 3.516, cycle_A_mono: 0.009, flow_smooth: 0.041, flow_mono: 0.029, flow_mag: 0.041, idt_A: 0.040, D_B: 0.042, G_B: 4.034, cycle_B: 0.101, cycle_B_struct: 0.668, cycle_B_mono: 0.006, idt_B: 0.028
+
+[Rank 0] (epoch: 39, iters: 100, time: 0.188, data: 0.001) , D_A: 0.112, G_A: 2.318, cycle_A: 0.223, cycle_A_struct: 0.788, cycle_A_mono: 0.009, flow_smooth: 0.047, flow_mono: 0.025, flow_mag: 0.045, idt_A: 0.008, D_B: 0.037, G_B: 3.399, cycle_B: 0.050, cycle_B_struct: 0.699, cycle_B_mono: 0.003, idt_B: 0.021
+
+[Rank 0] (epoch: 39, iters: 150, time: 0.191, data: 0.000) , D_A: 0.090, G_A: 3.723, cycle_A: 0.064, cycle_A_struct: 0.151, cycle_A_mono: 0.005, flow_smooth: 0.009, flow_mono: 0.007, flow_mag: 0.003, idt_A: 0.067, D_B: 0.048, G_B: 3.853, cycle_B: 0.047, cycle_B_struct: 0.187, cycle_B_mono: 0.003, idt_B: 0.082
+
+[Rank 0] (epoch: 39, iters: 200, time: 0.173, data: 0.000) , D_A: 0.240, G_A: 3.242, cycle_A: 0.049, cycle_A_struct: 0.115, cycle_A_mono: 0.004, flow_smooth: 0.005, flow_mono: 0.003, flow_mag: 0.000, idt_A: 0.050, D_B: 0.020, G_B: 4.066, cycle_B: 0.021, cycle_B_struct: 0.087, cycle_B_mono: 0.002, idt_B: 0.077
+
+[Rank 0] (epoch: 40, iters: 50, time: 0.187, data: 7.332) , D_A: 0.051, G_A: 3.387, cycle_A: 0.086, cycle_A_struct: 0.251, cycle_A_mono: 0.007, flow_smooth: 0.006, flow_mono: 0.003, flow_mag: 0.000, idt_A: 0.151, D_B: 0.015, G_B: 3.832, cycle_B: 0.125, cycle_B_struct: 0.339, cycle_B_mono: 0.007, idt_B: 0.050
+
+[Rank 0] (epoch: 40, iters: 100, time: 0.180, data: 0.001) , D_A: 0.055, G_A: 3.529, cycle_A: 0.103, cycle_A_struct: 0.224, cycle_A_mono: 0.005, flow_smooth: 0.004, flow_mono: 0.003, flow_mag: 0.000, idt_A: 0.075, D_B: 0.016, G_B: 4.293, cycle_B: 0.047, cycle_B_struct: 0.181, cycle_B_mono: 0.003, idt_B: 0.044
+
+[Rank 0] (epoch: 40, iters: 150, time: 0.177, data: 0.001) , D_A: 0.060, G_A: 3.786, cycle_A: 0.074, cycle_A_struct: 0.149, cycle_A_mono: 0.005, flow_smooth: 0.004, flow_mono: 0.003, flow_mag: 0.001, idt_A: 0.032, D_B: 0.030, G_B: 3.344, cycle_B: 0.033, cycle_B_struct: 0.258, cycle_B_mono: 0.002, idt_B: 0.031
+
+[Rank 0] (epoch: 40, iters: 200, time: 0.180, data: 0.001) , D_A: 0.661, G_A: 3.129, cycle_A: 0.091, cycle_A_struct: 0.263, cycle_A_mono: 0.005, flow_smooth: 0.005, flow_mono: 0.002, flow_mag: 0.000, idt_A: 0.082, D_B: 0.018, G_B: 4.606, cycle_B: 0.041, cycle_B_struct: 0.137, cycle_B_mono: 0.003, idt_B: 0.039
+
+[Rank 0] (epoch: 41, iters: 50, time: 0.175, data: 7.277) , D_A: 0.027, G_A: 3.728, cycle_A: 0.086, cycle_A_struct: 0.192, cycle_A_mono: 0.005, flow_smooth: 0.005, flow_mono: 0.003, flow_mag: 0.000, idt_A: 0.071, D_B: 0.019, G_B: 4.427, cycle_B: 0.045, cycle_B_struct: 0.126, cycle_B_mono: 0.003, idt_B: 0.028
+
+[Rank 0] (epoch: 41, iters: 100, time: 0.194, data: 0.001) , D_A: 0.035, G_A: 3.366, cycle_A: 0.080, cycle_A_struct: 0.162, cycle_A_mono: 0.005, flow_smooth: 0.005, flow_mono: 0.004, flow_mag: 0.001, idt_A: 0.059, D_B: 0.010, G_B: 4.872, cycle_B: 0.066, cycle_B_struct: 0.197, cycle_B_mono: 0.004, idt_B: 0.027
+
+[Rank 0] (epoch: 41, iters: 150, time: 0.173, data: 0.000) , D_A: 0.040, G_A: 3.303, cycle_A: 0.072, cycle_A_struct: 0.164, cycle_A_mono: 0.004, flow_smooth: 0.006, flow_mono: 0.005, flow_mag: 0.001, idt_A: 0.080, D_B: 0.014, G_B: 4.484, cycle_B: 0.056, cycle_B_struct: 0.216, cycle_B_mono: 0.005, idt_B: 0.027
+
+[Rank 0] (epoch: 41, iters: 200, time: 0.166, data: 0.001) , D_A: 0.039, G_A: 3.149, cycle_A: 0.145, cycle_A_struct: 0.306, cycle_A_mono: 0.006, flow_smooth: 0.010, flow_mono: 0.016, flow_mag: 0.001, idt_A: 0.048, D_B: 0.016, G_B: 4.490, cycle_B: 0.070, cycle_B_struct: 0.194, cycle_B_mono: 0.003, idt_B: 0.099
+
+[Rank 0] (epoch: 42, iters: 50, time: 0.199, data: 7.152) , D_A: 0.038, G_A: 3.559, cycle_A: 0.168, cycle_A_struct: 0.554, cycle_A_mono: 0.009, flow_smooth: 0.039, flow_mono: 0.037, flow_mag: 0.038, idt_A: 0.084, D_B: 0.012, G_B: 4.665, cycle_B: 0.195, cycle_B_struct: 0.707, cycle_B_mono: 0.009, idt_B: 0.091
+
+[Rank 0] (epoch: 42, iters: 100, time: 0.179, data: 0.000) , D_A: 0.031, G_A: 3.842, cycle_A: 0.187, cycle_A_struct: 0.602, cycle_A_mono: 0.011, flow_smooth: 0.052, flow_mono: 0.037, flow_mag: 0.043, idt_A: 0.117, D_B: 0.019, G_B: 4.235, cycle_B: 0.169, cycle_B_struct: 0.628, cycle_B_mono: 0.009, idt_B: 0.054
+
+[Rank 0] (epoch: 42, iters: 150, time: 0.179, data: 0.001) , D_A: 0.044, G_A: 1.758, cycle_A: 0.350, cycle_A_struct: 1.085, cycle_A_mono: 0.014, flow_smooth: 0.045, flow_mono: 0.030, flow_mag: 0.033, idt_A: 0.072, D_B: 0.025, G_B: 4.148, cycle_B: 0.195, cycle_B_struct: 0.783, cycle_B_mono: 0.009, idt_B: 0.073
+
+[Rank 0] (epoch: 42, iters: 200, time: 0.185, data: 0.001) , D_A: 0.351, G_A: 0.967, cycle_A: 0.140, cycle_A_struct: 0.898, cycle_A_mono: 0.007, flow_smooth: 0.034, flow_mono: 0.023, flow_mag: 0.008, idt_A: 0.410, D_B: 0.211, G_B: 4.703, cycle_B: 0.391, cycle_B_struct: 1.356, cycle_B_mono: 0.013, idt_B: 0.221
+
+[Rank 0] (epoch: 43, iters: 50, time: 0.172, data: 7.237) , D_A: 0.144, G_A: 3.176, cycle_A: 0.318, cycle_A_struct: 1.072, cycle_A_mono: 0.012, flow_smooth: 0.065, flow_mono: 0.043, flow_mag: 0.075, idt_A: 0.125, D_B: 0.019, G_B: 3.727, cycle_B: 0.265, cycle_B_struct: 1.158, cycle_B_mono: 0.011, idt_B: 0.056
+
+[Rank 0] (epoch: 43, iters: 100, time: 0.178, data: 0.000) , D_A: 0.129, G_A: 1.941, cycle_A: 0.228, cycle_A_struct: 0.988, cycle_A_mono: 0.011, flow_smooth: 0.067, flow_mono: 0.049, flow_mag: 0.054, idt_A: 0.039, D_B: 0.022, G_B: 4.302, cycle_B: 0.214, cycle_B_struct: 0.847, cycle_B_mono: 0.012, idt_B: 0.047
+
+[Rank 0] (epoch: 43, iters: 150, time: 0.185, data: 0.001) , D_A: 0.137, G_A: 2.214, cycle_A: 0.207, cycle_A_struct: 0.761, cycle_A_mono: 0.009, flow_smooth: 0.071, flow_mono: 0.048, flow_mag: 0.060, idt_A: 0.021, D_B: 0.026, G_B: 4.246, cycle_B: 0.129, cycle_B_struct: 0.490, cycle_B_mono: 0.007, idt_B: 0.032
+
+[Rank 0] (epoch: 43, iters: 200, time: 0.175, data: 0.000) , D_A: 0.097, G_A: 1.597, cycle_A: 0.232, cycle_A_struct: 0.758, cycle_A_mono: 0.010, flow_smooth: 0.072, flow_mono: 0.047, flow_mag: 0.056, idt_A: 0.083, D_B: 0.016, G_B: 4.380, cycle_B: 0.236, cycle_B_struct: 0.814, cycle_B_mono: 0.013, idt_B: 0.030
+
+[Rank 0] (epoch: 44, iters: 50, time: 0.196, data: 7.329) , D_A: 0.440, G_A: 0.516, cycle_A: 0.296, cycle_A_struct: 0.939, cycle_A_mono: 0.010, flow_smooth: 0.062, flow_mono: 0.036, flow_mag: 0.040, idt_A: 0.037, D_B: 0.030, G_B: 4.582, cycle_B: 0.163, cycle_B_struct: 0.665, cycle_B_mono: 0.009, idt_B: 0.041
+
+[Rank 0] (epoch: 44, iters: 100, time: 0.184, data: 0.001) , D_A: 0.255, G_A: 1.492, cycle_A: 0.256, cycle_A_struct: 0.954, cycle_A_mono: 0.011, flow_smooth: 0.068, flow_mono: 0.046, flow_mag: 0.063, idt_A: 0.020, D_B: 0.045, G_B: 3.853, cycle_B: 0.143, cycle_B_struct: 0.691, cycle_B_mono: 0.008, idt_B: 0.046
+
+[Rank 0] (epoch: 44, iters: 150, time: 0.186, data: 0.000) , D_A: 0.386, G_A: 2.515, cycle_A: 0.232, cycle_A_struct: 0.801, cycle_A_mono: 0.009, flow_smooth: 0.036, flow_mono: 0.018, flow_mag: 0.043, idt_A: 0.002, D_B: 0.051, G_B: 2.654, cycle_B: 0.007, cycle_B_struct: 0.057, cycle_B_mono: 0.000, idt_B: 0.036
+
+[Rank 0] (epoch: 44, iters: 200, time: 0.190, data: 0.000) , D_A: 0.051, G_A: 3.373, cycle_A: 0.218, cycle_A_struct: 0.737, cycle_A_mono: 0.009, flow_smooth: 0.053, flow_mono: 0.037, flow_mag: 0.047, idt_A: 0.047, D_B: 0.017, G_B: 4.840, cycle_B: 0.156, cycle_B_struct: 0.602, cycle_B_mono: 0.008, idt_B: 0.036
+
+[Rank 0] (epoch: 45, iters: 50, time: 0.171, data: 7.361) , D_A: 0.066, G_A: 3.012, cycle_A: 0.240, cycle_A_struct: 0.782, cycle_A_mono: 0.010, flow_smooth: 0.068, flow_mono: 0.048, flow_mag: 0.057, idt_A: 0.024, D_B: 0.072, G_B: 3.586, cycle_B: 0.151, cycle_B_struct: 0.547, cycle_B_mono: 0.008, idt_B: 0.028
+
+[Rank 0] (epoch: 45, iters: 100, time: 0.172, data: 0.000) , D_A: 0.087, G_A: 2.026, cycle_A: 0.291, cycle_A_struct: 0.997, cycle_A_mono: 0.011, flow_smooth: 0.053, flow_mono: 0.036, flow_mag: 0.039, idt_A: 0.024, D_B: 0.021, G_B: 4.695, cycle_B: 0.173, cycle_B_struct: 0.597, cycle_B_mono: 0.009, idt_B: 0.030
+
+[Rank 0] (epoch: 45, iters: 150, time: 0.183, data: 0.000) , D_A: 0.265, G_A: 1.202, cycle_A: 0.257, cycle_A_struct: 0.931, cycle_A_mono: 0.011, flow_smooth: 0.065, flow_mono: 0.041, flow_mag: 0.054, idt_A: 0.024, D_B: 0.062, G_B: 3.266, cycle_B: 0.215, cycle_B_struct: 0.832, cycle_B_mono: 0.009, idt_B: 0.034
+
+[Rank 0] (epoch: 45, iters: 200, time: 0.191, data: 0.001) , D_A: 0.336, G_A: 0.998, cycle_A: 0.211, cycle_A_struct: 0.802, cycle_A_mono: 0.009, flow_smooth: 0.066, flow_mono: 0.042, flow_mag: 0.053, idt_A: 0.021, D_B: 0.029, G_B: 4.274, cycle_B: 0.161, cycle_B_struct: 0.657, cycle_B_mono: 0.009, idt_B: 0.027
+
+[Rank 0] (epoch: 46, iters: 50, time: 0.180, data: 7.204) , D_A: 0.260, G_A: 1.357, cycle_A: 0.188, cycle_A_struct: 0.633, cycle_A_mono: 0.009, flow_smooth: 0.072, flow_mono: 0.050, flow_mag: 0.053, idt_A: 0.027, D_B: 0.673, G_B: 1.255, cycle_B: 0.202, cycle_B_struct: 0.702, cycle_B_mono: 0.010, idt_B: 0.036
+
+[Rank 0] (epoch: 46, iters: 100, time: 0.174, data: 0.001) , D_A: 0.276, G_A: 2.116, cycle_A: 0.170, cycle_A_struct: 0.557, cycle_A_mono: 0.008, flow_smooth: 0.066, flow_mono: 0.043, flow_mag: 0.054, idt_A: 0.067, D_B: 0.484, G_B: 0.703, cycle_B: 0.210, cycle_B_struct: 0.777, cycle_B_mono: 0.011, idt_B: 0.034
+
+[Rank 0] (epoch: 46, iters: 150, time: 0.185, data: 0.000) , D_A: 0.188, G_A: 2.154, cycle_A: 0.201, cycle_A_struct: 0.757, cycle_A_mono: 0.008, flow_smooth: 0.051, flow_mono: 0.029, flow_mag: 0.034, idt_A: 0.016, D_B: 0.016, G_B: 4.443, cycle_B: 0.102, cycle_B_struct: 0.374, cycle_B_mono: 0.006, idt_B: 0.027
+
+[Rank 0] (epoch: 46, iters: 200, time: 0.190, data: 0.000) , D_A: 0.112, G_A: 1.965, cycle_A: 0.180, cycle_A_struct: 0.555, cycle_A_mono: 0.008, flow_smooth: 0.050, flow_mono: 0.030, flow_mag: 0.039, idt_A: 0.106, D_B: 0.035, G_B: 4.305, cycle_B: 0.203, cycle_B_struct: 0.781, cycle_B_mono: 0.011, idt_B: 0.026
+
+[Rank 0] (epoch: 47, iters: 50, time: 0.177, data: 7.308) , D_A: 0.159, G_A: 2.615, cycle_A: 0.158, cycle_A_struct: 0.516, cycle_A_mono: 0.008, flow_smooth: 0.043, flow_mono: 0.030, flow_mag: 0.048, idt_A: 0.083, D_B: 0.026, G_B: 3.937, cycle_B: 0.114, cycle_B_struct: 0.787, cycle_B_mono: 0.006, idt_B: 0.021
+
+[Rank 0] (epoch: 47, iters: 100, time: 0.176, data: 0.000) , D_A: 0.501, G_A: 1.146, cycle_A: 0.260, cycle_A_struct: 0.820, cycle_A_mono: 0.009, flow_smooth: 0.058, flow_mono: 0.041, flow_mag: 0.051, idt_A: 0.062, D_B: 0.042, G_B: 3.950, cycle_B: 0.153, cycle_B_struct: 0.907, cycle_B_mono: 0.009, idt_B: 0.028
+
+[Rank 0] (epoch: 47, iters: 150, time: 0.187, data: 0.001) , D_A: 0.497, G_A: 2.852, cycle_A: 0.267, cycle_A_struct: 0.778, cycle_A_mono: 0.008, flow_smooth: 0.016, flow_mono: 0.009, flow_mag: 0.021, idt_A: 0.001, D_B: 0.018, G_B: 2.444, cycle_B: 0.002, cycle_B_struct: 0.032, cycle_B_mono: 0.000, idt_B: 0.049
+
+[Rank 0] (epoch: 47, iters: 200, time: 0.178, data: 0.001) , D_A: 0.133, G_A: 3.028, cycle_A: 0.091, cycle_A_struct: 0.260, cycle_A_mono: 0.005, flow_smooth: 0.015, flow_mono: 0.008, flow_mag: 0.008, idt_A: 0.055, D_B: 0.015, G_B: 4.067, cycle_B: 0.089, cycle_B_struct: 0.420, cycle_B_mono: 0.006, idt_B: 0.030
+
+[Rank 0] (epoch: 48, iters: 50, time: 0.199, data: 7.195) , D_A: 0.067, G_A: 2.877, cycle_A: 0.181, cycle_A_struct: 0.622, cycle_A_mono: 0.007, flow_smooth: 0.016, flow_mono: 0.007, flow_mag: 0.010, idt_A: 0.001, D_B: 0.083, G_B: 2.185, cycle_B: 0.002, cycle_B_struct: 0.022, cycle_B_mono: 0.000, idt_B: 0.048
+
+[Rank 0] (epoch: 48, iters: 100, time: 0.199, data: 0.001) , D_A: 0.046, G_A: 3.911, cycle_A: 0.154, cycle_A_struct: 0.486, cycle_A_mono: 0.006, flow_smooth: 0.025, flow_mono: 0.011, flow_mag: 0.010, idt_A: 0.084, D_B: 0.013, G_B: 4.659, cycle_B: 0.176, cycle_B_struct: 0.651, cycle_B_mono: 0.008, idt_B: 0.179
+
+[Rank 0] (epoch: 48, iters: 150, time: 0.172, data: 0.001) , D_A: 0.191, G_A: 2.999, cycle_A: 0.162, cycle_A_struct: 0.613, cycle_A_mono: 0.006, flow_smooth: 0.012, flow_mono: 0.007, flow_mag: 0.005, idt_A: 0.036, D_B: 0.014, G_B: 3.795, cycle_B: 0.058, cycle_B_struct: 0.294, cycle_B_mono: 0.004, idt_B: 0.175
+
+[Rank 0] (epoch: 48, iters: 200, time: 0.192, data: 0.000) , D_A: 0.118, G_A: 1.935, cycle_A: 0.138, cycle_A_struct: 0.418, cycle_A_mono: 0.005, flow_smooth: 0.014, flow_mono: 0.006, flow_mag: 0.004, idt_A: 0.019, D_B: 0.031, G_B: 4.102, cycle_B: 0.055, cycle_B_struct: 0.167, cycle_B_mono: 0.005, idt_B: 0.137
+
+[Rank 0] (epoch: 49, iters: 50, time: 0.173, data: 7.305) , D_A: 0.135, G_A: 2.888, cycle_A: 0.225, cycle_A_struct: 0.675, cycle_A_mono: 0.009, flow_smooth: 0.048, flow_mono: 0.032, flow_mag: 0.041, idt_A: 0.090, D_B: 0.015, G_B: 4.502, cycle_B: 0.176, cycle_B_struct: 0.631, cycle_B_mono: 0.008, idt_B: 0.248
+
+[Rank 0] (epoch: 49, iters: 100, time: 0.179, data: 0.001) , D_A: 0.046, G_A: 3.260, cycle_A: 0.266, cycle_A_struct: 0.836, cycle_A_mono: 0.010, flow_smooth: 0.048, flow_mono: 0.034, flow_mag: 0.031, idt_A: 0.081, D_B: 0.029, G_B: 4.026, cycle_B: 0.258, cycle_B_struct: 1.768, cycle_B_mono: 0.011, idt_B: 0.240
+
+[Rank 0] (epoch: 49, iters: 150, time: 0.187, data: 0.000) , D_A: 0.096, G_A: 2.599, cycle_A: 0.216, cycle_A_struct: 0.629, cycle_A_mono: 0.008, flow_smooth: 0.037, flow_mono: 0.026, flow_mag: 0.041, idt_A: 0.057, D_B: 0.039, G_B: 4.063, cycle_B: 0.107, cycle_B_struct: 0.973, cycle_B_mono: 0.006, idt_B: 0.045
+
+[Rank 0] (epoch: 49, iters: 200, time: 0.181, data: 0.000) , D_A: 0.031, G_A: 3.384, cycle_A: 0.149, cycle_A_struct: 0.511, cycle_A_mono: 0.007, flow_smooth: 0.060, flow_mono: 0.050, flow_mag: 0.054, idt_A: 0.024, D_B: 0.044, G_B: 3.164, cycle_B: 0.214, cycle_B_struct: 0.767, cycle_B_mono: 0.010, idt_B: 0.052
+
+[Rank 0] (epoch: 50, iters: 50, time: 0.199, data: 7.226) , D_A: 0.178, G_A: 1.504, cycle_A: 0.279, cycle_A_struct: 0.855, cycle_A_mono: 0.013, flow_smooth: 0.058, flow_mono: 0.040, flow_mag: 0.057, idt_A: 0.024, D_B: 0.020, G_B: 1.741, cycle_B: 0.082, cycle_B_struct: 0.700, cycle_B_mono: 0.004, idt_B: 0.071
+
+[Rank 0] (epoch: 50, iters: 100, time: 0.186, data: 0.001) , D_A: 0.576, G_A: 0.564, cycle_A: 0.573, cycle_A_struct: 6.210, cycle_A_mono: 0.011, flow_smooth: 0.018, flow_mono: 0.013, flow_mag: 0.017, idt_A: 0.021, D_B: 0.092, G_B: 3.494, cycle_B: 0.045, cycle_B_struct: 0.361, cycle_B_mono: 0.003, idt_B: 0.157
+
+[Rank 0] (epoch: 50, iters: 150, time: 0.177, data: 0.000) , D_A: 0.287, G_A: 1.456, cycle_A: 0.206, cycle_A_struct: 0.700, cycle_A_mono: 0.008, flow_smooth: 0.038, flow_mono: 0.022, flow_mag: 0.039, idt_A: 0.007, D_B: 0.023, G_B: 3.947, cycle_B: 0.017, cycle_B_struct: 0.121, cycle_B_mono: 0.001, idt_B: 0.035
+
+[Rank 0] (epoch: 50, iters: 200, time: 0.178, data: 0.001) , D_A: 0.209, G_A: 2.152, cycle_A: 0.172, cycle_A_struct: 0.634, cycle_A_mono: 0.007, flow_smooth: 0.041, flow_mono: 0.031, flow_mag: 0.032, idt_A: 0.019, D_B: 0.025, G_B: 4.284, cycle_B: 0.130, cycle_B_struct: 0.516, cycle_B_mono: 0.007, idt_B: 0.036
+
+[Rank 0] (epoch: 51, iters: 50, time: 0.180, data: 7.321) , D_A: 0.156, G_A: 2.595, cycle_A: 0.153, cycle_A_struct: 0.563, cycle_A_mono: 0.007, flow_smooth: 0.060, flow_mono: 0.043, flow_mag: 0.051, idt_A: 0.021, D_B: 0.019, G_B: 4.137, cycle_B: 0.166, cycle_B_struct: 0.715, cycle_B_mono: 0.009, idt_B: 0.029
+
+[Rank 0] (epoch: 51, iters: 100, time: 0.187, data: 0.001) , D_A: 0.393, G_A: 2.747, cycle_A: 0.252, cycle_A_struct: 1.086, cycle_A_mono: 0.010, flow_smooth: 0.063, flow_mono: 0.045, flow_mag: 0.055, idt_A: 0.028, D_B: 0.076, G_B: 2.469, cycle_B: 0.176, cycle_B_struct: 0.722, cycle_B_mono: 0.009, idt_B: 0.032
+
+[Rank 0] (epoch: 51, iters: 150, time: 0.188, data: 0.001) , D_A: 0.171, G_A: 1.903, cycle_A: 0.224, cycle_A_struct: 0.755, cycle_A_mono: 0.010, flow_smooth: 0.044, flow_mono: 0.031, flow_mag: 0.051, idt_A: 0.018, D_B: 0.397, G_B: 0.798, cycle_B: 0.021, cycle_B_struct: 0.131, cycle_B_mono: 0.001, idt_B: 0.025
+
+[Rank 0] (epoch: 51, iters: 200, time: 0.166, data: 0.001) , D_A: 0.063, G_A: 0.799, cycle_A: 0.286, cycle_A_struct: 1.389, cycle_A_mono: 0.010, flow_smooth: 0.044, flow_mono: 0.026, flow_mag: 0.027, idt_A: 0.433, D_B: 0.289, G_B: 4.092, cycle_B: 0.430, cycle_B_struct: 1.158, cycle_B_mono: 0.013, idt_B: 0.058
+
+[Rank 0] (epoch: 52, iters: 50, time: 0.184, data: 7.156) , D_A: 0.148, G_A: 1.326, cycle_A: 0.277, cycle_A_struct: 0.973, cycle_A_mono: 0.009, flow_smooth: 0.067, flow_mono: 0.048, flow_mag: 0.062, idt_A: 0.017, D_B: 0.038, G_B: 3.904, cycle_B: 0.154, cycle_B_struct: 0.594, cycle_B_mono: 0.008, idt_B: 0.037
+
+[Rank 0] (epoch: 52, iters: 100, time: 0.188, data: 0.002) , D_A: 0.181, G_A: 1.519, cycle_A: 0.256, cycle_A_struct: 0.820, cycle_A_mono: 0.011, flow_smooth: 0.074, flow_mono: 0.049, flow_mag: 0.077, idt_A: 0.028, D_B: 0.025, G_B: 4.568, cycle_B: 0.155, cycle_B_struct: 0.570, cycle_B_mono: 0.008, idt_B: 0.035
+
+[Rank 0] (epoch: 52, iters: 150, time: 0.166, data: 0.001) , D_A: 0.133, G_A: 0.602, cycle_A: 0.191, cycle_A_struct: 0.761, cycle_A_mono: 0.009, flow_smooth: 0.052, flow_mono: 0.042, flow_mag: 0.052, idt_A: 0.028, D_B: 0.027, G_B: 3.519, cycle_B: 0.137, cycle_B_struct: 0.746, cycle_B_mono: 0.008, idt_B: 0.027
+
+[Rank 0] (epoch: 52, iters: 200, time: 0.188, data: 0.002) , D_A: 0.170, G_A: 2.217, cycle_A: 0.175, cycle_A_struct: 0.641, cycle_A_mono: 0.009, flow_smooth: 0.039, flow_mono: 0.027, flow_mag: 0.046, idt_A: 0.005, D_B: 0.179, G_B: 1.352, cycle_B: 0.009, cycle_B_struct: 0.049, cycle_B_mono: 0.000, idt_B: 0.023
+
+[Rank 0] (epoch: 53, iters: 50, time: 0.185, data: 7.209) , D_A: 0.138, G_A: 1.807, cycle_A: 0.165, cycle_A_struct: 0.560, cycle_A_mono: 0.008, flow_smooth: 0.044, flow_mono: 0.025, flow_mag: 0.036, idt_A: 0.091, D_B: 0.017, G_B: 4.072, cycle_B: 0.181, cycle_B_struct: 0.642, cycle_B_mono: 0.010, idt_B: 0.030
+
+[Rank 0] (epoch: 53, iters: 100, time: 0.177, data: 0.000) , D_A: 0.197, G_A: 2.067, cycle_A: 0.310, cycle_A_struct: 1.528, cycle_A_mono: 0.009, flow_smooth: 0.062, flow_mono: 0.044, flow_mag: 0.053, idt_A: 0.026, D_B: 0.046, G_B: 1.963, cycle_B: 0.275, cycle_B_struct: 1.452, cycle_B_mono: 0.010, idt_B: 0.041
+
+[Rank 0] (epoch: 53, iters: 150, time: 0.187, data: 0.001) , D_A: 0.126, G_A: 1.746, cycle_A: 0.190, cycle_A_struct: 0.617, cycle_A_mono: 0.009, flow_smooth: 0.042, flow_mono: 0.029, flow_mag: 0.048, idt_A: 0.010, D_B: 0.028, G_B: 4.017, cycle_B: 0.021, cycle_B_struct: 0.163, cycle_B_mono: 0.001, idt_B: 0.027
+
+[Rank 0] (epoch: 53, iters: 200, time: 0.191, data: 0.001) , D_A: 0.157, G_A: 2.730, cycle_A: 0.266, cycle_A_struct: 0.899, cycle_A_mono: 0.011, flow_smooth: 0.059, flow_mono: 0.042, flow_mag: 0.047, idt_A: 0.197, D_B: 0.108, G_B: 3.637, cycle_B: 0.356, cycle_B_struct: 1.591, cycle_B_mono: 0.014, idt_B: 0.089
+
+[Rank 0] (epoch: 54, iters: 50, time: 0.182, data: 7.202) , D_A: 0.267, G_A: 3.088, cycle_A: 0.184, cycle_A_struct: 0.624, cycle_A_mono: 0.009, flow_smooth: 0.049, flow_mono: 0.037, flow_mag: 0.049, idt_A: 0.086, D_B: 0.020, G_B: 3.850, cycle_B: 0.136, cycle_B_struct: 0.735, cycle_B_mono: 0.009, idt_B: 0.030
+
+[Rank 0] (epoch: 54, iters: 100, time: 0.189, data: 0.001) , D_A: 0.023, G_A: 2.999, cycle_A: 0.216, cycle_A_struct: 0.766, cycle_A_mono: 0.009, flow_smooth: 0.063, flow_mono: 0.049, flow_mag: 0.057, idt_A: 0.017, D_B: 0.017, G_B: 4.303, cycle_B: 0.111, cycle_B_struct: 0.367, cycle_B_mono: 0.007, idt_B: 0.029
+
+[Rank 0] (epoch: 54, iters: 150, time: 0.178, data: 0.001) , D_A: 0.674, G_A: 1.700, cycle_A: 0.164, cycle_A_struct: 0.619, cycle_A_mono: 0.007, flow_smooth: 0.044, flow_mono: 0.032, flow_mag: 0.034, idt_A: 0.011, D_B: 0.022, G_B: 4.092, cycle_B: 0.117, cycle_B_struct: 0.430, cycle_B_mono: 0.007, idt_B: 0.041
+
+[Rank 0] (epoch: 54, iters: 200, time: 0.174, data: 0.001) , D_A: 0.104, G_A: 3.045, cycle_A: 0.177, cycle_A_struct: 0.583, cycle_A_mono: 0.007, flow_smooth: 0.047, flow_mono: 0.032, flow_mag: 0.042, idt_A: 0.011, D_B: 0.017, G_B: 4.021, cycle_B: 0.110, cycle_B_struct: 0.484, cycle_B_mono: 0.007, idt_B: 0.024
+
+[Rank 0] (epoch: 55, iters: 50, time: 0.177, data: 7.351) , D_A: 0.205, G_A: 2.116, cycle_A: 0.179, cycle_A_struct: 0.674, cycle_A_mono: 0.007, flow_smooth: 0.033, flow_mono: 0.027, flow_mag: 0.031, idt_A: 0.035, D_B: 0.027, G_B: 3.811, cycle_B: 0.115, cycle_B_struct: 0.599, cycle_B_mono: 0.007, idt_B: 0.025
+
+[Rank 0] (epoch: 55, iters: 100, time: 0.177, data: 0.000) , D_A: 0.512, G_A: 0.697, cycle_A: 0.230, cycle_A_struct: 0.895, cycle_A_mono: 0.008, flow_smooth: 0.043, flow_mono: 0.027, flow_mag: 0.038, idt_A: 0.013, D_B: 0.033, G_B: 3.400, cycle_B: 0.066, cycle_B_struct: 0.363, cycle_B_mono: 0.005, idt_B: 0.024
+
+[Rank 0] (epoch: 55, iters: 150, time: 0.176, data: 0.000) , D_A: 0.343, G_A: 1.926, cycle_A: 0.167, cycle_A_struct: 0.651, cycle_A_mono: 0.007, flow_smooth: 0.024, flow_mono: 0.016, flow_mag: 0.027, idt_A: 0.005, D_B: 0.042, G_B: 3.163, cycle_B: 0.009, cycle_B_struct: 0.070, cycle_B_mono: 0.000, idt_B: 0.021
+
+[Rank 0] (epoch: 55, iters: 200, time: 0.189, data: 0.000) , D_A: 0.158, G_A: 1.784, cycle_A: 0.185, cycle_A_struct: 0.641, cycle_A_mono: 0.008, flow_smooth: 0.046, flow_mono: 0.028, flow_mag: 0.033, idt_A: 0.023, D_B: 0.013, G_B: 4.556, cycle_B: 0.152, cycle_B_struct: 0.537, cycle_B_mono: 0.008, idt_B: 0.024
+
+[Rank 0] (epoch: 56, iters: 50, time: 0.177, data: 7.208) , D_A: 0.032, G_A: 3.197, cycle_A: 0.184, cycle_A_struct: 0.598, cycle_A_mono: 0.008, flow_smooth: 0.060, flow_mono: 0.039, flow_mag: 0.054, idt_A: 0.015, D_B: 0.018, G_B: 3.991, cycle_B: 0.090, cycle_B_struct: 0.302, cycle_B_mono: 0.006, idt_B: 0.019
+
+[Rank 0] (epoch: 56, iters: 100, time: 0.169, data: 0.001) , D_A: 0.177, G_A: 1.418, cycle_A: 0.161, cycle_A_struct: 0.617, cycle_A_mono: 0.008, flow_smooth: 0.031, flow_mono: 0.020, flow_mag: 0.036, idt_A: 0.035, D_B: 0.014, G_B: 2.395, cycle_B: 0.029, cycle_B_struct: 0.165, cycle_B_mono: 0.001, idt_B: 0.021
+
+[Rank 0] (epoch: 56, iters: 150, time: 0.181, data: 0.001) , D_A: 0.191, G_A: 3.370, cycle_A: 0.200, cycle_A_struct: 0.721, cycle_A_mono: 0.008, flow_smooth: 0.048, flow_mono: 0.034, flow_mag: 0.054, idt_A: 0.023, D_B: 0.020, G_B: 4.016, cycle_B: 0.124, cycle_B_struct: 0.882, cycle_B_mono: 0.007, idt_B: 0.037
+
+[Rank 0] (epoch: 56, iters: 200, time: 0.201, data: 0.001) , D_A: 0.163, G_A: 3.234, cycle_A: 0.169, cycle_A_struct: 0.577, cycle_A_mono: 0.009, flow_smooth: 0.041, flow_mono: 0.031, flow_mag: 0.043, idt_A: 0.014, D_B: 0.018, G_B: 4.167, cycle_B: 0.051, cycle_B_struct: 0.379, cycle_B_mono: 0.003, idt_B: 0.026
+
+[Rank 0] (epoch: 57, iters: 50, time: 0.175, data: 7.240) , D_A: 0.290, G_A: 2.094, cycle_A: 0.222, cycle_A_struct: 0.781, cycle_A_mono: 0.009, flow_smooth: 0.053, flow_mono: 0.039, flow_mag: 0.055, idt_A: 0.016, D_B: 0.025, G_B: 3.881, cycle_B: 0.095, cycle_B_struct: 0.539, cycle_B_mono: 0.006, idt_B: 0.025
+
+[Rank 0] (epoch: 57, iters: 100, time: 0.175, data: 0.000) , D_A: 0.047, G_A: 2.902, cycle_A: 0.199, cycle_A_struct: 0.638, cycle_A_mono: 0.008, flow_smooth: 0.047, flow_mono: 0.035, flow_mag: 0.057, idt_A: 0.009, D_B: 0.051, G_B: 2.979, cycle_B: 0.069, cycle_B_struct: 0.348, cycle_B_mono: 0.003, idt_B: 0.024
+
+[Rank 0] (epoch: 57, iters: 150, time: 0.175, data: 0.001) , D_A: 0.071, G_A: 2.738, cycle_A: 0.198, cycle_A_struct: 0.620, cycle_A_mono: 0.008, flow_smooth: 0.063, flow_mono: 0.039, flow_mag: 0.051, idt_A: 0.017, D_B: 0.036, G_B: 3.448, cycle_B: 0.140, cycle_B_struct: 0.512, cycle_B_mono: 0.008, idt_B: 0.019
+
+[Rank 0] (epoch: 57, iters: 200, time: 0.177, data: 0.001) , D_A: 0.191, G_A: 2.403, cycle_A: 0.194, cycle_A_struct: 0.757, cycle_A_mono: 0.009, flow_smooth: 0.043, flow_mono: 0.031, flow_mag: 0.048, idt_A: 0.017, D_B: 0.025, G_B: 3.860, cycle_B: 0.060, cycle_B_struct: 0.405, cycle_B_mono: 0.003, idt_B: 0.037
+
+[Rank 0] (epoch: 58, iters: 50, time: 0.187, data: 7.255) , D_A: 0.080, G_A: 2.202, cycle_A: 0.197, cycle_A_struct: 0.751, cycle_A_mono: 0.009, flow_smooth: 0.065, flow_mono: 0.047, flow_mag: 0.053, idt_A: 0.011, D_B: 0.049, G_B: 4.666, cycle_B: 0.135, cycle_B_struct: 0.452, cycle_B_mono: 0.008, idt_B: 0.031
+
+[Rank 0] (epoch: 58, iters: 100, time: 0.185, data: 0.001) , D_A: 0.128, G_A: 0.755, cycle_A: 0.213, cycle_A_struct: 0.732, cycle_A_mono: 0.011, flow_smooth: 0.068, flow_mono: 0.053, flow_mag: 0.067, idt_A: 0.006, D_B: 0.040, G_B: 4.305, cycle_B: 0.105, cycle_B_struct: 0.445, cycle_B_mono: 0.006, idt_B: 0.047
+
+[Rank 0] (epoch: 58, iters: 150, time: 0.180, data: 0.000) , D_A: 0.185, G_A: 1.393, cycle_A: 0.173, cycle_A_struct: 0.611, cycle_A_mono: 0.009, flow_smooth: 0.060, flow_mono: 0.041, flow_mag: 0.051, idt_A: 0.039, D_B: 0.059, G_B: 3.239, cycle_B: 0.186, cycle_B_struct: 0.685, cycle_B_mono: 0.010, idt_B: 0.029
+
+[Rank 0] (epoch: 58, iters: 200, time: 0.190, data: 0.000) , D_A: 0.082, G_A: 2.371, cycle_A: 0.209, cycle_A_struct: 0.678, cycle_A_mono: 0.008, flow_smooth: 0.070, flow_mono: 0.051, flow_mag: 0.067, idt_A: 0.010, D_B: 0.013, G_B: 4.497, cycle_B: 0.189, cycle_B_struct: 0.648, cycle_B_mono: 0.009, idt_B: 0.028
+
+[Rank 0] (epoch: 59, iters: 50, time: 0.194, data: 7.330) , D_A: 0.122, G_A: 1.904, cycle_A: 0.148, cycle_A_struct: 0.497, cycle_A_mono: 0.008, flow_smooth: 0.067, flow_mono: 0.050, flow_mag: 0.059, idt_A: 0.032, D_B: 0.016, G_B: 4.438, cycle_B: 0.178, cycle_B_struct: 0.638, cycle_B_mono: 0.011, idt_B: 0.023
+
+[Rank 0] (epoch: 59, iters: 100, time: 0.182, data: 0.000) , D_A: 0.111, G_A: 2.523, cycle_A: 0.182, cycle_A_struct: 0.559, cycle_A_mono: 0.008, flow_smooth: 0.043, flow_mono: 0.033, flow_mag: 0.050, idt_A: 0.021, D_B: 0.016, G_B: 3.649, cycle_B: 0.085, cycle_B_struct: 0.547, cycle_B_mono: 0.006, idt_B: 0.022
+
+[Rank 0] (epoch: 59, iters: 150, time: 0.189, data: 0.000) , D_A: 0.369, G_A: 1.469, cycle_A: 0.310, cycle_A_struct: 1.330, cycle_A_mono: 0.008, flow_smooth: 0.040, flow_mono: 0.024, flow_mag: 0.048, idt_A: 0.007, D_B: 0.019, G_B: 3.380, cycle_B: 0.028, cycle_B_struct: 0.304, cycle_B_mono: 0.002, idt_B: 0.025
+
+[Rank 0] (epoch: 59, iters: 200, time: 0.179, data: 0.001) , D_A: 0.095, G_A: 1.636, cycle_A: 0.170, cycle_A_struct: 0.563, cycle_A_mono: 0.009, flow_smooth: 0.053, flow_mono: 0.037, flow_mag: 0.052, idt_A: 0.009, D_B: 0.013, G_B: 4.762, cycle_B: 0.101, cycle_B_struct: 0.319, cycle_B_mono: 0.005, idt_B: 0.027
+
+[Rank 0] (epoch: 60, iters: 50, time: 0.197, data: 7.320) , D_A: 0.770, G_A: 0.351, cycle_A: 0.161, cycle_A_struct: 0.615, cycle_A_mono: 0.006, flow_smooth: 0.031, flow_mono: 0.021, flow_mag: 0.017, idt_A: 0.015, D_B: 0.035, G_B: 4.238, cycle_B: 0.142, cycle_B_struct: 0.485, cycle_B_mono: 0.008, idt_B: 0.058
+
+[Rank 0] (epoch: 60, iters: 100, time: 0.198, data: 0.001) , D_A: 0.058, G_A: 2.797, cycle_A: 0.179, cycle_A_struct: 0.616, cycle_A_mono: 0.008, flow_smooth: 0.056, flow_mono: 0.030, flow_mag: 0.054, idt_A: 0.049, D_B: 0.018, G_B: 4.128, cycle_B: 0.172, cycle_B_struct: 0.498, cycle_B_mono: 0.010, idt_B: 0.026
+
+[Rank 0] (epoch: 60, iters: 150, time: 0.178, data: 0.001) , D_A: 0.069, G_A: 2.611, cycle_A: 0.181, cycle_A_struct: 0.623, cycle_A_mono: 0.009, flow_smooth: 0.041, flow_mono: 0.029, flow_mag: 0.052, idt_A: 0.013, D_B: 0.020, G_B: 3.824, cycle_B: 0.020, cycle_B_struct: 0.122, cycle_B_mono: 0.001, idt_B: 0.027
+
+[Rank 0] (epoch: 60, iters: 200, time: 0.190, data: 0.000) , D_A: 0.498, G_A: 1.596, cycle_A: 0.235, cycle_A_struct: 0.872, cycle_A_mono: 0.008, flow_smooth: 0.037, flow_mono: 0.025, flow_mag: 0.032, idt_A: 0.025, D_B: 0.028, G_B: 3.590, cycle_B: 0.142, cycle_B_struct: 0.886, cycle_B_mono: 0.008, idt_B: 0.036
+
+[Rank 0] (epoch: 61, iters: 50, time: 0.183, data: 7.215) , D_A: 0.824, G_A: 3.710, cycle_A: 0.211, cycle_A_struct: 0.673, cycle_A_mono: 0.010, flow_smooth: 0.056, flow_mono: 0.040, flow_mag: 0.057, idt_A: 0.008, D_B: 0.017, G_B: 4.813, cycle_B: 0.138, cycle_B_struct: 0.580, cycle_B_mono: 0.007, idt_B: 0.054
+
+[Rank 0] (epoch: 61, iters: 100, time: 0.180, data: 0.000) , D_A: 0.264, G_A: 1.557, cycle_A: 0.180, cycle_A_struct: 0.712, cycle_A_mono: 0.007, flow_smooth: 0.057, flow_mono: 0.047, flow_mag: 0.056, idt_A: 0.010, D_B: 0.021, G_B: 4.570, cycle_B: 0.200, cycle_B_struct: 0.777, cycle_B_mono: 0.010, idt_B: 0.031
+
+[Rank 0] (epoch: 61, iters: 150, time: 0.189, data: 0.000) , D_A: 0.038, G_A: 1.917, cycle_A: 0.183, cycle_A_struct: 0.711, cycle_A_mono: 0.009, flow_smooth: 0.054, flow_mono: 0.033, flow_mag: 0.042, idt_A: 0.029, D_B: 0.018, G_B: 4.281, cycle_B: 0.184, cycle_B_struct: 0.532, cycle_B_mono: 0.009, idt_B: 0.019
+
+[Rank 0] (epoch: 61, iters: 200, time: 0.185, data: 0.000) , D_A: 0.045, G_A: 2.961, cycle_A: 0.226, cycle_A_struct: 0.775, cycle_A_mono: 0.008, flow_smooth: 0.073, flow_mono: 0.048, flow_mag: 0.070, idt_A: 0.009, D_B: 0.015, G_B: 4.542, cycle_B: 0.152, cycle_B_struct: 0.584, cycle_B_mono: 0.008, idt_B: 0.042
+
+[Rank 0] (epoch: 62, iters: 50, time: 0.190, data: 7.223) , D_A: 0.442, G_A: 1.568, cycle_A: 0.192, cycle_A_struct: 0.674, cycle_A_mono: 0.009, flow_smooth: 0.048, flow_mono: 0.035, flow_mag: 0.055, idt_A: 0.007, D_B: 0.012, G_B: 4.673, cycle_B: 0.029, cycle_B_struct: 0.119, cycle_B_mono: 0.002, idt_B: 0.019
+
+[Rank 0] (epoch: 62, iters: 100, time: 0.186, data: 0.001) , D_A: 0.111, G_A: 2.455, cycle_A: 0.188, cycle_A_struct: 0.630, cycle_A_mono: 0.009, flow_smooth: 0.051, flow_mono: 0.033, flow_mag: 0.053, idt_A: 0.036, D_B: 0.014, G_B: 4.295, cycle_B: 0.180, cycle_B_struct: 0.613, cycle_B_mono: 0.010, idt_B: 0.026
+
+[Rank 0] (epoch: 62, iters: 150, time: 0.177, data: 0.001) , D_A: 0.237, G_A: 3.234, cycle_A: 0.161, cycle_A_struct: 0.492, cycle_A_mono: 0.007, flow_smooth: 0.014, flow_mono: 0.009, flow_mag: 0.011, idt_A: 0.066, D_B: 0.021, G_B: 3.752, cycle_B: 0.069, cycle_B_struct: 0.439, cycle_B_mono: 0.004, idt_B: 0.177
+
+[Rank 0] (epoch: 62, iters: 200, time: 0.192, data: 0.000) , D_A: 0.118, G_A: 3.067, cycle_A: 0.153, cycle_A_struct: 0.395, cycle_A_mono: 0.006, flow_smooth: 0.012, flow_mono: 0.007, flow_mag: 0.004, idt_A: 0.100, D_B: 0.023, G_B: 4.124, cycle_B: 0.086, cycle_B_struct: 0.290, cycle_B_mono: 0.004, idt_B: 0.099
+
+[Rank 0] (epoch: 63, iters: 50, time: 0.166, data: 7.278) , D_A: 0.069, G_A: 3.644, cycle_A: 0.079, cycle_A_struct: 0.228, cycle_A_mono: 0.003, flow_smooth: 0.008, flow_mono: 0.004, flow_mag: 0.003, idt_A: 0.024, D_B: 0.019, G_B: 3.675, cycle_B: 0.033, cycle_B_struct: 0.178, cycle_B_mono: 0.002, idt_B: 0.082
+
+[Rank 0] (epoch: 63, iters: 100, time: 0.168, data: 0.001) , D_A: 0.032, G_A: 3.558, cycle_A: 0.076, cycle_A_struct: 0.227, cycle_A_mono: 0.004, flow_smooth: 0.007, flow_mono: 0.003, flow_mag: 0.001, idt_A: 0.026, D_B: 0.012, G_B: 3.984, cycle_B: 0.016, cycle_B_struct: 0.064, cycle_B_mono: 0.001, idt_B: 0.054
+
+[Rank 0] (epoch: 63, iters: 150, time: 0.203, data: 0.000) , D_A: 0.029, G_A: 3.890, cycle_A: 0.094, cycle_A_struct: 0.261, cycle_A_mono: 0.004, flow_smooth: 0.007, flow_mono: 0.003, flow_mag: 0.001, idt_A: 0.045, D_B: 0.012, G_B: 4.610, cycle_B: 0.041, cycle_B_struct: 0.159, cycle_B_mono: 0.002, idt_B: 0.027
+
+[Rank 0] (epoch: 63, iters: 200, time: 0.178, data: 0.001) , D_A: 0.027, G_A: 3.565, cycle_A: 0.095, cycle_A_struct: 0.272, cycle_A_mono: 0.005, flow_smooth: 0.009, flow_mono: 0.005, flow_mag: 0.004, idt_A: 0.064, D_B: 0.015, G_B: 4.457, cycle_B: 0.097, cycle_B_struct: 0.325, cycle_B_mono: 0.006, idt_B: 0.038
+
+[Rank 0] (epoch: 64, iters: 50, time: 0.181, data: 7.262) , D_A: 0.044, G_A: 2.969, cycle_A: 0.129, cycle_A_struct: 0.434, cycle_A_mono: 0.005, flow_smooth: 0.009, flow_mono: 0.004, flow_mag: 0.002, idt_A: 0.037, D_B: 0.014, G_B: 4.340, cycle_B: 0.081, cycle_B_struct: 0.268, cycle_B_mono: 0.005, idt_B: 0.040
+
+[Rank 0] (epoch: 64, iters: 100, time: 0.185, data: 0.001) , D_A: 0.025, G_A: 3.526, cycle_A: 0.096, cycle_A_struct: 0.249, cycle_A_mono: 0.005, flow_smooth: 0.009, flow_mono: 0.005, flow_mag: 0.002, idt_A: 0.028, D_B: 0.009, G_B: 4.843, cycle_B: 0.027, cycle_B_struct: 0.090, cycle_B_mono: 0.003, idt_B: 0.036
+
+[Rank 0] (epoch: 64, iters: 150, time: 0.182, data: 0.001) , D_A: 0.039, G_A: 3.316, cycle_A: 0.135, cycle_A_struct: 0.384, cycle_A_mono: 0.006, flow_smooth: 0.013, flow_mono: 0.007, flow_mag: 0.007, idt_A: 0.018, D_B: 0.015, G_B: 4.108, cycle_B: 0.014, cycle_B_struct: 0.071, cycle_B_mono: 0.001, idt_B: 0.044
+
+[Rank 0] (epoch: 64, iters: 200, time: 0.201, data: 0.002) , D_A: 0.020, G_A: 4.193, cycle_A: 0.128, cycle_A_struct: 0.293, cycle_A_mono: 0.005, flow_smooth: 0.012, flow_mono: 0.009, flow_mag: 0.008, idt_A: 0.012, D_B: 0.009, G_B: 4.964, cycle_B: 0.026, cycle_B_struct: 0.080, cycle_B_mono: 0.002, idt_B: 0.018
+
+[Rank 0] (epoch: 65, iters: 50, time: 0.172, data: 7.143) , D_A: 0.037, G_A: 3.538, cycle_A: 0.171, cycle_A_struct: 0.463, cycle_A_mono: 0.006, flow_smooth: 0.019, flow_mono: 0.014, flow_mag: 0.027, idt_A: 0.018, D_B: 0.007, G_B: 4.428, cycle_B: 0.009, cycle_B_struct: 0.045, cycle_B_mono: 0.001, idt_B: 0.029
+
+[Rank 0] (epoch: 65, iters: 100, time: 0.175, data: 0.001) , D_A: 0.076, G_A: 2.357, cycle_A: 0.237, cycle_A_struct: 0.692, cycle_A_mono: 0.009, flow_smooth: 0.029, flow_mono: 0.022, flow_mag: 0.038, idt_A: 0.018, D_B: 0.013, G_B: 4.169, cycle_B: 0.012, cycle_B_struct: 0.053, cycle_B_mono: 0.001, idt_B: 0.020
+
+[Rank 0] (epoch: 65, iters: 150, time: 0.188, data: 0.001) , D_A: 0.023, G_A: 3.713, cycle_A: 0.138, cycle_A_struct: 0.383, cycle_A_mono: 0.007, flow_smooth: 0.022, flow_mono: 0.017, flow_mag: 0.023, idt_A: 0.026, D_B: 0.009, G_B: 4.500, cycle_B: 0.015, cycle_B_struct: 0.065, cycle_B_mono: 0.001, idt_B: 0.029
+
+[Rank 0] (epoch: 65, iters: 200, time: 0.180, data: 0.000) , D_A: 0.036, G_A: 3.112, cycle_A: 0.210, cycle_A_struct: 0.680, cycle_A_mono: 0.009, flow_smooth: 0.040, flow_mono: 0.028, flow_mag: 0.049, idt_A: 0.008, D_B: 0.013, G_B: 4.725, cycle_B: 0.022, cycle_B_struct: 0.073, cycle_B_mono: 0.002, idt_B: 0.044
+
+[Rank 0] (epoch: 66, iters: 50, time: 0.178, data: 7.191) , D_A: 0.058, G_A: 2.484, cycle_A: 0.104, cycle_A_struct: 0.349, cycle_A_mono: 0.005, flow_smooth: 0.018, flow_mono: 0.011, flow_mag: 0.020, idt_A: 0.011, D_B: 0.010, G_B: 5.083, cycle_B: 0.020, cycle_B_struct: 0.058, cycle_B_mono: 0.001, idt_B: 0.042
+
+[Rank 0] (epoch: 66, iters: 100, time: 0.183, data: 0.001) , D_A: 0.027, G_A: 3.920, cycle_A: 0.143, cycle_A_struct: 0.472, cycle_A_mono: 0.007, flow_smooth: 0.043, flow_mono: 0.030, flow_mag: 0.037, idt_A: 0.053, D_B: 0.011, G_B: 4.809, cycle_B: 0.195, cycle_B_struct: 0.742, cycle_B_mono: 0.011, idt_B: 0.033
+
+[Rank 0] (epoch: 66, iters: 150, time: 0.179, data: 0.001) , D_A: 0.250, G_A: 1.409, cycle_A: 0.253, cycle_A_struct: 0.890, cycle_A_mono: 0.010, flow_smooth: 0.047, flow_mono: 0.032, flow_mag: 0.046, idt_A: 0.008, D_B: 0.022, G_B: 4.335, cycle_B: 0.120, cycle_B_struct: 0.504, cycle_B_mono: 0.006, idt_B: 0.075
+
+[Rank 0] (epoch: 66, iters: 200, time: 0.179, data: 0.000) , D_A: 0.119, G_A: 0.783, cycle_A: 0.259, cycle_A_struct: 0.800, cycle_A_mono: 0.010, flow_smooth: 0.065, flow_mono: 0.039, flow_mag: 0.061, idt_A: 0.027, D_B: 0.075, G_B: 3.748, cycle_B: 0.204, cycle_B_struct: 0.757, cycle_B_mono: 0.012, idt_B: 0.033
+
+[Rank 0] (epoch: 67, iters: 50, time: 0.206, data: 7.186) , D_A: 0.080, G_A: 2.469, cycle_A: 0.234, cycle_A_struct: 0.849, cycle_A_mono: 0.009, flow_smooth: 0.044, flow_mono: 0.025, flow_mag: 0.048, idt_A: 0.014, D_B: 0.040, G_B: 2.990, cycle_B: 0.016, cycle_B_struct: 0.094, cycle_B_mono: 0.001, idt_B: 0.049
+
+[Rank 0] (epoch: 67, iters: 100, time: 0.173, data: 0.000) , D_A: 0.071, G_A: 2.598, cycle_A: 0.183, cycle_A_struct: 0.598, cycle_A_mono: 0.009, flow_smooth: 0.052, flow_mono: 0.040, flow_mag: 0.041, idt_A: 0.008, D_B: 0.016, G_B: 4.712, cycle_B: 0.114, cycle_B_struct: 0.412, cycle_B_mono: 0.006, idt_B: 0.100
+
+[Rank 0] (epoch: 67, iters: 150, time: 0.187, data: 0.000) , D_A: 0.340, G_A: 0.993, cycle_A: 0.284, cycle_A_struct: 0.977, cycle_A_mono: 0.011, flow_smooth: 0.067, flow_mono: 0.047, flow_mag: 0.064, idt_A: 0.052, D_B: 0.184, G_B: 1.504, cycle_B: 0.110, cycle_B_struct: 0.445, cycle_B_mono: 0.005, idt_B: 0.041
+
+[Rank 0] (epoch: 67, iters: 200, time: 0.203, data: 0.001) , D_A: 0.097, G_A: 2.958, cycle_A: 0.183, cycle_A_struct: 0.579, cycle_A_mono: 0.009, flow_smooth: 0.061, flow_mono: 0.048, flow_mag: 0.058, idt_A: 0.026, D_B: 0.220, G_B: 1.968, cycle_B: 0.177, cycle_B_struct: 0.697, cycle_B_mono: 0.008, idt_B: 0.031
+
+[Rank 0] (epoch: 68, iters: 50, time: 0.177, data: 7.197) , D_A: 0.214, G_A: 3.189, cycle_A: 0.176, cycle_A_struct: 0.604, cycle_A_mono: 0.008, flow_smooth: 0.048, flow_mono: 0.038, flow_mag: 0.046, idt_A: 0.005, D_B: 0.173, G_B: 1.849, cycle_B: 0.094, cycle_B_struct: 0.434, cycle_B_mono: 0.006, idt_B: 0.032
+
+[Rank 0] (epoch: 68, iters: 100, time: 0.187, data: 0.000) , D_A: 0.208, G_A: 1.960, cycle_A: 0.165, cycle_A_struct: 0.536, cycle_A_mono: 0.007, flow_smooth: 0.043, flow_mono: 0.030, flow_mag: 0.043, idt_A: 0.006, D_B: 0.018, G_B: 4.066, cycle_B: 0.075, cycle_B_struct: 0.407, cycle_B_mono: 0.004, idt_B: 0.024
+
+[Rank 0] (epoch: 68, iters: 150, time: 0.188, data: 0.001) , D_A: 0.305, G_A: 0.970, cycle_A: 0.165, cycle_A_struct: 0.651, cycle_A_mono: 0.007, flow_smooth: 0.057, flow_mono: 0.041, flow_mag: 0.052, idt_A: 0.006, D_B: 0.017, G_B: 4.629, cycle_B: 0.128, cycle_B_struct: 0.471, cycle_B_mono: 0.008, idt_B: 0.029
+
+[Rank 0] (epoch: 68, iters: 200, time: 0.183, data: 0.000) , D_A: 0.080, G_A: 2.247, cycle_A: 0.170, cycle_A_struct: 0.576, cycle_A_mono: 0.008, flow_smooth: 0.048, flow_mono: 0.032, flow_mag: 0.059, idt_A: 0.009, D_B: 0.014, G_B: 3.916, cycle_B: 0.034, cycle_B_struct: 0.204, cycle_B_mono: 0.002, idt_B: 0.023
+
+[Rank 0] (epoch: 69, iters: 50, time: 0.191, data: 7.285) , D_A: 0.385, G_A: 3.058, cycle_A: 0.178, cycle_A_struct: 0.548, cycle_A_mono: 0.008, flow_smooth: 0.060, flow_mono: 0.044, flow_mag: 0.065, idt_A: 0.005, D_B: 0.036, G_B: 4.417, cycle_B: 0.106, cycle_B_struct: 0.353, cycle_B_mono: 0.006, idt_B: 0.019
+
+[Rank 0] (epoch: 69, iters: 100, time: 0.172, data: 0.001) , D_A: 0.090, G_A: 2.597, cycle_A: 0.244, cycle_A_struct: 0.797, cycle_A_mono: 0.010, flow_smooth: 0.062, flow_mono: 0.044, flow_mag: 0.063, idt_A: 0.005, D_B: 0.022, G_B: 3.966, cycle_B: 0.123, cycle_B_struct: 0.472, cycle_B_mono: 0.007, idt_B: 0.026
+
+[Rank 0] (epoch: 69, iters: 150, time: 0.184, data: 0.000) , D_A: 0.051, G_A: 3.160, cycle_A: 0.234, cycle_A_struct: 0.749, cycle_A_mono: 0.009, flow_smooth: 0.055, flow_mono: 0.035, flow_mag: 0.048, idt_A: 0.037, D_B: 0.012, G_B: 4.567, cycle_B: 0.173, cycle_B_struct: 0.572, cycle_B_mono: 0.010, idt_B: 0.020
+
+[Rank 0] (epoch: 69, iters: 200, time: 0.178, data: 0.000) , D_A: 0.214, G_A: 1.341, cycle_A: 0.219, cycle_A_struct: 0.706, cycle_A_mono: 0.008, flow_smooth: 0.045, flow_mono: 0.031, flow_mag: 0.043, idt_A: 0.019, D_B: 0.058, G_B: 3.477, cycle_B: 0.173, cycle_B_struct: 0.577, cycle_B_mono: 0.008, idt_B: 0.037
+
+[Rank 0] (epoch: 70, iters: 50, time: 0.190, data: 7.263) , D_A: 0.458, G_A: 1.818, cycle_A: 0.178, cycle_A_struct: 0.700, cycle_A_mono: 0.009, flow_smooth: 0.047, flow_mono: 0.035, flow_mag: 0.049, idt_A: 0.004, D_B: 0.016, G_B: 4.361, cycle_B: 0.019, cycle_B_struct: 0.106, cycle_B_mono: 0.001, idt_B: 0.022
+
+[Rank 0] (epoch: 70, iters: 100, time: 0.197, data: 0.001) , D_A: 0.060, G_A: 2.204, cycle_A: 0.236, cycle_A_struct: 0.752, cycle_A_mono: 0.009, flow_smooth: 0.063, flow_mono: 0.044, flow_mag: 0.076, idt_A: 0.006, D_B: 0.037, G_B: 3.242, cycle_B: 0.077, cycle_B_struct: 0.335, cycle_B_mono: 0.004, idt_B: 0.023
+
+[Rank 0] (epoch: 70, iters: 150, time: 0.181, data: 0.001) , D_A: 0.140, G_A: 2.172, cycle_A: 0.212, cycle_A_struct: 0.734, cycle_A_mono: 0.008, flow_smooth: 0.035, flow_mono: 0.024, flow_mag: 0.046, idt_A: 0.008, D_B: 0.153, G_B: 1.959, cycle_B: 0.013, cycle_B_struct: 0.074, cycle_B_mono: 0.001, idt_B: 0.024
+
+[Rank 0] (epoch: 70, iters: 200, time: 0.193, data: 0.001) , D_A: 0.396, G_A: 2.327, cycle_A: 0.279, cycle_A_struct: 0.917, cycle_A_mono: 0.010, flow_smooth: 0.069, flow_mono: 0.049, flow_mag: 0.063, idt_A: 0.025, D_B: 0.688, G_B: 3.571, cycle_B: 0.200, cycle_B_struct: 0.606, cycle_B_mono: 0.010, idt_B: 0.028
+
+[Rank 0] (epoch: 71, iters: 50, time: 0.193, data: 7.225) , D_A: 0.219, G_A: 1.343, cycle_A: 0.169, cycle_A_struct: 0.594, cycle_A_mono: 0.008, flow_smooth: 0.060, flow_mono: 0.038, flow_mag: 0.045, idt_A: 0.018, D_B: 0.014, G_B: 4.392, cycle_B: 0.179, cycle_B_struct: 0.605, cycle_B_mono: 0.010, idt_B: 0.021
+
+[Rank 0] (epoch: 71, iters: 100, time: 0.166, data: 0.001) , D_A: 0.035, G_A: 3.517, cycle_A: 0.211, cycle_A_struct: 0.638, cycle_A_mono: 0.009, flow_smooth: 0.044, flow_mono: 0.028, flow_mag: 0.054, idt_A: 0.030, D_B: 0.025, G_B: 3.522, cycle_B: 0.033, cycle_B_struct: 0.159, cycle_B_mono: 0.001, idt_B: 0.024
+
+[Rank 0] (epoch: 71, iters: 150, time: 0.186, data: 0.001) , D_A: 0.046, G_A: 2.283, cycle_A: 0.202, cycle_A_struct: 0.708, cycle_A_mono: 0.007, flow_smooth: 0.055, flow_mono: 0.045, flow_mag: 0.050, idt_A: 0.004, D_B: 0.029, G_B: 3.277, cycle_B: 0.157, cycle_B_struct: 0.598, cycle_B_mono: 0.008, idt_B: 0.021
+
+[Rank 0] (epoch: 71, iters: 200, time: 0.183, data: 0.001) , D_A: 0.090, G_A: 2.305, cycle_A: 0.173, cycle_A_struct: 0.567, cycle_A_mono: 0.006, flow_smooth: 0.045, flow_mono: 0.036, flow_mag: 0.037, idt_A: 0.004, D_B: 0.015, G_B: 4.478, cycle_B: 0.121, cycle_B_struct: 0.482, cycle_B_mono: 0.007, idt_B: 0.021
+
+[Rank 0] (epoch: 72, iters: 50, time: 0.167, data: 7.239) , D_A: 0.434, G_A: 1.659, cycle_A: 0.206, cycle_A_struct: 0.789, cycle_A_mono: 0.009, flow_smooth: 0.041, flow_mono: 0.027, flow_mag: 0.035, idt_A: 0.003, D_B: 0.079, G_B: 4.741, cycle_B: 0.086, cycle_B_struct: 0.376, cycle_B_mono: 0.004, idt_B: 0.032
+
+[Rank 0] (epoch: 72, iters: 100, time: 0.184, data: 0.000) , D_A: 0.236, G_A: 1.526, cycle_A: 0.238, cycle_A_struct: 0.835, cycle_A_mono: 0.010, flow_smooth: 0.059, flow_mono: 0.042, flow_mag: 0.075, idt_A: 0.003, D_B: 0.017, G_B: 4.256, cycle_B: 0.028, cycle_B_struct: 0.124, cycle_B_mono: 0.002, idt_B: 0.032
+
+[Rank 0] (epoch: 72, iters: 150, time: 0.188, data: 0.001) , D_A: 0.059, G_A: 2.514, cycle_A: 0.138, cycle_A_struct: 0.509, cycle_A_mono: 0.006, flow_smooth: 0.029, flow_mono: 0.021, flow_mag: 0.026, idt_A: 0.003, D_B: 0.015, G_B: 3.709, cycle_B: 0.080, cycle_B_struct: 0.427, cycle_B_mono: 0.004, idt_B: 0.020
+
+[Rank 0] (epoch: 72, iters: 200, time: 0.171, data: 0.001) , D_A: 0.081, G_A: 2.521, cycle_A: 0.246, cycle_A_struct: 0.808, cycle_A_mono: 0.009, flow_smooth: 0.053, flow_mono: 0.037, flow_mag: 0.054, idt_A: 0.006, D_B: 0.015, G_B: 4.596, cycle_B: 0.059, cycle_B_struct: 0.357, cycle_B_mono: 0.003, idt_B: 0.025
+
+[Rank 0] (epoch: 73, iters: 50, time: 0.189, data: 7.258) , D_A: 0.781, G_A: 0.624, cycle_A: 0.208, cycle_A_struct: 0.734, cycle_A_mono: 0.006, flow_smooth: 0.038, flow_mono: 0.031, flow_mag: 0.032, idt_A: 0.003, D_B: 0.018, G_B: 4.172, cycle_B: 0.115, cycle_B_struct: 0.468, cycle_B_mono: 0.007, idt_B: 0.025
+
+[Rank 0] (epoch: 73, iters: 100, time: 0.180, data: 0.000) , D_A: 0.123, G_A: 2.615, cycle_A: 0.282, cycle_A_struct: 1.525, cycle_A_mono: 0.012, flow_smooth: 0.022, flow_mono: 0.015, flow_mag: 0.019, idt_A: 0.015, D_B: 0.096, G_B: 2.584, cycle_B: 0.031, cycle_B_struct: 0.142, cycle_B_mono: 0.001, idt_B: 0.026
+
+[Rank 0] (epoch: 73, iters: 150, time: 0.199, data: 0.001) , D_A: 0.388, G_A: 0.248, cycle_A: 0.177, cycle_A_struct: 0.636, cycle_A_mono: 0.007, flow_smooth: 0.035, flow_mono: 0.024, flow_mag: 0.027, idt_A: 0.018, D_B: 0.058, G_B: 4.258, cycle_B: 0.166, cycle_B_struct: 0.455, cycle_B_mono: 0.007, idt_B: 0.035
+
+[Rank 0] (epoch: 73, iters: 200, time: 0.175, data: 0.001) , D_A: 0.252, G_A: 1.211, cycle_A: 0.183, cycle_A_struct: 0.638, cycle_A_mono: 0.008, flow_smooth: 0.052, flow_mono: 0.035, flow_mag: 0.049, idt_A: 0.005, D_B: 0.016, G_B: 4.131, cycle_B: 0.094, cycle_B_struct: 0.321, cycle_B_mono: 0.005, idt_B: 0.019
+
+[Rank 0] (epoch: 74, iters: 50, time: 0.174, data: 7.269) , D_A: 0.175, G_A: 1.644, cycle_A: 0.226, cycle_A_struct: 0.738, cycle_A_mono: 0.007, flow_smooth: 0.052, flow_mono: 0.034, flow_mag: 0.049, idt_A: 0.011, D_B: 0.014, G_B: 4.363, cycle_B: 0.157, cycle_B_struct: 0.538, cycle_B_mono: 0.008, idt_B: 0.020
+
+[Rank 0] (epoch: 74, iters: 100, time: 0.173, data: 0.001) , D_A: 0.239, G_A: 1.257, cycle_A: 0.226, cycle_A_struct: 0.714, cycle_A_mono: 0.009, flow_smooth: 0.061, flow_mono: 0.037, flow_mag: 0.054, idt_A: 0.154, D_B: 0.018, G_B: 4.425, cycle_B: 0.087, cycle_B_struct: 0.308, cycle_B_mono: 0.005, idt_B: 0.039
+
+[Rank 0] (epoch: 74, iters: 150, time: 0.171, data: 0.001) , D_A: 0.077, G_A: 3.306, cycle_A: 0.215, cycle_A_struct: 0.685, cycle_A_mono: 0.008, flow_smooth: 0.045, flow_mono: 0.032, flow_mag: 0.059, idt_A: 0.022, D_B: 0.013, G_B: 3.704, cycle_B: 0.044, cycle_B_struct: 0.379, cycle_B_mono: 0.003, idt_B: 0.017
+
+[Rank 0] (epoch: 74, iters: 200, time: 0.172, data: 0.001) , D_A: 0.087, G_A: 2.287, cycle_A: 0.189, cycle_A_struct: 0.634, cycle_A_mono: 0.009, flow_smooth: 0.064, flow_mono: 0.051, flow_mag: 0.064, idt_A: 0.009, D_B: 0.015, G_B: 3.718, cycle_B: 0.121, cycle_B_struct: 0.467, cycle_B_mono: 0.007, idt_B: 0.027
+
+[Rank 0] (epoch: 75, iters: 50, time: 0.185, data: 7.316) , D_A: 0.086, G_A: 0.798, cycle_A: 0.178, cycle_A_struct: 0.657, cycle_A_mono: 0.008, flow_smooth: 0.053, flow_mono: 0.042, flow_mag: 0.041, idt_A: 0.009, D_B: 0.013, G_B: 4.137, cycle_B: 0.160, cycle_B_struct: 0.588, cycle_B_mono: 0.009, idt_B: 0.022
+
+[Rank 0] (epoch: 75, iters: 100, time: 0.176, data: 0.000) , D_A: 0.201, G_A: 1.309, cycle_A: 0.110, cycle_A_struct: 0.641, cycle_A_mono: 0.003, flow_smooth: 0.029, flow_mono: 0.024, flow_mag: 0.015, idt_A: 0.004, D_B: 0.158, G_B: 4.977, cycle_B: 0.139, cycle_B_struct: 0.471, cycle_B_mono: 0.007, idt_B: 0.076
+
+[Rank 0] (epoch: 75, iters: 150, time: 0.191, data: 0.000) , D_A: 0.376, G_A: 2.453, cycle_A: 0.176, cycle_A_struct: 0.629, cycle_A_mono: 0.009, flow_smooth: 0.045, flow_mono: 0.032, flow_mag: 0.051, idt_A: 0.005, D_B: 0.014, G_B: 4.639, cycle_B: 0.050, cycle_B_struct: 0.179, cycle_B_mono: 0.003, idt_B: 0.019
+
+[Rank 0] (epoch: 75, iters: 200, time: 0.186, data: 0.001) , D_A: 0.163, G_A: 1.701, cycle_A: 0.164, cycle_A_struct: 0.636, cycle_A_mono: 0.008, flow_smooth: 0.031, flow_mono: 0.023, flow_mag: 0.033, idt_A: 0.015, D_B: 0.016, G_B: 4.103, cycle_B: 0.051, cycle_B_struct: 0.599, cycle_B_mono: 0.003, idt_B: 0.019
+
+[Rank 0] (epoch: 76, iters: 50, time: 0.177, data: 7.365) , D_A: 0.057, G_A: 1.667, cycle_A: 0.243, cycle_A_struct: 0.921, cycle_A_mono: 0.008, flow_smooth: 0.037, flow_mono: 0.026, flow_mag: 0.027, idt_A: 0.016, D_B: 0.051, G_B: 2.704, cycle_B: 0.073, cycle_B_struct: 0.416, cycle_B_mono: 0.004, idt_B: 0.027
+
+[Rank 0] (epoch: 76, iters: 100, time: 0.188, data: 0.002) , D_A: 0.028, G_A: 3.530, cycle_A: 0.155, cycle_A_struct: 0.532, cycle_A_mono: 0.007, flow_smooth: 0.051, flow_mono: 0.033, flow_mag: 0.038, idt_A: 0.012, D_B: 0.023, G_B: 4.840, cycle_B: 0.113, cycle_B_struct: 0.388, cycle_B_mono: 0.007, idt_B: 0.017
+
+[Rank 0] (epoch: 76, iters: 150, time: 0.176, data: 0.000) , D_A: 0.088, G_A: 2.180, cycle_A: 0.162, cycle_A_struct: 0.593, cycle_A_mono: 0.008, flow_smooth: 0.037, flow_mono: 0.028, flow_mag: 0.042, idt_A: 0.029, D_B: 0.018, G_B: 3.420, cycle_B: 0.030, cycle_B_struct: 0.139, cycle_B_mono: 0.001, idt_B: 0.022
+
+[Rank 0] (epoch: 76, iters: 200, time: 0.178, data: 0.000) , D_A: 0.181, G_A: 3.186, cycle_A: 0.175, cycle_A_struct: 0.644, cycle_A_mono: 0.007, flow_smooth: 0.043, flow_mono: 0.028, flow_mag: 0.046, idt_A: 0.007, D_B: 0.028, G_B: 3.679, cycle_B: 0.067, cycle_B_struct: 0.561, cycle_B_mono: 0.004, idt_B: 0.013
+
+[Rank 0] (epoch: 77, iters: 50, time: 0.190, data: 7.363) , D_A: 0.048, G_A: 3.715, cycle_A: 0.188, cycle_A_struct: 0.646, cycle_A_mono: 0.008, flow_smooth: 0.066, flow_mono: 0.043, flow_mag: 0.065, idt_A: 0.020, D_B: 0.019, G_B: 4.169, cycle_B: 0.147, cycle_B_struct: 0.445, cycle_B_mono: 0.008, idt_B: 0.017
+
+[Rank 0] (epoch: 77, iters: 100, time: 0.170, data: 0.001) , D_A: 0.238, G_A: 1.871, cycle_A: 0.161, cycle_A_struct: 0.598, cycle_A_mono: 0.006, flow_smooth: 0.029, flow_mono: 0.023, flow_mag: 0.021, idt_A: 0.003, D_B: 0.057, G_B: 2.843, cycle_B: 0.066, cycle_B_struct: 0.300, cycle_B_mono: 0.003, idt_B: 0.024
+
+[Rank 0] (epoch: 77, iters: 150, time: 0.177, data: 0.003) , D_A: 0.091, G_A: 2.352, cycle_A: 0.172, cycle_A_struct: 0.593, cycle_A_mono: 0.009, flow_smooth: 0.037, flow_mono: 0.025, flow_mag: 0.040, idt_A: 0.012, D_B: 0.021, G_B: 3.706, cycle_B: 0.025, cycle_B_struct: 0.132, cycle_B_mono: 0.001, idt_B: 0.023
+
+[Rank 0] (epoch: 77, iters: 200, time: 0.181, data: 0.000) , D_A: 0.149, G_A: 2.759, cycle_A: 0.198, cycle_A_struct: 0.667, cycle_A_mono: 0.009, flow_smooth: 0.057, flow_mono: 0.044, flow_mag: 0.060, idt_A: 0.013, D_B: 0.067, G_B: 3.502, cycle_B: 0.128, cycle_B_struct: 0.776, cycle_B_mono: 0.009, idt_B: 0.025
+
+[Rank 0] (epoch: 78, iters: 50, time: 0.188, data: 7.267) , D_A: 0.147, G_A: 3.727, cycle_A: 0.204, cycle_A_struct: 0.682, cycle_A_mono: 0.009, flow_smooth: 0.062, flow_mono: 0.050, flow_mag: 0.064, idt_A: 0.011, D_B: 0.028, G_B: 3.607, cycle_B: 0.198, cycle_B_struct: 0.828, cycle_B_mono: 0.009, idt_B: 0.033
+
+[Rank 0] (epoch: 78, iters: 100, time: 0.187, data: 0.001) , D_A: 0.431, G_A: 0.749, cycle_A: 0.231, cycle_A_struct: 0.771, cycle_A_mono: 0.008, flow_smooth: 0.055, flow_mono: 0.041, flow_mag: 0.052, idt_A: 0.003, D_B: 0.025, G_B: 4.446, cycle_B: 0.094, cycle_B_struct: 0.348, cycle_B_mono: 0.005, idt_B: 0.027
+
+[Rank 0] (epoch: 78, iters: 150, time: 0.188, data: 0.002) , D_A: 0.173, G_A: 1.969, cycle_A: 0.165, cycle_A_struct: 0.550, cycle_A_mono: 0.007, flow_smooth: 0.056, flow_mono: 0.038, flow_mag: 0.045, idt_A: 0.019, D_B: 0.026, G_B: 4.430, cycle_B: 0.175, cycle_B_struct: 0.546, cycle_B_mono: 0.009, idt_B: 0.017
+
+[Rank 0] (epoch: 78, iters: 200, time: 0.176, data: 0.001) , D_A: 0.073, G_A: 3.560, cycle_A: 0.193, cycle_A_struct: 0.688, cycle_A_mono: 0.007, flow_smooth: 0.042, flow_mono: 0.029, flow_mag: 0.041, idt_A: 0.007, D_B: 0.019, G_B: 3.882, cycle_B: 0.060, cycle_B_struct: 0.618, cycle_B_mono: 0.003, idt_B: 0.028
+
+[Rank 0] (epoch: 79, iters: 50, time: 0.190, data: 7.280) , D_A: 0.057, G_A: 0.432, cycle_A: 0.102, cycle_A_struct: 0.567, cycle_A_mono: 0.002, flow_smooth: 0.022, flow_mono: 0.016, flow_mag: 0.005, idt_A: 0.012, D_B: 0.494, G_B: 4.164, cycle_B: 0.139, cycle_B_struct: 0.465, cycle_B_mono: 0.008, idt_B: 0.106
+
+[Rank 0] (epoch: 79, iters: 100, time: 0.176, data: 0.001) , D_A: 0.150, G_A: 2.504, cycle_A: 0.225, cycle_A_struct: 0.714, cycle_A_mono: 0.009, flow_smooth: 0.065, flow_mono: 0.051, flow_mag: 0.065, idt_A: 0.007, D_B: 0.013, G_B: 4.575, cycle_B: 0.111, cycle_B_struct: 0.395, cycle_B_mono: 0.007, idt_B: 0.018
+
+[Rank 0] (epoch: 79, iters: 150, time: 0.198, data: 0.000) , D_A: 0.235, G_A: 2.673, cycle_A: 0.196, cycle_A_struct: 0.704, cycle_A_mono: 0.010, flow_smooth: 0.059, flow_mono: 0.045, flow_mag: 0.053, idt_A: 0.002, D_B: 0.021, G_B: 3.893, cycle_B: 0.076, cycle_B_struct: 0.322, cycle_B_mono: 0.005, idt_B: 0.025
+
+[Rank 0] (epoch: 79, iters: 200, time: 0.185, data: 0.000) , D_A: 0.067, G_A: 2.614, cycle_A: 0.199, cycle_A_struct: 0.684, cycle_A_mono: 0.009, flow_smooth: 0.044, flow_mono: 0.027, flow_mag: 0.052, idt_A: 0.035, D_B: 0.019, G_B: 3.875, cycle_B: 0.043, cycle_B_struct: 0.214, cycle_B_mono: 0.001, idt_B: 0.027
+
+[Rank 0] (epoch: 80, iters: 50, time: 0.193, data: 7.256) , D_A: 0.304, G_A: 1.636, cycle_A: 0.211, cycle_A_struct: 0.713, cycle_A_mono: 0.009, flow_smooth: 0.061, flow_mono: 0.046, flow_mag: 0.061, idt_A: 0.021, D_B: 0.020, G_B: 4.008, cycle_B: 0.133, cycle_B_struct: 0.707, cycle_B_mono: 0.009, idt_B: 0.027
+
+[Rank 0] (epoch: 80, iters: 100, time: 0.183, data: 0.000) , D_A: 0.150, G_A: 1.012, cycle_A: 0.156, cycle_A_struct: 0.847, cycle_A_mono: 0.006, flow_smooth: 0.034, flow_mono: 0.027, flow_mag: 0.022, idt_A: 0.006, D_B: 0.053, G_B: 4.032, cycle_B: 0.155, cycle_B_struct: 0.582, cycle_B_mono: 0.009, idt_B: 0.044
+
+[Rank 0] (epoch: 80, iters: 150, time: 0.177, data: 0.000) , D_A: 0.656, G_A: 3.983, cycle_A: 0.181, cycle_A_struct: 0.618, cycle_A_mono: 0.008, flow_smooth: 0.073, flow_mono: 0.058, flow_mag: 0.076, idt_A: 0.026, D_B: 0.012, G_B: 3.799, cycle_B: 0.269, cycle_B_struct: 1.076, cycle_B_mono: 0.011, idt_B: 0.023
+
+[Rank 0] (epoch: 80, iters: 200, time: 0.191, data: 0.000) , D_A: 0.373, G_A: 3.419, cycle_A: 0.253, cycle_A_struct: 0.942, cycle_A_mono: 0.009, flow_smooth: 0.069, flow_mono: 0.050, flow_mag: 0.074, idt_A: 0.003, D_B: 0.016, G_B: 4.639, cycle_B: 0.125, cycle_B_struct: 0.499, cycle_B_mono: 0.006, idt_B: 0.025
+
+[Rank 0] (epoch: 81, iters: 50, time: 0.186, data: 7.296) , D_A: 0.144, G_A: 1.384, cycle_A: 0.172, cycle_A_struct: 0.637, cycle_A_mono: 0.008, flow_smooth: 0.041, flow_mono: 0.032, flow_mag: 0.043, idt_A: 0.003, D_B: 0.021, G_B: 4.399, cycle_B: 0.023, cycle_B_struct: 0.085, cycle_B_mono: 0.001, idt_B: 0.024
+
+[Rank 0] (epoch: 81, iters: 100, time: 0.176, data: 0.000) , D_A: 0.087, G_A: 1.843, cycle_A: 0.146, cycle_A_struct: 0.504, cycle_A_mono: 0.007, flow_smooth: 0.025, flow_mono: 0.018, flow_mag: 0.027, idt_A: 0.018, D_B: 0.033, G_B: 4.194, cycle_B: 0.016, cycle_B_struct: 0.109, cycle_B_mono: 0.001, idt_B: 0.024
+
+[Rank 0] (epoch: 81, iters: 150, time: 0.183, data: 0.000) , D_A: 0.486, G_A: 2.795, cycle_A: 0.210, cycle_A_struct: 0.719, cycle_A_mono: 0.010, flow_smooth: 0.051, flow_mono: 0.045, flow_mag: 0.054, idt_A: 0.010, D_B: 0.017, G_B: 4.195, cycle_B: 0.117, cycle_B_struct: 0.708, cycle_B_mono: 0.008, idt_B: 0.024
+
+[Rank 0] (epoch: 81, iters: 200, time: 0.170, data: 0.000) , D_A: 0.066, G_A: 1.784, cycle_A: 0.242, cycle_A_struct: 0.816, cycle_A_mono: 0.007, flow_smooth: 0.026, flow_mono: 0.019, flow_mag: 0.029, idt_A: 0.036, D_B: 0.285, G_B: 1.132, cycle_B: 0.037, cycle_B_struct: 0.170, cycle_B_mono: 0.002, idt_B: 0.023
+
+[Rank 0] (epoch: 82, iters: 50, time: 0.181, data: 7.273) , D_A: 0.124, G_A: 3.892, cycle_A: 0.226, cycle_A_struct: 0.740, cycle_A_mono: 0.008, flow_smooth: 0.034, flow_mono: 0.025, flow_mag: 0.028, idt_A: 0.006, D_B: 0.023, G_B: 3.812, cycle_B: 0.050, cycle_B_struct: 0.337, cycle_B_mono: 0.003, idt_B: 0.065
+
+[Rank 0] (epoch: 82, iters: 100, time: 0.187, data: 0.000) , D_A: 0.158, G_A: 2.854, cycle_A: 0.175, cycle_A_struct: 0.552, cycle_A_mono: 0.008, flow_smooth: 0.054, flow_mono: 0.038, flow_mag: 0.048, idt_A: 0.004, D_B: 0.013, G_B: 4.351, cycle_B: 0.102, cycle_B_struct: 0.360, cycle_B_mono: 0.006, idt_B: 0.021
+
+[Rank 0] (epoch: 82, iters: 150, time: 0.175, data: 0.001) , D_A: 0.398, G_A: 2.892, cycle_A: 0.175, cycle_A_struct: 0.595, cycle_A_mono: 0.007, flow_smooth: 0.053, flow_mono: 0.035, flow_mag: 0.048, idt_A: 0.009, D_B: 0.011, G_B: 3.837, cycle_B: 0.105, cycle_B_struct: 0.544, cycle_B_mono: 0.007, idt_B: 0.023
+
+[Rank 0] (epoch: 82, iters: 200, time: 0.193, data: 0.000) , D_A: 0.052, G_A: 3.296, cycle_A: 0.279, cycle_A_struct: 1.001, cycle_A_mono: 0.010, flow_smooth: 0.059, flow_mono: 0.039, flow_mag: 0.046, idt_A: 0.008, D_B: 0.013, G_B: 4.504, cycle_B: 0.145, cycle_B_struct: 0.443, cycle_B_mono: 0.007, idt_B: 0.021
+
+[Rank 0] (epoch: 83, iters: 50, time: 0.184, data: 7.281) , D_A: 0.130, G_A: 2.073, cycle_A: 0.180, cycle_A_struct: 0.589, cycle_A_mono: 0.007, flow_smooth: 0.054, flow_mono: 0.037, flow_mag: 0.044, idt_A: 0.004, D_B: 0.036, G_B: 3.424, cycle_B: 0.094, cycle_B_struct: 0.376, cycle_B_mono: 0.006, idt_B: 0.028
+
+[Rank 0] (epoch: 83, iters: 100, time: 0.175, data: 0.000) , D_A: 0.153, G_A: 3.949, cycle_A: 0.267, cycle_A_struct: 1.015, cycle_A_mono: 0.010, flow_smooth: 0.057, flow_mono: 0.050, flow_mag: 0.061, idt_A: 0.016, D_B: 0.069, G_B: 2.655, cycle_B: 0.121, cycle_B_struct: 0.812, cycle_B_mono: 0.008, idt_B: 0.035
+
+[Rank 0] (epoch: 83, iters: 150, time: 0.187, data: 0.000) , D_A: 0.128, G_A: 3.161, cycle_A: 0.190, cycle_A_struct: 0.625, cycle_A_mono: 0.008, flow_smooth: 0.049, flow_mono: 0.036, flow_mag: 0.038, idt_A: 0.017, D_B: 0.018, G_B: 4.746, cycle_B: 0.141, cycle_B_struct: 0.542, cycle_B_mono: 0.009, idt_B: 0.018
+
+[Rank 0] (epoch: 83, iters: 200, time: 0.178, data: 0.001) , D_A: 0.210, G_A: 1.880, cycle_A: 0.210, cycle_A_struct: 0.733, cycle_A_mono: 0.009, flow_smooth: 0.068, flow_mono: 0.056, flow_mag: 0.079, idt_A: 0.005, D_B: 0.051, G_B: 3.155, cycle_B: 0.201, cycle_B_struct: 1.044, cycle_B_mono: 0.008, idt_B: 0.027
+
+[Rank 0] (epoch: 84, iters: 50, time: 0.164, data: 7.288) , D_A: 0.057, G_A: 2.822, cycle_A: 0.181, cycle_A_struct: 0.588, cycle_A_mono: 0.008, flow_smooth: 0.069, flow_mono: 0.056, flow_mag: 0.055, idt_A: 0.014, D_B: 0.045, G_B: 4.183, cycle_B: 0.228, cycle_B_struct: 0.787, cycle_B_mono: 0.011, idt_B: 0.022
+
+[Rank 0] (epoch: 84, iters: 100, time: 0.189, data: 0.001) , D_A: 0.220, G_A: 3.188, cycle_A: 0.237, cycle_A_struct: 0.722, cycle_A_mono: 0.009, flow_smooth: 0.066, flow_mono: 0.048, flow_mag: 0.078, idt_A: 0.004, D_B: 0.026, G_B: 3.561, cycle_B: 0.027, cycle_B_struct: 0.113, cycle_B_mono: 0.001, idt_B: 0.020
+
+[Rank 0] (epoch: 84, iters: 150, time: 0.176, data: 0.000) , D_A: 0.307, G_A: 1.054, cycle_A: 0.227, cycle_A_struct: 0.719, cycle_A_mono: 0.008, flow_smooth: 0.064, flow_mono: 0.040, flow_mag: 0.057, idt_A: 0.021, D_B: 0.020, G_B: 4.378, cycle_B: 0.143, cycle_B_struct: 0.475, cycle_B_mono: 0.008, idt_B: 0.022
+
+[Rank 0] (epoch: 84, iters: 200, time: 0.187, data: 0.001) , D_A: 0.051, G_A: 2.940, cycle_A: 0.155, cycle_A_struct: 0.511, cycle_A_mono: 0.007, flow_smooth: 0.047, flow_mono: 0.036, flow_mag: 0.040, idt_A: 0.024, D_B: 0.020, G_B: 4.057, cycle_B: 0.116, cycle_B_struct: 0.332, cycle_B_mono: 0.007, idt_B: 0.016
+
+[Rank 0] (epoch: 85, iters: 50, time: 0.184, data: 7.309) , D_A: 0.080, G_A: 3.007, cycle_A: 0.211, cycle_A_struct: 0.758, cycle_A_mono: 0.009, flow_smooth: 0.050, flow_mono: 0.035, flow_mag: 0.057, idt_A: 0.014, D_B: 0.023, G_B: 3.405, cycle_B: 0.038, cycle_B_struct: 0.571, cycle_B_mono: 0.002, idt_B: 0.056
+
+[Rank 0] (epoch: 85, iters: 100, time: 0.176, data: 0.001) , D_A: 0.232, G_A: 1.352, cycle_A: 0.175, cycle_A_struct: 0.655, cycle_A_mono: 0.006, flow_smooth: 0.032, flow_mono: 0.026, flow_mag: 0.033, idt_A: 0.002, D_B: 0.070, G_B: 3.897, cycle_B: 0.053, cycle_B_struct: 0.244, cycle_B_mono: 0.003, idt_B: 0.034
+
+[Rank 0] (epoch: 85, iters: 150, time: 0.177, data: 0.000) , D_A: 0.191, G_A: 3.174, cycle_A: 0.219, cycle_A_struct: 0.690, cycle_A_mono: 0.008, flow_smooth: 0.056, flow_mono: 0.038, flow_mag: 0.046, idt_A: 0.018, D_B: 0.015, G_B: 4.244, cycle_B: 0.112, cycle_B_struct: 0.342, cycle_B_mono: 0.007, idt_B: 0.017
+
+[Rank 0] (epoch: 85, iters: 200, time: 0.172, data: 0.002) , D_A: 0.085, G_A: 1.609, cycle_A: 0.152, cycle_A_struct: 0.605, cycle_A_mono: 0.007, flow_smooth: 0.043, flow_mono: 0.027, flow_mag: 0.028, idt_A: 0.006, D_B: 0.029, G_B: 4.478, cycle_B: 0.090, cycle_B_struct: 0.272, cycle_B_mono: 0.006, idt_B: 0.018
+
+[Rank 0] (epoch: 86, iters: 50, time: 0.173, data: 7.371) , D_A: 0.163, G_A: 1.698, cycle_A: 0.120, cycle_A_struct: 0.407, cycle_A_mono: 0.004, flow_smooth: 0.027, flow_mono: 0.021, flow_mag: 0.019, idt_A: 0.002, D_B: 0.083, G_B: 4.096, cycle_B: 0.062, cycle_B_struct: 0.251, cycle_B_mono: 0.003, idt_B: 0.021
+
+[Rank 0] (epoch: 86, iters: 100, time: 0.181, data: 0.001) , D_A: 0.031, G_A: 2.626, cycle_A: 0.177, cycle_A_struct: 0.639, cycle_A_mono: 0.007, flow_smooth: 0.055, flow_mono: 0.034, flow_mag: 0.041, idt_A: 0.008, D_B: 0.013, G_B: 4.502, cycle_B: 0.092, cycle_B_struct: 0.270, cycle_B_mono: 0.006, idt_B: 0.017
+
+[Rank 0] (epoch: 86, iters: 150, time: 0.178, data: 0.001) , D_A: 0.151, G_A: 1.836, cycle_A: 0.213, cycle_A_struct: 0.772, cycle_A_mono: 0.008, flow_smooth: 0.067, flow_mono: 0.047, flow_mag: 0.046, idt_A: 0.004, D_B: 0.017, G_B: 4.535, cycle_B: 0.106, cycle_B_struct: 0.355, cycle_B_mono: 0.006, idt_B: 0.018
+
+[Rank 0] (epoch: 86, iters: 200, time: 0.180, data: 0.000) , D_A: 0.182, G_A: 1.058, cycle_A: 0.193, cycle_A_struct: 0.631, cycle_A_mono: 0.008, flow_smooth: 0.065, flow_mono: 0.045, flow_mag: 0.072, idt_A: 0.010, D_B: 0.018, G_B: 2.114, cycle_B: 0.024, cycle_B_struct: 0.149, cycle_B_mono: 0.001, idt_B: 0.017
+
+[Rank 0] (epoch: 87, iters: 50, time: 0.178, data: 7.315) , D_A: 0.195, G_A: 1.978, cycle_A: 0.206, cycle_A_struct: 0.706, cycle_A_mono: 0.009, flow_smooth: 0.061, flow_mono: 0.041, flow_mag: 0.055, idt_A: 0.011, D_B: 0.013, G_B: 4.458, cycle_B: 0.078, cycle_B_struct: 0.346, cycle_B_mono: 0.005, idt_B: 0.020
+
+[Rank 0] (epoch: 87, iters: 100, time: 0.177, data: 0.000) , D_A: 0.061, G_A: 2.756, cycle_A: 0.240, cycle_A_struct: 0.782, cycle_A_mono: 0.009, flow_smooth: 0.074, flow_mono: 0.049, flow_mag: 0.064, idt_A: 0.006, D_B: 0.017, G_B: 4.342, cycle_B: 0.103, cycle_B_struct: 0.321, cycle_B_mono: 0.006, idt_B: 0.020
+
+[Rank 0] (epoch: 87, iters: 150, time: 0.197, data: 0.001) , D_A: 0.201, G_A: 2.097, cycle_A: 0.193, cycle_A_struct: 0.663, cycle_A_mono: 0.008, flow_smooth: 0.061, flow_mono: 0.043, flow_mag: 0.052, idt_A: 0.003, D_B: 0.016, G_B: 4.373, cycle_B: 0.090, cycle_B_struct: 0.306, cycle_B_mono: 0.006, idt_B: 0.020
+
+[Rank 0] (epoch: 87, iters: 200, time: 0.179, data: 0.000) , D_A: 0.239, G_A: 2.163, cycle_A: 0.176, cycle_A_struct: 0.662, cycle_A_mono: 0.008, flow_smooth: 0.048, flow_mono: 0.033, flow_mag: 0.046, idt_A: 0.009, D_B: 0.018, G_B: 3.917, cycle_B: 0.092, cycle_B_struct: 0.534, cycle_B_mono: 0.006, idt_B: 0.020
+
+[Rank 0] (epoch: 88, iters: 50, time: 0.186, data: 7.272) , D_A: 0.065, G_A: 2.669, cycle_A: 0.201, cycle_A_struct: 0.647, cycle_A_mono: 0.008, flow_smooth: 0.055, flow_mono: 0.036, flow_mag: 0.058, idt_A: 0.007, D_B: 0.021, G_B: 1.976, cycle_B: 0.019, cycle_B_struct: 0.124, cycle_B_mono: 0.001, idt_B: 0.023
+
+[Rank 0] (epoch: 88, iters: 100, time: 0.198, data: 0.001) , D_A: 0.112, G_A: 3.062, cycle_A: 0.151, cycle_A_struct: 0.543, cycle_A_mono: 0.008, flow_smooth: 0.038, flow_mono: 0.024, flow_mag: 0.034, idt_A: 0.008, D_B: 0.015, G_B: 4.088, cycle_B: 0.052, cycle_B_struct: 0.321, cycle_B_mono: 0.004, idt_B: 0.015
+
+[Rank 0] (epoch: 88, iters: 150, time: 0.174, data: 0.001) , D_A: 0.084, G_A: 2.887, cycle_A: 0.197, cycle_A_struct: 0.631, cycle_A_mono: 0.008, flow_smooth: 0.070, flow_mono: 0.048, flow_mag: 0.067, idt_A: 0.007, D_B: 0.014, G_B: 4.795, cycle_B: 0.114, cycle_B_struct: 0.328, cycle_B_mono: 0.006, idt_B: 0.024
+
+[Rank 0] (epoch: 88, iters: 200, time: 0.188, data: 0.001) , D_A: 0.137, G_A: 1.987, cycle_A: 0.234, cycle_A_struct: 0.779, cycle_A_mono: 0.009, flow_smooth: 0.060, flow_mono: 0.039, flow_mag: 0.059, idt_A: 0.001, D_B: 0.014, G_B: 4.652, cycle_B: 0.026, cycle_B_struct: 0.125, cycle_B_mono: 0.001, idt_B: 0.022
+
+[Rank 0] (epoch: 89, iters: 50, time: 0.172, data: 7.269) , D_A: 0.043, G_A: 3.256, cycle_A: 0.168, cycle_A_struct: 0.567, cycle_A_mono: 0.006, flow_smooth: 0.030, flow_mono: 0.022, flow_mag: 0.029, idt_A: 0.019, D_B: 0.019, G_B: 1.764, cycle_B: 0.025, cycle_B_struct: 0.123, cycle_B_mono: 0.001, idt_B: 0.020
+
+[Rank 0] (epoch: 89, iters: 100, time: 0.188, data: 0.001) , D_A: 0.103, G_A: 2.167, cycle_A: 0.166, cycle_A_struct: 0.625, cycle_A_mono: 0.006, flow_smooth: 0.044, flow_mono: 0.032, flow_mag: 0.046, idt_A: 0.002, D_B: 0.035, G_B: 3.157, cycle_B: 0.068, cycle_B_struct: 0.302, cycle_B_mono: 0.003, idt_B: 0.017
+
+[Rank 0] (epoch: 89, iters: 150, time: 0.169, data: 0.001) , D_A: 0.063, G_A: 3.385, cycle_A: 0.169, cycle_A_struct: 0.568, cycle_A_mono: 0.007, flow_smooth: 0.068, flow_mono: 0.042, flow_mag: 0.059, idt_A: 0.005, D_B: 0.014, G_B: 4.490, cycle_B: 0.110, cycle_B_struct: 0.371, cycle_B_mono: 0.007, idt_B: 0.015
+
+[Rank 0] (epoch: 89, iters: 200, time: 0.180, data: 0.000) , D_A: 0.056, G_A: 3.794, cycle_A: 0.180, cycle_A_struct: 0.591, cycle_A_mono: 0.008, flow_smooth: 0.052, flow_mono: 0.039, flow_mag: 0.050, idt_A: 0.002, D_B: 0.030, G_B: 3.203, cycle_B: 0.042, cycle_B_struct: 0.178, cycle_B_mono: 0.002, idt_B: 0.015
+
+[Rank 0] (epoch: 90, iters: 50, time: 0.172, data: 7.246) , D_A: 0.083, G_A: 2.956, cycle_A: 0.166, cycle_A_struct: 0.577, cycle_A_mono: 0.008, flow_smooth: 0.043, flow_mono: 0.034, flow_mag: 0.044, idt_A: 0.012, D_B: 0.018, G_B: 4.291, cycle_B: 0.046, cycle_B_struct: 0.461, cycle_B_mono: 0.003, idt_B: 0.021
+
+[Rank 0] (epoch: 90, iters: 100, time: 0.181, data: 0.001) , D_A: 0.060, G_A: 2.408, cycle_A: 0.166, cycle_A_struct: 0.600, cycle_A_mono: 0.008, flow_smooth: 0.054, flow_mono: 0.034, flow_mag: 0.043, idt_A: 0.005, D_B: 0.013, G_B: 4.272, cycle_B: 0.116, cycle_B_struct: 0.348, cycle_B_mono: 0.006, idt_B: 0.017
+
+[Rank 0] (epoch: 90, iters: 150, time: 0.172, data: 0.001) , D_A: 0.042, G_A: 1.808, cycle_A: 0.267, cycle_A_struct: 0.857, cycle_A_mono: 0.010, flow_smooth: 0.086, flow_mono: 0.057, flow_mag: 0.085, idt_A: 0.003, D_B: 0.022, G_B: 4.571, cycle_B: 0.085, cycle_B_struct: 0.249, cycle_B_mono: 0.005, idt_B: 0.031
+
+[Rank 0] (epoch: 90, iters: 200, time: 0.171, data: 0.001) , D_A: 0.453, G_A: 3.639, cycle_A: 0.165, cycle_A_struct: 0.558, cycle_A_mono: 0.008, flow_smooth: 0.056, flow_mono: 0.037, flow_mag: 0.045, idt_A: 0.003, D_B: 0.017, G_B: 4.595, cycle_B: 0.086, cycle_B_struct: 0.268, cycle_B_mono: 0.005, idt_B: 0.017
+
+[Rank 0] (epoch: 91, iters: 50, time: 0.177, data: 7.105) , D_A: 0.028, G_A: 3.769, cycle_A: 0.165, cycle_A_struct: 0.566, cycle_A_mono: 0.008, flow_smooth: 0.057, flow_mono: 0.036, flow_mag: 0.046, idt_A: 0.003, D_B: 0.010, G_B: 4.669, cycle_B: 0.062, cycle_B_struct: 0.201, cycle_B_mono: 0.004, idt_B: 0.016
+
+[Rank 0] (epoch: 91, iters: 100, time: 0.200, data: 0.000) , D_A: 0.028, G_A: 2.875, cycle_A: 0.253, cycle_A_struct: 0.846, cycle_A_mono: 0.009, flow_smooth: 0.075, flow_mono: 0.058, flow_mag: 0.057, idt_A: 0.004, D_B: 0.031, G_B: 3.807, cycle_B: 0.158, cycle_B_struct: 0.644, cycle_B_mono: 0.008, idt_B: 0.020
+
+[Rank 0] (epoch: 91, iters: 150, time: 0.171, data: 0.000) , D_A: 0.058, G_A: 3.641, cycle_A: 0.201, cycle_A_struct: 0.705, cycle_A_mono: 0.008, flow_smooth: 0.068, flow_mono: 0.044, flow_mag: 0.054, idt_A: 0.032, D_B: 0.016, G_B: 4.325, cycle_B: 0.166, cycle_B_struct: 0.459, cycle_B_mono: 0.008, idt_B: 0.019
+
+[Rank 0] (epoch: 91, iters: 200, time: 0.171, data: 0.001) , D_A: 0.063, G_A: 2.542, cycle_A: 0.185, cycle_A_struct: 0.663, cycle_A_mono: 0.008, flow_smooth: 0.053, flow_mono: 0.037, flow_mag: 0.037, idt_A: 0.006, D_B: 0.014, G_B: 4.614, cycle_B: 0.096, cycle_B_struct: 0.294, cycle_B_mono: 0.006, idt_B: 0.023
+
+[Rank 0] (epoch: 92, iters: 50, time: 0.199, data: 7.328) , D_A: 0.231, G_A: 3.395, cycle_A: 0.155, cycle_A_struct: 0.524, cycle_A_mono: 0.007, flow_smooth: 0.060, flow_mono: 0.043, flow_mag: 0.048, idt_A: 0.003, D_B: 0.010, G_B: 4.660, cycle_B: 0.086, cycle_B_struct: 0.302, cycle_B_mono: 0.005, idt_B: 0.019
+
+[Rank 0] (epoch: 92, iters: 100, time: 0.179, data: 0.001) , D_A: 0.048, G_A: 2.213, cycle_A: 0.125, cycle_A_struct: 0.464, cycle_A_mono: 0.006, flow_smooth: 0.040, flow_mono: 0.027, flow_mag: 0.027, idt_A: 0.006, D_B: 0.016, G_B: 4.600, cycle_B: 0.079, cycle_B_struct: 0.228, cycle_B_mono: 0.005, idt_B: 0.016
+
+[Rank 0] (epoch: 92, iters: 150, time: 0.180, data: 0.001) , D_A: 0.230, G_A: 1.668, cycle_A: 0.164, cycle_A_struct: 0.610, cycle_A_mono: 0.008, flow_smooth: 0.040, flow_mono: 0.030, flow_mag: 0.035, idt_A: 0.007, D_B: 0.025, G_B: 3.679, cycle_B: 0.071, cycle_B_struct: 0.390, cycle_B_mono: 0.005, idt_B: 0.020
+
+[Rank 0] (epoch: 92, iters: 200, time: 0.173, data: 0.001) , D_A: 0.086, G_A: 2.317, cycle_A: 0.172, cycle_A_struct: 0.585, cycle_A_mono: 0.008, flow_smooth: 0.059, flow_mono: 0.042, flow_mag: 0.047, idt_A: 0.024, D_B: 0.027, G_B: 4.264, cycle_B: 0.131, cycle_B_struct: 0.356, cycle_B_mono: 0.007, idt_B: 0.019
+
+[Rank 0] (epoch: 93, iters: 50, time: 0.201, data: 7.291) , D_A: 0.276, G_A: 4.119, cycle_A: 0.158, cycle_A_struct: 0.490, cycle_A_mono: 0.007, flow_smooth: 0.046, flow_mono: 0.036, flow_mag: 0.039, idt_A: 0.007, D_B: 0.013, G_B: 3.941, cycle_B: 0.089, cycle_B_struct: 0.449, cycle_B_mono: 0.007, idt_B: 0.013
+
+[Rank 0] (epoch: 93, iters: 100, time: 0.178, data: 0.001) , D_A: 0.149, G_A: 1.636, cycle_A: 0.172, cycle_A_struct: 0.624, cycle_A_mono: 0.009, flow_smooth: 0.052, flow_mono: 0.037, flow_mag: 0.053, idt_A: 0.005, D_B: 0.015, G_B: 4.171, cycle_B: 0.057, cycle_B_struct: 0.390, cycle_B_mono: 0.005, idt_B: 0.018
+
+[Rank 0] (epoch: 93, iters: 150, time: 0.173, data: 0.000) , D_A: 0.032, G_A: 3.653, cycle_A: 0.218, cycle_A_struct: 0.713, cycle_A_mono: 0.009, flow_smooth: 0.062, flow_mono: 0.039, flow_mag: 0.056, idt_A: 0.047, D_B: 0.013, G_B: 3.893, cycle_B: 0.122, cycle_B_struct: 0.377, cycle_B_mono: 0.008, idt_B: 0.014
+
+[Rank 0] (epoch: 93, iters: 200, time: 0.196, data: 0.000) , D_A: 0.027, G_A: 3.890, cycle_A: 0.177, cycle_A_struct: 0.567, cycle_A_mono: 0.008, flow_smooth: 0.072, flow_mono: 0.050, flow_mag: 0.065, idt_A: 0.003, D_B: 0.012, G_B: 4.338, cycle_B: 0.083, cycle_B_struct: 0.293, cycle_B_mono: 0.005, idt_B: 0.017
+
+[Rank 0] (epoch: 94, iters: 50, time: 0.186, data: 7.244) , D_A: 0.033, G_A: 3.324, cycle_A: 0.173, cycle_A_struct: 0.571, cycle_A_mono: 0.008, flow_smooth: 0.061, flow_mono: 0.040, flow_mag: 0.048, idt_A: 0.004, D_B: 0.015, G_B: 4.585, cycle_B: 0.067, cycle_B_struct: 0.204, cycle_B_mono: 0.005, idt_B: 0.016
+
+[Rank 0] (epoch: 94, iters: 100, time: 0.182, data: 0.001) , D_A: 0.063, G_A: 3.638, cycle_A: 0.231, cycle_A_struct: 0.712, cycle_A_mono: 0.008, flow_smooth: 0.074, flow_mono: 0.048, flow_mag: 0.072, idt_A: 0.019, D_B: 0.013, G_B: 4.564, cycle_B: 0.093, cycle_B_struct: 0.290, cycle_B_mono: 0.006, idt_B: 0.022
+
+[Rank 0] (epoch: 94, iters: 150, time: 0.177, data: 0.001) , D_A: 0.036, G_A: 3.393, cycle_A: 0.148, cycle_A_struct: 0.470, cycle_A_mono: 0.006, flow_smooth: 0.057, flow_mono: 0.035, flow_mag: 0.041, idt_A: 0.003, D_B: 0.011, G_B: 4.422, cycle_B: 0.082, cycle_B_struct: 0.235, cycle_B_mono: 0.005, idt_B: 0.015
+
+[Rank 0] (epoch: 94, iters: 200, time: 0.173, data: 0.001) , D_A: 0.043, G_A: 4.037, cycle_A: 0.177, cycle_A_struct: 0.555, cycle_A_mono: 0.007, flow_smooth: 0.053, flow_mono: 0.032, flow_mag: 0.038, idt_A: 0.004, D_B: 0.012, G_B: 4.510, cycle_B: 0.068, cycle_B_struct: 0.215, cycle_B_mono: 0.005, idt_B: 0.013
+
+[Rank 0] (epoch: 95, iters: 50, time: 0.186, data: 7.237) , D_A: 0.032, G_A: 3.586, cycle_A: 0.164, cycle_A_struct: 0.539, cycle_A_mono: 0.008, flow_smooth: 0.065, flow_mono: 0.043, flow_mag: 0.053, idt_A: 0.004, D_B: 0.011, G_B: 4.582, cycle_B: 0.071, cycle_B_struct: 0.209, cycle_B_mono: 0.005, idt_B: 0.016
+
+[Rank 0] (epoch: 95, iters: 100, time: 0.176, data: 0.001) , D_A: 0.028, G_A: 3.583, cycle_A: 0.142, cycle_A_struct: 0.487, cycle_A_mono: 0.007, flow_smooth: 0.046, flow_mono: 0.034, flow_mag: 0.044, idt_A: 0.002, D_B: 0.011, G_B: 0.696, cycle_B: 0.044, cycle_B_struct: 0.224, cycle_B_mono: 0.002, idt_B: 0.014
+
+[Rank 0] (epoch: 95, iters: 150, time: 0.174, data: 0.001) , D_A: 0.260, G_A: 1.231, cycle_A: 0.161, cycle_A_struct: 0.568, cycle_A_mono: 0.007, flow_smooth: 0.042, flow_mono: 0.029, flow_mag: 0.037, idt_A: 0.005, D_B: 0.017, G_B: 4.171, cycle_B: 0.062, cycle_B_struct: 0.344, cycle_B_mono: 0.005, idt_B: 0.011
+
+[Rank 0] (epoch: 95, iters: 200, time: 0.191, data: 0.001) , D_A: 0.089, G_A: 2.856, cycle_A: 0.174, cycle_A_struct: 0.705, cycle_A_mono: 0.007, flow_smooth: 0.051, flow_mono: 0.031, flow_mag: 0.036, idt_A: 0.003, D_B: 0.013, G_B: 4.478, cycle_B: 0.067, cycle_B_struct: 0.204, cycle_B_mono: 0.005, idt_B: 0.012
+
+[Rank 0] (epoch: 96, iters: 50, time: 0.193, data: 7.167) , D_A: 0.715, G_A: 2.400, cycle_A: 0.154, cycle_A_struct: 0.599, cycle_A_mono: 0.007, flow_smooth: 0.038, flow_mono: 0.024, flow_mag: 0.024, idt_A: 0.012, D_B: 0.015, G_B: 4.414, cycle_B: 0.088, cycle_B_struct: 0.279, cycle_B_mono: 0.005, idt_B: 0.014
+
+[Rank 0] (epoch: 96, iters: 100, time: 0.198, data: 0.001) , D_A: 0.212, G_A: 1.647, cycle_A: 0.148, cycle_A_struct: 0.523, cycle_A_mono: 0.007, flow_smooth: 0.057, flow_mono: 0.045, flow_mag: 0.043, idt_A: 0.008, D_B: 0.021, G_B: 3.921, cycle_B: 0.116, cycle_B_struct: 0.541, cycle_B_mono: 0.008, idt_B: 0.012
+
+[Rank 0] (epoch: 96, iters: 150, time: 0.179, data: 0.000) , D_A: 0.207, G_A: 3.492, cycle_A: 0.166, cycle_A_struct: 0.518, cycle_A_mono: 0.007, flow_smooth: 0.056, flow_mono: 0.033, flow_mag: 0.033, idt_A: 0.003, D_B: 0.011, G_B: 4.716, cycle_B: 0.068, cycle_B_struct: 0.206, cycle_B_mono: 0.005, idt_B: 0.014
+
+[Rank 0] (epoch: 96, iters: 200, time: 0.164, data: 0.001) , D_A: 0.072, G_A: 2.901, cycle_A: 0.149, cycle_A_struct: 0.496, cycle_A_mono: 0.007, flow_smooth: 0.050, flow_mono: 0.035, flow_mag: 0.032, idt_A: 0.004, D_B: 0.013, G_B: 4.523, cycle_B: 0.104, cycle_B_struct: 0.363, cycle_B_mono: 0.005, idt_B: 0.016
+
+[Rank 0] (epoch: 97, iters: 50, time: 0.184, data: 7.277) , D_A: 0.054, G_A: 2.731, cycle_A: 0.148, cycle_A_struct: 0.470, cycle_A_mono: 0.006, flow_smooth: 0.048, flow_mono: 0.032, flow_mag: 0.030, idt_A: 0.004, D_B: 0.010, G_B: 4.589, cycle_B: 0.070, cycle_B_struct: 0.202, cycle_B_mono: 0.005, idt_B: 0.015
+
+[Rank 0] (epoch: 97, iters: 100, time: 0.173, data: 0.001) , D_A: 0.054, G_A: 3.742, cycle_A: 0.137, cycle_A_struct: 0.432, cycle_A_mono: 0.006, flow_smooth: 0.044, flow_mono: 0.033, flow_mag: 0.042, idt_A: 0.002, D_B: 0.011, G_B: 4.635, cycle_B: 0.041, cycle_B_struct: 0.178, cycle_B_mono: 0.002, idt_B: 0.013
+
+[Rank 0] (epoch: 97, iters: 150, time: 0.197, data: 0.001) , D_A: 0.065, G_A: 2.003, cycle_A: 0.159, cycle_A_struct: 0.547, cycle_A_mono: 0.007, flow_smooth: 0.056, flow_mono: 0.039, flow_mag: 0.039, idt_A: 0.005, D_B: 0.014, G_B: 4.405, cycle_B: 0.074, cycle_B_struct: 0.213, cycle_B_mono: 0.005, idt_B: 0.016
+
+[Rank 0] (epoch: 97, iters: 200, time: 0.184, data: 0.001) , D_A: 0.037, G_A: 2.759, cycle_A: 0.180, cycle_A_struct: 0.561, cycle_A_mono: 0.008, flow_smooth: 0.073, flow_mono: 0.053, flow_mag: 0.080, idt_A: 0.002, D_B: 0.014, G_B: 4.771, cycle_B: 0.081, cycle_B_struct: 0.396, cycle_B_mono: 0.004, idt_B: 0.014
+
+[Rank 0] (epoch: 98, iters: 50, time: 0.189, data: 7.282) , D_A: 0.054, G_A: 2.518, cycle_A: 0.182, cycle_A_struct: 0.602, cycle_A_mono: 0.008, flow_smooth: 0.064, flow_mono: 0.043, flow_mag: 0.045, idt_A: 0.004, D_B: 0.012, G_B: 4.595, cycle_B: 0.074, cycle_B_struct: 0.211, cycle_B_mono: 0.005, idt_B: 0.014
+
+[Rank 0] (epoch: 98, iters: 100, time: 0.196, data: 0.001) , D_A: 0.133, G_A: 1.852, cycle_A: 0.134, cycle_A_struct: 0.512, cycle_A_mono: 0.005, flow_smooth: 0.025, flow_mono: 0.019, flow_mag: 0.026, idt_A: 0.011, D_B: 0.075, G_B: 3.084, cycle_B: 0.029, cycle_B_struct: 0.136, cycle_B_mono: 0.001, idt_B: 0.018
+
+[Rank 0] (epoch: 98, iters: 150, time: 0.193, data: 0.000) , D_A: 0.034, G_A: 3.666, cycle_A: 0.167, cycle_A_struct: 0.534, cycle_A_mono: 0.007, flow_smooth: 0.063, flow_mono: 0.043, flow_mag: 0.067, idt_A: 0.003, D_B: 0.011, G_B: 4.635, cycle_B: 0.070, cycle_B_struct: 0.308, cycle_B_mono: 0.003, idt_B: 0.012
+
+[Rank 0] (epoch: 98, iters: 200, time: 0.176, data: 0.001) , D_A: 0.153, G_A: 3.378, cycle_A: 0.152, cycle_A_struct: 0.481, cycle_A_mono: 0.007, flow_smooth: 0.054, flow_mono: 0.039, flow_mag: 0.047, idt_A: 0.004, D_B: 0.011, G_B: 4.696, cycle_B: 0.090, cycle_B_struct: 0.284, cycle_B_mono: 0.005, idt_B: 0.015
+
+[Rank 0] (epoch: 99, iters: 50, time: 0.189, data: 7.248) , D_A: 0.220, G_A: 2.458, cycle_A: 0.174, cycle_A_struct: 0.555, cycle_A_mono: 0.007, flow_smooth: 0.055, flow_mono: 0.044, flow_mag: 0.044, idt_A: 0.006, D_B: 0.012, G_B: 3.986, cycle_B: 0.112, cycle_B_struct: 0.519, cycle_B_mono: 0.008, idt_B: 0.013
+
+[Rank 0] (epoch: 99, iters: 100, time: 0.178, data: 0.001) , D_A: 0.083, G_A: 2.440, cycle_A: 0.217, cycle_A_struct: 0.691, cycle_A_mono: 0.009, flow_smooth: 0.094, flow_mono: 0.067, flow_mag: 0.085, idt_A: 0.003, D_B: 0.019, G_B: 4.627, cycle_B: 0.118, cycle_B_struct: 0.425, cycle_B_mono: 0.007, idt_B: 0.018
+
+[Rank 0] (epoch: 99, iters: 150, time: 0.184, data: 0.001) , D_A: 0.201, G_A: 3.248, cycle_A: 0.146, cycle_A_struct: 0.514, cycle_A_mono: 0.007, flow_smooth: 0.047, flow_mono: 0.036, flow_mag: 0.045, idt_A: 0.001, D_B: 0.011, G_B: 4.913, cycle_B: 0.027, cycle_B_struct: 0.122, cycle_B_mono: 0.001, idt_B: 0.014
+
+[Rank 0] (epoch: 99, iters: 200, time: 0.194, data: 0.001) , D_A: 0.142, G_A: 1.358, cycle_A: 0.058, cycle_A_struct: 0.248, cycle_A_mono: 0.001, flow_smooth: 0.020, flow_mono: 0.018, flow_mag: 0.007, idt_A: 0.006, D_B: 0.295, G_B: 4.084, cycle_B: 0.112, cycle_B_struct: 0.521, cycle_B_mono: 0.008, idt_B: 0.105
+
+[Rank 0] (epoch: 100, iters: 50, time: 0.166, data: 7.231) , D_A: 0.214, G_A: 1.505, cycle_A: 0.133, cycle_A_struct: 0.454, cycle_A_mono: 0.005, flow_smooth: 0.028, flow_mono: 0.022, flow_mag: 0.023, idt_A: 0.003, D_B: 0.067, G_B: 3.928, cycle_B: 0.058, cycle_B_struct: 0.291, cycle_B_mono: 0.004, idt_B: 0.014
+
+[Rank 0] (epoch: 100, iters: 100, time: 0.187, data: 0.000) , D_A: 0.050, G_A: 3.100, cycle_A: 0.174, cycle_A_struct: 0.531, cycle_A_mono: 0.008, flow_smooth: 0.073, flow_mono: 0.048, flow_mag: 0.064, idt_A: 0.004, D_B: 0.012, G_B: 4.526, cycle_B: 0.090, cycle_B_struct: 0.307, cycle_B_mono: 0.006, idt_B: 0.012
+
+[Rank 0] (epoch: 100, iters: 150, time: 0.182, data: 0.000) , D_A: 0.065, G_A: 3.150, cycle_A: 0.135, cycle_A_struct: 0.459, cycle_A_mono: 0.007, flow_smooth: 0.059, flow_mono: 0.046, flow_mag: 0.053, idt_A: 0.002, D_B: 0.023, G_B: 3.867, cycle_B: 0.062, cycle_B_struct: 0.243, cycle_B_mono: 0.004, idt_B: 0.016
+
+[Rank 0] (epoch: 100, iters: 200, time: 0.174, data: 0.001) , D_A: 0.052, G_A: 2.963, cycle_A: 0.165, cycle_A_struct: 0.548, cycle_A_mono: 0.007, flow_smooth: 0.065, flow_mono: 0.042, flow_mag: 0.045, idt_A: 0.017, D_B: 0.012, G_B: 4.508, cycle_B: 0.094, cycle_B_struct: 0.305, cycle_B_mono: 0.006, idt_B: 0.011
+

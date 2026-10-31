@@ -1,0 +1,32 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# Run artifacts (never commit generated images or logs)
+/results/
+/checkpoints/*/web/
+*.html
+wandb/
+
+# Model weights and raw data: too large for plain git (GitHub rejects files > 100 MB
+# and recommends repos < 1 GB). Ship them via release assets / LFS / an external link.
+# The small sidecars (inference_config.json, train_opt.txt, loss_log.txt) stay tracked.
+/checkpoints/*/*.pth
+/datasets/
+
+# Local probes and scratch output
+smoke_tmp/
+*.tmp
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Python env (we ship environment.yml / requirements.txt instead)
+.venv/
+venv/
+env/

@@ -1,0 +1,10 @@
+# Weights are large; keep them out of normal blob history.
+*.pth filter=lfs diff=lfs merge=lfs -text
+
+# Image / figure inputs and outputs stay as text-able small files,
+# except loss logs and the training option dumps, which are small anyway.
+*.png  !text
+*.tif  !text
+*.tiff !text
+*.jpg  !text
+*.jpeg !text

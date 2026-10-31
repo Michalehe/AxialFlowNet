@@ -1,0 +1,62 @@
+cff-version: 1.2.0
+message: "If you use this code or the released models, please cite the manuscript and the upstream CycleGAN/pix2pix software."
+title: "AxialFlowNet: geometry-driven image translation for serial sectioning microscopy"
+abstract: >-
+  AxialFlowNet is a geometric flow-field generator: a shared ResNet backbone
+  feeds a flow branch that predicts a 2-D displacement field used to warp the
+  input image, and a bounded texture-residual branch that supplies a pixel-level
+  correction. Training combines the adversarial and cycle-consistency losses
+  with an axial-monotonicity penalty, an SSIM/Sobel structural loss and
+  total-variation, monotonicity and magnitude regularisation of the predicted
+  flow field. This package additionally contains the paired mitochondrial
+  experiments and the axial multi-scale discriminator.
+authors:
+  - family-names: "Wu"
+    given-names: "An"
+license: BSD-3-Clause
+repository-code: "https://github.com/Michalehe/AxialFlowNet"
+keywords:
+  - image-to-image translation
+  - optical flow
+  - de-stretching
+  - serial sectioning microscopy
+preferred-citation:
+  type: article
+  title: "AxialFlowNet: geometry-driven image translation for axial de-stretching of serial sectioning microscopy data"
+  authors:
+    - family-names: "Wu"
+      given-names: "An"
+  year: 2026
+
+references:
+  - type: software
+    title: "Image-to-Image Translation with Conditional Adversarial Networks (pix2pix/CycleGAN)"
+    authors:
+      - family-names: "Zhu"
+        given-names: "Jun-Yan"
+      - family-names: "Park"
+        given-names: "Taesung"
+      - family-names: "Isola"
+        given-names: "Phillip"
+      - family-names: "Efros"
+        given-names: "Alexei A."
+    year: 2017
+    repository-code: "https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix"
+  - type: article
+    title: "Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks"
+    authors:
+      - family-names: "Zhu"
+        given-names: "Jun-Yan"
+      - family-names: "Park"
+        given-names: "Taesung"
+      - family-names: "Isola"
+        given-names: "Phillip"
+      - family-names: "Efros"
+        given-names: "Alexei A."
+    year: 2017
+  - type: article
+    title: "Learning to see by looking at noise"
+    authors:
+      - family-names: "Paszke"
+        given-names: "Adam"
+    year: 2019

@@ -1,0 +1,22 @@
+{
+  "model": "axialflownet",
+  "implemented_in": "models/axialflownet_model.py",
+  "backbone": "_GeometricGenerator (flow branch + texture residual branch)",
+  "texture_bound": 0.15,
+  "flow_mag_threshold": 0.4,
+  "trained_with": {
+    "dataset_mode": "xunliti_paired",
+    "preprocess": "none",
+    "pad_multiple": 4,
+    "load_size": 0,
+    "gan_mode": "vanilla",
+    "ngf": 64,
+    "norm": "instance"
+  },
+  "reproduce_with": {
+    "inference_2d": "python scripts/inference.py --ckpt checkpoints/xianliti_AxialFlowNet_200ep --input datasets/xunlian-xianliti/testA --output <dir> --resize native",
+    "inference_3d": "python scripts/destretch3d.py --ckpt checkpoints/xianliti_AxialFlowNet_200ep --input <volume.tif> --output <dir>",
+    "evaluation": "python scripts/evaluate_paired.py --ckpt checkpoints/xianliti_AxialFlowNet_200ep --data datasets/xunlian-xianliti --phase test --resize native"
+  },
+  "notes": "Trained on paired mitochondrial slices with --preprocess none (native resolution, reflect-padded to a multiple of 4), so inference MUST use --resize native. Best agreement with the stored epoch-200 references obtained with 200_net_G_A.pth + texture_bound 0.15 (mean abs pixel diff 0.037 vs 0.386 for bound 0.3)."
+}

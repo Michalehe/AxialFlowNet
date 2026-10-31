@@ -1,0 +1,67 @@
+----------------- Options ---------------
+               batch_size: 1                             
+                    beta1: 0.5                           
+          checkpoints_dir: ./checkpoints                 
+           continue_train: False                         
+                crop_size: 256                           
+                 dataroot: ./datasets/xunlian-xianliti   	[default: None]
+             dataset_mode: xunliti_paired                	[default: unaligned]
+                direction: AtoB                          
+             display_freq: 400                           
+          display_winsize: 256                           
+                    epoch: latest                        
+              epoch_count: 1                             
+               force_size: 0                             
+                 gan_mode: vanilla                       	[default: lsgan]
+                init_gain: 0.02                          
+                init_type: normal                        
+                 input_nc: 3                             
+                  isTrain: True                          	[default: None]
+                 lambda_A: 10.0                          
+                 lambda_B: 10.0                          
+          lambda_flow_mag: 1.0                           
+         lambda_flow_mono: 5.0                           
+       lambda_flow_smooth: 2.0                           
+          lambda_identity: 0.5                           
+              lambda_mono: 2.0                           
+            lambda_struct: 1.0                           
+                load_iter: 0                             	[default: 0]
+                load_size: 286                           
+                       lr: 0.0002                        
+                     lr_D: 2e-05                         	[default: None]
+           lr_decay_iters: 50                            
+                lr_policy: linear                        
+         max_dataset_size: inf                           
+                    model: axialflownet                   	[default: cycle_gan]
+                 n_epochs: 200                           	[default: 100]
+           n_epochs_decay: 50                            	[default: 100]
+               n_layers_D: 3                             
+                     name: xianliti_AxialFlowNet_200ep     	[default: experiment_name]
+                      ndf: 64                            
+                     netD: basic                         
+                     netG: resnet_9blocks                
+                      ngf: 64                            
+               no_dropout: True                          
+                  no_flip: True                          	[default: False]
+                  no_html: True                          	[default: False]
+                     norm: instance                      
+              num_threads: 4                             
+                output_nc: 3                             
+                 pad_mode: reflect                       
+             pad_multiple: 4                             
+                    phase: train                         
+                pool_size: 50                            
+               preprocess: none                          
+               print_freq: 50                            	[default: 100]
+             save_by_iter: False                         
+          save_epoch_freq: 20                            	[default: 5]
+         save_latest_freq: 5000                          
+           serial_batches: False                         
+            struct_edge_w: 0.5                           
+            struct_ssim_w: 1.0                           
+                   suffix:                               
+         update_html_freq: 1000                          
+                use_wandb: False                         
+                  verbose: False                         
+       wandb_project_name: CycleGAN-and-pix2pix          
+----------------- End -------------------

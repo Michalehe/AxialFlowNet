@@ -1,0 +1,11 @@
+# Release / packaging requirements for the 3-axial de-stretch data
+# install:  python -m pip install -r requirements.txt
+torch==2.4.1
+torchvision==0.19.1
+numpy==1.24.4
+Pillow==11.3.0
+scikit-image==0.24.0
+tifffile==2024.8.30
+dominate>=2.6.0
+beautifulsoup4>=4.11.0
+requests>=2.28.0
