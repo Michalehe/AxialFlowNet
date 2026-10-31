@@ -4,7 +4,7 @@
 
 AxialFlowNet 是一个**几何流场生成器**:共享的 ResNet 主干输出同时驱动两个分支——*流场分支*预测二维位移场并对输入图像做空间 warp;*纹理残差分支*输出有界的像素级修正量。训练目标在对抗损失与循环一致性之外,叠加了轴向单调性惩罚、SSIM/Sobel 结构保持损失,以及对预测流场的总变分 / 单调性 / 幅度正则化。
 
-本仓库是论文所用代码、权重与生成结果的可运行发布版,基于
+本仓库是论文所用代码与生成结果的可运行发布版,训练权重以 release 附件形式提供(见[发布权重](#发布权重))。基于
 [pytorch-CycleGAN-and-pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix) 代码库构建,沿用其
 BSD-3-Clause 许可(派生作品声明见 `LICENSE`)。
 
@@ -23,13 +23,28 @@ BSD-3-Clause 许可(派生作品声明见 `LICENSE`)。
 | `scripts/destretch3d.py` | 逐切片推理,处理三维体数据 |
 | `scripts/evaluate_paired.py` | 在成对数据上计算 PSNR / SSIM / L1 |
 | `scripts/make_examples.py` | 重新生成 `examples/panels` 中的对照图 |
-| `checkpoints/` | 2 个已训练 run,每个含 `inference_config.json` |
+| `checkpoints/` | 2 个已训练 run;`inference_config.json`、`train_opt.txt`、`loss_log.txt` 入库,`*.pth` 见 release 附件 |
 | `examples/` | 输入 → 输出 → 流场对照图 |
 | `docs/METHODS.md` | 完整说明架构、损失函数与训练流程 |
 | `docs/DATA.md` | 数据来源、格式与预处理 |
 | `LICENSE`、`CITATION.cff`、`requirements.txt`、`environment.yml` | 发布元数据 |
 
 显微镜数据本身不在此仓库中分发。`docs/DATA.md` 记录了格式与预处理方式,便于将发布权重应用于相应的采集数据。
+
+---
+
+## 发布权重
+
+四个 `*.pth` 文件**不入库**:每个约 44 MB,GitHub 拒绝超过 100 MB 的单文件,并建议仓库总量控制在 1 GB 以内(见 `.gitignore` 中的说明)。请从本仓库的 release 附件下载,放到已在库中的同名目录旁:
+
+```
+checkpoints/3axial_AxialFlowNet_100ep/latest_net_G_A.pth
+checkpoints/3axial_AxialFlowNet_100ep/latest_net_G_B.pth
+checkpoints/xianliti_AxialFlowNet_200ep/latest_net_G_A.pth
+checkpoints/xianliti_AxialFlowNet_200ep/latest_net_G_B.pth
+```
+
+`inference_config.json` 已在库中,`scripts/inference.py` 会直接从该目录读出该 run 对应的 `--texture_bound`。
 
 ---
 

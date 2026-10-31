@@ -8,8 +8,9 @@ that supplies a bounded pixel-level correction. Training combines the adversaria
 cycle-consistency objectives with an axial-monotonicity penalty, an SSIM/Sobel structural loss, and
 total-variation / monotonicity / magnitude regularisation of the predicted flow field.
 
-This repository is the runnable release of the code, weights and example outputs used in the
-manuscript. It builds on the
+This repository is the runnable release of the code and example outputs used in the
+manuscript; the trained weights are attached as release assets (see
+[Released weights](#released-weights)). It builds on the
 [pytorch-CycleGAN-and-pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix) codebase and
 keeps the original BSD-3-Clause license (see `LICENSE` for the derived-work notice).
 
@@ -26,7 +27,7 @@ keeps the original BSD-3-Clause license (see `LICENSE` for the derived-work noti
 | `scripts/destretch3d.py` | slice-by-slice inference over a 3-D volume |
 | `scripts/evaluate_paired.py` | PSNR / SSIM / L1 on paired data |
 | `scripts/make_examples.py` | rebuilds the `examples/panels` figures |
-| `checkpoints/` | 2 trained runs; each carries `inference_config.json` |
+| `checkpoints/` | 2 trained runs; sidecars (`inference_config.json`, `train_opt.txt`, `loss_log.txt`) tracked, `*.pth` via release assets |
 | `examples/` | input → output → flow panels produced by the released weights |
 | `docs/METHODS.md` | architecture, losses and training procedure in full |
 | `docs/DATA.md` | data provenance, formats and preprocessing |
@@ -34,6 +35,25 @@ keeps the original BSD-3-Clause license (see `LICENSE` for the derived-work noti
 
 The microscopy data itself is not redistributed here. `docs/DATA.md` records the formats and
 preprocessing so the released weights can be applied to the corresponding acquisitions.
+
+---
+
+## Released weights
+
+The four `*.pth` files are **not** tracked in git: each is ~44 MB, and GitHub rejects single files
+over 100 MB while recommending repositories below 1 GB (see the comment in `.gitignore`). Download
+them from the repository's release assets and drop them beside the sidecars that already ship in the
+tree:
+
+```
+checkpoints/3axial_AxialFlowNet_100ep/latest_net_G_A.pth
+checkpoints/3axial_AxialFlowNet_100ep/latest_net_G_B.pth
+checkpoints/xianliti_AxialFlowNet_200ep/latest_net_G_A.pth
+checkpoints/xianliti_AxialFlowNet_200ep/latest_net_G_B.pth
+```
+
+`inference_config.json` is already in the tree, so `scripts/inference.py` reads the correct
+`--texture_bound` for the run straight from the checkpoint directory.
 
 ---
 
