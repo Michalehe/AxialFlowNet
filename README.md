@@ -40,17 +40,30 @@ preprocessing so the released weights can be applied to the corresponding acquis
 
 ## Released weights
 
-The four `*.pth` files are **not** tracked in git: each is ~44 MB, and GitHub rejects single files
-over 100 MB while recommending repositories below 1 GB (see the comment in `.gitignore`). Download
-them from the repository's release assets and drop them beside the sidecars that already ship in the
-tree:
+The four `*.pth` files are **not** tracked in git: each is 45.6 MB (43.5 MiB), and GitHub rejects
+single files over 100 MB while recommending repositories below 1 GB (see the comment in
+`.gitignore`). They are published as assets of
+[release `v1.0.0`](https://github.com/Michalehe/AxialFlowNet/releases/tag/v1.0.0):
 
+```bash
+base=https://github.com/Michalehe/AxialFlowNet/releases/download/v1.0.0
+for f in 3axial_AxialFlowNet_100ep__latest_net_G_A \
+         3axial_AxialFlowNet_100ep__latest_net_G_B \
+         xianliti_AxialFlowNet_200ep__latest_net_G_A \
+         xianliti_AxialFlowNet_200ep__latest_net_G_B; do
+  run=${f%%__*}; stem=${f#*__}
+  curl -fL -o "checkpoints/$run/$stem.pth" "$base/$f.pth"
+done
 ```
-checkpoints/3axial_AxialFlowNet_100ep/latest_net_G_A.pth
-checkpoints/3axial_AxialFlowNet_100ep/latest_net_G_B.pth
-checkpoints/xianliti_AxialFlowNet_200ep/latest_net_G_A.pth
-checkpoints/xianliti_AxialFlowNet_200ep/latest_net_G_B.pth
-```
+
+That places the weights where the scripts expect them:
+
+| Release asset | Path after download |
+|---|---|
+| `3axial_AxialFlowNet_100ep__latest_net_G_A.pth` | `checkpoints/3axial_AxialFlowNet_100ep/latest_net_G_A.pth` |
+| `3axial_AxialFlowNet_100ep__latest_net_G_B.pth` | `checkpoints/3axial_AxialFlowNet_100ep/latest_net_G_B.pth` |
+| `xianliti_AxialFlowNet_200ep__latest_net_G_A.pth` | `checkpoints/xianliti_AxialFlowNet_200ep/latest_net_G_A.pth` |
+| `xianliti_AxialFlowNet_200ep__latest_net_G_B.pth` | `checkpoints/xianliti_AxialFlowNet_200ep/latest_net_G_B.pth` |
 
 `inference_config.json` is already in the tree, so `scripts/inference.py` reads the correct
 `--texture_bound` for the run straight from the checkpoint directory.

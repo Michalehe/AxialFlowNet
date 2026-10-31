@@ -35,14 +35,28 @@ BSD-3-Clause 许可(派生作品声明见 `LICENSE`)。
 
 ## 发布权重
 
-四个 `*.pth` 文件**不入库**:每个约 44 MB,GitHub 拒绝超过 100 MB 的单文件,并建议仓库总量控制在 1 GB 以内(见 `.gitignore` 中的说明)。请从本仓库的 release 附件下载,放到已在库中的同名目录旁:
+四个 `*.pth` 文件**不入库**:每个 45.6 MB(43.5 MiB),GitHub 拒绝超过 100 MB 的单文件,并建议仓库总量控制在 1 GB 以内(见 `.gitignore` 中的说明)。它们作为
+[release `v1.0.0`](https://github.com/Michalehe/AxialFlowNet/releases/tag/v1.0.0) 的附件发布:
 
+```bash
+base=https://github.com/Michalehe/AxialFlowNet/releases/download/v1.0.0
+for f in 3axial_AxialFlowNet_100ep__latest_net_G_A \
+         3axial_AxialFlowNet_100ep__latest_net_G_B \
+         xianliti_AxialFlowNet_200ep__latest_net_G_A \
+         xianliti_AxialFlowNet_200ep__latest_net_G_B; do
+  run=${f%%__*}; stem=${f#*__}
+  curl -fL -o "checkpoints/$run/$stem.pth" "$base/$f.pth"
+done
 ```
-checkpoints/3axial_AxialFlowNet_100ep/latest_net_G_A.pth
-checkpoints/3axial_AxialFlowNet_100ep/latest_net_G_B.pth
-checkpoints/xianliti_AxialFlowNet_200ep/latest_net_G_A.pth
-checkpoints/xianliti_AxialFlowNet_200ep/latest_net_G_B.pth
-```
+
+执行后权重即位于脚本期望的位置:
+
+| release 附件 | 下载后路径 |
+|---|---|
+| `3axial_AxialFlowNet_100ep__latest_net_G_A.pth` | `checkpoints/3axial_AxialFlowNet_100ep/latest_net_G_A.pth` |
+| `3axial_AxialFlowNet_100ep__latest_net_G_B.pth` | `checkpoints/3axial_AxialFlowNet_100ep/latest_net_G_B.pth` |
+| `xianliti_AxialFlowNet_200ep__latest_net_G_A.pth` | `checkpoints/xianliti_AxialFlowNet_200ep/latest_net_G_A.pth` |
+| `xianliti_AxialFlowNet_200ep__latest_net_G_B.pth` | `checkpoints/xianliti_AxialFlowNet_200ep/latest_net_G_B.pth` |
 
 `inference_config.json` 已在库中,`scripts/inference.py` 会直接从该目录读出该 run 对应的 `--texture_bound`。
 
