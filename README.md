@@ -21,11 +21,11 @@ keeps the original BSD-3-Clause license (see `LICENSE` for the derived-work noti
 | Path | What it holds |
 |---|---|
 | `models/` | generator, axial multi-scale discriminator, flow head, `AxialFlowNetModel` |
-| `data/` | dataset loaders, including the paired `xunliti_paired` one |
+| `data/` | dataset loaders, including the `xunliti_paired` loader for native-resolution serial sections (unpaired) |
 | `options/` `util/` | option definitions and helpers (upstream) |
 | `scripts/inference.py` | 2-D inference on released weights |
 | `scripts/destretch3d.py` | slice-by-slice inference over a 3-D volume |
-| `scripts/evaluate_paired.py` | PSNR / SSIM / L1 on paired data |
+| `scripts/evaluate_paired.py` | PSNR / SSIM / L1 on unpaired data (per-pixel metrics, no ground-truth pairs) |
 | `scripts/make_examples.py` | rebuilds the `examples/panels` figures |
 | `checkpoints/` | 2 trained runs; sidecars (`inference_config.json`, `train_opt.txt`, `loss_log.txt`) tracked, `*.pth` via release assets |
 | `examples/` | input → output → flow panels produced by the released weights |
@@ -97,7 +97,7 @@ python scripts/inference.py \
     --input  path/to/leaf_slices \
     --output results/3axial --resize square
 
-# paired mitochondrial data (trained with --preprocess none -> native mode)
+# mitochondrial serial-section data (trained with --preprocess none -> native mode)
 python scripts/inference.py \
     --ckpt checkpoints/xianliti_AxialFlowNet_200ep \
     --input  path/to/mitochondria \
@@ -123,10 +123,9 @@ python scripts/destretch3d.py \
     --input data/my_volume.tif --output results/my_volume
 ```
 
-### Paired evaluation
+### Quantitative evaluation
 
-For paired acquisitions (`trainA`/`trainB` are the same slice before and after de-stretching),
-quantitative scoring runs on the train split:
+For the unpaired mitochondrial serial-section data, quantitative scoring runs on the train split:
 
 ```bash
 python scripts/evaluate_paired.py \
@@ -147,7 +146,7 @@ python train.py --dataroot path/to/3axial --name my_3axial_run \
     --model axialflownet --preprocess resize_and_crop \
     --load_size 286 --crop_size 256 --gan_mode vanilla --ngf 64
 
-# paired mitochondrial slices, native resolution
+# mitochondrial serial-section data, native resolution (unpaired)
 python train.py --dataroot path/to/xunlian-xianliti --name my_xunliti_run \
     --model axialflownet --dataset_mode xunliti_paired --preprocess none
 ```
@@ -175,9 +174,10 @@ inference**.
 size (three sizes dominate: 1024×382, 256×100, 512×249). Trained with `--preprocess resize_and_crop`,
 which is why inference for this data uses `--resize square`.
 
-**Paired mitochondrial sections** — `trainA`/`trainB` hold the same slice before/after de-stretching,
+**Mitochondrial serial sections** — unpaired axial stretch, same as the leaf-tissue data. Inputs are
 16-bit grayscale `I;16` PNGs at native resolution, trained with `--preprocess none` so inference uses
-`--resize native`.
+`--resize native`. The two domains (`trainA`/`trainB`) are acquired before/after de-stretching but
+are **not** pixel-aligned pairs; evaluation is qualitative or distributional, not per-pixel PSNR.
 
 See `docs/DATA.md` for the full inventory, provenance and preprocessing details.
 
@@ -191,7 +191,7 @@ Produced by the released weights; rebuild with `python scripts/make_examples.py`
 
 ![3-axis example](examples/panels/3axial_AxialFlowNet__input020000.png)
 
-**Paired mitochondrial slices (`xianliti_AxialFlowNet_200ep`)**
+**Mitochondrial serial sections (`xianliti_AxialFlowNet_200ep`)**
 
 ![mitochondrial example](examples/panels/xianliti_AxialFlowNet__20par-ylt+xlt2-enlarged-0240000.png)
 

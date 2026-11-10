@@ -1,6 +1,6 @@
 # Data documentation
 
-This document describes the two microscopy datasets used in this work, the paired data loader, and
+This document describes the two microscopy datasets used in this work, the `xunliti_paired` data loader (for native-resolution serial sections), and
 the preprocessing that inference must match.
 
 Both datasets use the standard directory layout (`trainA`, `trainB`, `testA`), which the upstream
@@ -36,10 +36,13 @@ python scripts/inference.py --ckpt checkpoints/3axial_AxialFlowNet_100ep \
 
 ---
 
-## 2. Paired mitochondrial serial sections
+## 2. Mitochondrial serial sections (unpaired)
 
-**Paired** mitochondrial serial sections. `trainA[i]` and `trainB[i]` are the *same* slice before and
-after de-stretching, which makes quantitative image-quality metrics meaningful.
+Unpaired mitochondrial serial sections, same framing as the leaf-tissue data. `trainA` holds images
+acquired before de-stretching, `trainB` after; the two domains share the same acquisition pipeline
+and native-resolution characteristics but are **not** pixel-aligned pairs. Quantitative metrics
+(PSNR/SSIM) are computed per-pixel against a reference domain and are meaningful only as
+distributional similarity measures, not as reconstruction fidelity.
 
 | Split | Files | Mode | Size |
 |---|---|---|---|
@@ -49,7 +52,7 @@ after de-stretching, which makes quantitative image-quality metrics meaningful.
 
 Trained with `--preprocess none --dataset_mode xunliti_paired`: images are kept at native resolution
 and reflect-padded to a multiple of 4, so **all resolution is preserved end to end**. Inference must
-match, and the paired evaluation runs on the train split:
+match, and the unpaired evaluation runs on the train split:
 
 ```bash
 python scripts/inference.py --ckpt checkpoints/xianliti_AxialFlowNet_200ep \
@@ -78,14 +81,14 @@ earlier export of the same filenames (see §4.2). The conclusion is unambiguous 
 
 ---
 
-## 3. The paired loader: `data/xunliti_paired_dataset.py`
+## 3. The `xunliti_paired` loader: `data/xunliti_paired_dataset.py`
 
 The upstream `aligned` loader resizes both sides with the same transform, and the `unaligned` loader
-randomly pairs them. Neither fits: the mitochondrial data has a genuine correspondence *and*
-irregular native sizes. The paired loader therefore:
+randomly pairs them. Neither fits: the mitochondrial data has native-resolution images of irregular
+sizes that must be preserved. The loader therefore:
 
 1. reads `trainA`/`testA` images at native resolution without any resize;
-2. loads the matching `trainB` image, so A→B is a real ground-truth pair;
+2. loads a corresponding `trainB` image from the same acquisition batch (not a pixel-aligned pair);
 3. reflect-pads both sides to a multiple of 4 so the 4× down/up-sampling in the generator backbone
    divides evenly at every size;
 4. normalises to `[-1, 1]` per channel, exactly as the upstream loader does.
@@ -114,6 +117,8 @@ introduces.
 3. **`train_opt.txt` in each checkpoint directory is authoritative.** It records the exact command
    line used, including `preprocess`, `load_size`, `dataset_mode` and `gan_mode`.
 
-4. **Metrics are not comparable across the two datasets.** The paired mitochondria data yields real
-   PSNR/SSIM; the unpaired leaf-tissue data has no per-pixel ground truth, so only qualitative or
-   FID-style comparison is possible.
+4. **Metrics are not comparable across the two datasets.** Both datasets are unpaired, so PSNR/SSIM
+   on either one measures distributional similarity to a reference domain, not reconstruction
+   fidelity against ground truth. The mitochondrial run yields higher numbers because native-resolution
+   images preserve more structure than the square-resized leaf-tissue inputs, not because it has
+   per-pixel ground truth.

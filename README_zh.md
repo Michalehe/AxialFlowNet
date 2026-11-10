@@ -17,11 +17,11 @@ BSD-3-Clause 许可(派生作品声明见 `LICENSE`)。
 | 路径 | 内容 |
 |---|---|
 | `models/` | 生成器、轴向多尺度判别器、流场头、`AxialFlowNetModel` |
-| `data/` | 数据加载器,含成对数据加载器 `xunliti_paired` |
+| `data/` | 数据加载器,含 `xunliti_paired` 加载器(原生分辨率连续切片,非成对) |
 | `options/` `util/` | 参数定义与工具函数(沿用上游) |
 | `scripts/inference.py` | 对发布权重做二维推理 |
 | `scripts/destretch3d.py` | 逐切片推理,处理三维体数据 |
-| `scripts/evaluate_paired.py` | 在成对数据上计算 PSNR / SSIM / L1 |
+| `scripts/evaluate_paired.py` | 在非成对数据上计算 PSNR / SSIM / L1(逐像素指标,无配对真值) |
 | `scripts/make_examples.py` | 重新生成 `examples/panels` 中的对照图 |
 | `checkpoints/` | 2 个已训练 run;`inference_config.json`、`train_opt.txt`、`loss_log.txt` 入库,`*.pth` 见 release 附件 |
 | `examples/` | 输入 → 输出 → 流场对照图 |
@@ -89,7 +89,7 @@ python scripts/inference.py \
     --input  path/to/leaf_slices \
     --output results/3axial --resize square
 
-# 成对线粒体数据(训练参数 --preprocess none → 原生分辨率模式)
+# 线粒体连续切片数据(训练参数 --preprocess none → 原生分辨率模式,非成对)
 python scripts/inference.py \
     --ckpt checkpoints/xianliti_AxialFlowNet_200ep \
     --input  path/to/mitochondria \
@@ -114,9 +114,9 @@ python scripts/destretch3d.py \
     --input data/my_volume.tif --output results/my_volume
 ```
 
-### 成对数据评测
+### 定量评测
 
-对成对采集数据(`trainA`/`trainB` 为同一张切片去拉伸前/后的图像),定量评分在 train 划分上进行:
+对非成对的线粒体连续切片数据,定量评分在 train 划分上进行:
 
 ```bash
 python scripts/evaluate_paired.py \
@@ -137,7 +137,7 @@ python train.py --dataroot path/to/3axial --name my_3axial_run \
     --model axialflownet --preprocess resize_and_crop \
     --load_size 286 --crop_size 256 --gan_mode vanilla --ngf 64
 
-# 成对线粒体切片,原生分辨率
+# 线粒体连续切片,原生分辨率(非成对)
 python train.py --dataroot path/to/xunlian-xianliti --name my_xunliti_run \
     --model axialflownet --dataset_mode xunliti_paired --preprocess none
 ```
@@ -163,8 +163,8 @@ python train.py --dataroot path/to/xunlian-xianliti --name my_xunliti_run \
 1024×382、256×100、512×249)。训练使用 `--preprocess resize_and_crop`,故该数据推理时用
 `--resize square`。
 
-**成对线粒体切片** —— `trainA`/`trainB` 是同一张切片去拉伸前/后的图像,16 位灰度 `I;16` PNG,原生分辨率。
-训练使用 `--preprocess none`,故推理时用 `--resize native`。
+**线粒体连续切片** —— 非成对的轴向拉伸,与叶片组织数据相同。输入为 16 位灰度 `I;16` PNG,原生分辨率。
+训练使用 `--preprocess none`,故推理时用 `--resize native`。两个域(`trainA`/`trainB`)分别是去拉伸前/后的采集图像,但**不是逐像素对齐的配对**;评测为定性或分布层面,无逐像素 PSNR。
 
 完整清单、来源与预处理细节见 `docs/DATA.md`。
 
@@ -178,7 +178,7 @@ python train.py --dataroot path/to/xunlian-xianliti --name my_xunliti_run \
 
 ![三轴向示例](examples/panels/3axial_AxialFlowNet__input020000.png)
 
-**成对线粒体切片(`xianliti_AxialFlowNet_200ep`)**
+**线粒体连续切片(`xianliti_AxialFlowNet_200ep`)**
 
 ![线粒体示例](examples/panels/xianliti_AxialFlowNet__20par-ylt+xlt2-enlarged-0240000.png)
 
